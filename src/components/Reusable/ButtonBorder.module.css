@@ -1,0 +1,37 @@
+.button {
+  display: inline-flex;
+  width: auto;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 8px 16px;
+  background: rgba(40, 44, 51, 0);
+  border: 1px solid #27DEBF;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+}
+.button:hover {
+  border-radius: 6px;
+  color: #282C33;
+}
+.button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 100%;
+  bottom: -2px;
+  left: 0px;
+  top: 0px;
+  background-color: #27DEBF;
+  transition: transform 0.25s ease-out;
+  transform-origin: bottom right;
+  z-index: -1;
+}
+.button:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  border-radius: 6px;
+}/*# sourceMappingURL=ButtonBorder.module.css.map */

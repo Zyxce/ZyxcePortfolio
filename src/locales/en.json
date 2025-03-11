@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "home": "home",
+    "works": "works",
+    "aboutme": "about-me",
+    "contacts": "contacts"
+  },
+  "footer": {
+    "frontend": "Front-end & game developer",
+    "copyright": "© Copyright 2025. Made by Zyxce",
+    "media": "Media"
+  },
+  "hero": {
+    "currentlyworking": "Currently working on",
+    "portfolio": "Portfolio",
+    "hey": "Hey!",
+    "im": "I'm",
+    "name": "Vitaly Sokolov",
+    "contact": "Contact me !!",
+    "description": "I really like crafting responsive websites where technologies meet creativity.",
+    "frontend": "I am into front-end develop",
+    "game": "I am into game develop",
+    "cookies": "I really like cook cookies :)",
+    "problems": "I love solving complex problems with code",
+    "create": "I enjoy creating interactive user experiences",
+    "quote": "With great pizza comes great responsibility",
+    "author": "- Michelangelo"
+  }
+}

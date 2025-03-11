@@ -1,0 +1,42 @@
+.heroTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  max-width: 500px;
+  text-align: start;
+}
+.heroTextContainer .heroTextHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.heroTextContainer .heroTextHeaderContainer .heroText {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.heroTextContainer .heroTextHeaderContainer .heroText span {
+  color: #27DEBF;
+}
+.heroTextContainer .heroTextHeaderContainer .heroText img {
+  width: 35px;
+}
+.heroTextContainer .heroTextHeaderContainer .heroTextAnimateContainer {
+  height: 35px;
+}
+.heroTextContainer .heroTextHeaderContainer .heroTextAnimateContainer .highlightedText {
+  color: #27DEBF;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  white-space: nowrap;
+}
+.heroTextContainer .heroTextDescription {
+  margin-top: 25px;
+  color: #ABB2BF;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.heroTextContainer .heroTextBtn {
+  margin-top: 40px;
+}/*# sourceMappingURL=HeroText.module.css.map */

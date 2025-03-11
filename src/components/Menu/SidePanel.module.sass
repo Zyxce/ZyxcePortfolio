@@ -1,0 +1,102 @@
+@keyframes slideInPanel
+    0%
+        transform: translateY(-50%)
+    100%
+        transform: translateY(0)
+
+.sidePanel
+    position: absolute
+    left: 20px
+    top: 0
+    height: 100vh
+    display: flex
+    flex-direction: column
+    align-items: center
+    z-index: 100
+    animation: slideInPanel 2s ease-out 0s forwards
+.verticalLine
+    width: 2px
+    height: 200px
+    background-color: #ABB2BF
+    margin-bottom: 20px
+
+.verticalLineActive
+    width: 2px
+    height: 200px
+    background-color: #27DEBF
+    position: absolute
+
+.horisontalLineActive
+    position: absolute
+    width: 50px
+    height: 2px
+    background-color: #27DEBF
+    top: 200px
+    left: 21px
+
+.verticalLineActiveDiscord
+    position: absolute
+    width: 2px
+    height: 154px
+    background-color: #27DEBF
+    top: 200px
+    left: 70px
+
+.verticalLineActiveTelegram
+    position: absolute
+    width: 2px
+    height: 99px
+    background-color: #27DEBF
+    top: 200px
+    left: 70px
+
+.connectLineGit
+    position: absolute
+    width: 2px
+    height: 220px
+    background-color: #27DEBF
+    top: 0px
+    left: 20px
+
+.connectLineTelegram
+    position: absolute
+    width: 31px
+    height: 2px
+    background-color: #27DEBF
+    top: 297px
+    left: 41px
+
+.connectLineDiscord
+    position: absolute
+    width: 31px
+    height: 2px
+    background-color: #27DEBF
+    top: 353px
+    left: 41px
+
+.socialButtons
+    display: flex
+    flex-direction: column
+    gap: 15px
+
+.socialLink
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    background-color: #282C33
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 0.3s ease
+    border: 1px solid #ABB2BF
+
+.socialLink:hover
+    background-color: #27DEBF
+    border: 1px solid #27DEBF
+
+.socialIcon
+    color: #ABB2BF
+    font-size: 1.5rem
+
+.socialLink:hover .socialIcon
+    color: #282C33

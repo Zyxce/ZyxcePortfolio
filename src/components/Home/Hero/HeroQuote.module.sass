@@ -1,0 +1,60 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+
+@keyframes slideInFromBottom
+    0%
+        opacity: 0%
+        transform: translateY(50%)
+    100%
+        opacity: 100%
+        transform: translateY(0)
+
+.heroQuoteContainer
+    display: flex
+    flex-direction: column
+    max-width: fit-content
+    margin: 0 auto
+    margin-top: 100px
+    animation: slideInFromBottom 1.5s ease-out 0s forwards
+    .heroQuoteTop
+        border: 1px solid $gray
+        display: inline-flex
+        width: auto
+        max-width: fit-content
+        padding: 32px
+        position: relative
+        .heroQuoteHeader
+            color: $white
+            font-size: 1.4rem
+            font-weight: bold
+        .heroQuoteCircle
+            position: absolute
+            top: -20px
+            left: 20px
+            width: 44px
+            height: 44px
+            border-radius: 50%
+            background-color: $background
+            p
+                margin-top: 20px
+                color: $gray
+                font-size: 3rem
+                line-height: 2rem
+        .heroQuoteCircle:last-child
+            top: 68px
+            left: 100% - 10%
+            bottom: 0px
+            right: 0px
+
+    .heroQuoteBottom
+        margin-left: auto
+        border: 1px solid $gray
+        display: inline-flex
+        width: auto
+        max-width: fit-content
+        padding: 16px
+        .heroQuoteAuthor
+            color: $white
+            font-size: 1.4rem

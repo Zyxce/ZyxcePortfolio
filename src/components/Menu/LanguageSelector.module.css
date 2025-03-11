@@ -1,0 +1,35 @@
+.selectorContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  position: relative;
+  cursor: pointer;
+}
+.selectorContainer .selectorText {
+  color: #ABB2BF;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  transition: 0.3s;
+}
+.selectorContainer .selectorArrow {
+  margin-left: 5px;
+  color: #ABB2BF;
+  transition: 0.3s;
+}
+.selectorContainer .selectorTable {
+  position: absolute;
+  border: 1px solid #ABB2BF;
+  padding: 5px;
+  top: 35px;
+  left: -5px;
+}
+
+.selectorContainer:hover .selectorText, .selectorContainer:hover .selectorArrow {
+  color: white;
+}
+.selectorContainer:hover .selectorTable .selectorText {
+  color: #ABB2BF;
+}
+.selectorContainer:hover .selectorTable .selectorText:hover {
+  color: #27DEBF;
+}/*# sourceMappingURL=LanguageSelector.module.css.map */

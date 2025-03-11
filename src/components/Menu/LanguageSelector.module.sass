@@ -1,0 +1,34 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+
+.selectorContainer
+    display: flex
+    align-items: center
+    margin-left: 40px
+    position: relative
+    cursor: pointer
+    .selectorText
+        color: $gray
+        font-size: 1.2rem
+        line-height: 1.6rem
+        transition: 0.3s
+    .selectorArrow
+        margin-left: 5px
+        color: $gray
+        transition: 0.3s
+    .selectorTable
+        position: absolute
+        border: 1px solid $gray
+        padding: 5px
+        top: 35px
+        left: -5px
+
+.selectorContainer:hover
+    .selectorText, .selectorArrow
+        color: white
+    .selectorTable
+        .selectorText
+            color: $gray
+        .selectorText:hover
+            color: $primary

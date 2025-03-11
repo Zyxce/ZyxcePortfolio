@@ -1,0 +1,14 @@
+.menuContainer {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+.menuContainer .contentContainer {
+  display: flex;
+}
+.menuContainer .contentContainer nav {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=Menu.module.css.map */

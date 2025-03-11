@@ -1,0 +1,39 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+
+.button
+    display: inline-flex
+    width: auto
+    max-width: fit-content
+    padding: 8px 16px
+    background: #282c3300
+    border: 1px solid #27DEBF
+    color: #fff
+    font-size: 1.1rem
+    text-align: center
+    white-space: nowrap
+    position: relative
+    &:hover
+        border-radius: 6px
+        color: $background
+
+    &::after
+        content: ''
+        position: absolute
+        width: 100%
+        transform: scaleX(0)
+        height: 100%
+        bottom: -2px
+        left: 0px
+        top: 0px
+        background-color: $primary
+        transition: transform 0.25s ease-out
+        transform-origin: bottom right
+        z-index: -1
+
+    &:hover::after
+        transform: scaleX(1)
+        transform-origin: bottom left
+        border-radius: 6px

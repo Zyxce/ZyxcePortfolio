@@ -1,0 +1,67 @@
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0%;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+.heroQuoteContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 100px;
+  animation: slideInFromBottom 1.5s ease-out 0s forwards;
+}
+.heroQuoteContainer .heroQuoteTop {
+  border: 1px solid #ABB2BF;
+  display: inline-flex;
+  width: auto;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 32px;
+  position: relative;
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteHeader {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteCircle {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #282C33;
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteCircle p {
+  margin-top: 20px;
+  color: #ABB2BF;
+  font-size: 3rem;
+  line-height: 2rem;
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteCircle:last-child {
+  top: 68px;
+  left: 90%;
+  bottom: 0px;
+  right: 0px;
+}
+.heroQuoteContainer .heroQuoteBottom {
+  margin-left: auto;
+  border: 1px solid #ABB2BF;
+  display: inline-flex;
+  width: auto;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 16px;
+}
+.heroQuoteContainer .heroQuoteBottom .heroQuoteAuthor {
+  color: #fff;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=HeroQuote.module.css.map */

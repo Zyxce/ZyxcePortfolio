@@ -1,0 +1,33 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+
+.mediaContainer
+    .mediaHeader
+        font-size: 1.4rem
+        color: $white
+    .socialButtons
+        display: flex
+        flex-direction: row
+        margin-top: 15px
+        gap: 15px
+        .socialDiv
+            .socialLink
+                width: 30px
+                height: 30px
+                border-radius: 50%
+                background-color: $background
+                display: flex
+                align-items: center
+                justify-content: center
+                transition: all 0.3s ease
+                border: 1px solid $gray
+                &:hover
+                    background-color: $primary
+                    border: 1px solid $primary
+                .socialIcon
+                    color: $gray
+                    font-size: 1.3rem
+            .socialLink:hover .socialIcon
+                color: $background

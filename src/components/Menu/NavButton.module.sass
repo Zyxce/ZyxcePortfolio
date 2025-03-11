@@ -1,0 +1,42 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+
+.btnContainer
+    display: flex
+    margin: 10px
+    align-items: center
+    position: relative
+
+    .btnText
+        font-size: 1.2rem
+        line-height: 1.4rem
+        color: $gray
+
+        .btnSymbol
+            margin-right: 2px
+            font-size: 1.4rem
+            line-height: 1.4rem
+            color: $primary
+
+    &:hover
+        cursor: pointer
+        .btnText
+            color: $white
+
+    &::after
+        content: ''
+        position: absolute
+        width: 100%
+        transform: scaleX(0)
+        height: 2px
+        bottom: -2px
+        left: 0
+        background-color: $primary
+        transition: transform 0.25s ease-out
+        transform-origin: bottom right
+
+    &:hover::after
+        transform: scaleX(1)
+        transform-origin: bottom left

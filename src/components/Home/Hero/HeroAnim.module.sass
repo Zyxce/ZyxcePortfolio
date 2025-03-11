@@ -1,0 +1,167 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+
+@keyframes float
+    0%, 100%
+        transform: translate(-50%, -50%) translateY(0)
+    50%
+        transform: translate(-50%, -50%) translateY(-5px)
+
+@keyframes opacity
+    0%, 100%
+        opacity: 95%
+    50%
+        opacity: 65%
+
+@keyframes scale
+    0%, 100%
+        width: 40px
+    50%
+        width: 35px
+
+//SlideIn Animatios
+
+@keyframes slideInLogo
+    0%
+        transform: translate(-50%, -50%) translateX(0) translateY(70px)
+        z-index: -1
+        width: 20px
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateY(0)
+        z-index: 1
+        width: 40px
+@keyframes slideInCss
+    0%
+        transform: translate(-50%, -50%) translateX(-30px) translateX(-15px)
+        opacity: 0%
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateX(0)
+        opacity: 100%
+
+@keyframes slideInHtml
+    0%
+        transform: translate(-50%, -50%) translateX(-50px) translateX(-30px)
+        opacity: 0%
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateX(0)
+        opacity: 100%
+
+@keyframes slideInText
+    0%
+        transform: translateX(100%)
+        opacity: 0%
+    100%
+        transform: translateX(0)
+        opacity: 100%
+
+@keyframes slideInSmall
+    0%
+        transform: translate(-50%, -50%) translateX(-50px) translateY(-20px)
+        width: 20px
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateY(0)
+        opacity: 90%
+        width: 40px
+
+@keyframes slideInBig
+    0%
+        transform: translate(-50%, -50%) translateX(-30px)
+        width: 20px
+    100%
+        transform: translate(-50%, -50%) translateY(0)
+        opacity: 90%
+        width: 100px
+
+.animContainer
+    width: 400px
+    height: 400px
+    margin: 50px 0
+    position: relative
+    .animHeroDeveloper
+        width: 350px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 1
+    .animHeroTableBig
+        width: 100px
+        opacity: 95%
+        position: absolute
+        top: 22%
+        left: 71%
+        transform: translate(-50%, -50%)
+        z-index: 2
+        animation: slideInBig 1.5s ease-out 0s forwards, opacity 5s ease-in-out 2s infinite
+    .animHeroTableSmall
+        width: 40px
+        opacity: 90%
+        position: absolute
+        top: 35%
+        left: 84%
+        transform: translate(-50%, -50%)
+        z-index: 3
+        animation: slideInSmall 1.5s ease-out 0s forwards, float 5s ease-in-out 2s infinite
+
+    .animHeroLogo
+        width: 40px
+        position: absolute
+        top: 10%
+        left: 38%
+        transform: translate(-50%, -50%)
+        z-index: 1
+        animation: slideInLogo 1s ease-out 0s forwards, scale 5s ease-in-out 2s infinite
+
+    .animHeroCplus, .animHeroHTML, .animHeroCSS
+        opacity: 0
+
+    .animHeroCplus
+        width: 60px
+        position: absolute
+        top: 35%
+        left: 13%
+        transform: translate(-50%, -50%)
+        z-index: 1
+        animation: slideInCss 2s ease-out 0s forwards
+        animation-delay: 0s
+
+    .animHeroHTML
+        width: 60px
+        position: absolute
+        top: 22%
+        left: 13%
+        transform: translate(-50%, -50%)
+        z-index: 1
+        animation: slideInHtml 2s ease-out 0s forwards
+        animation-delay: 0.5s
+    .animHeroCSS
+        width: 60px
+        position: absolute
+        top: 9%
+        left: 13%
+        transform: translate(-50%, -50%)
+        z-index: 1
+        animation: slideInCss 2s ease-out 0s forwards
+        animation-delay: 1s
+
+    .animTextContainer
+        background-color: $background
+        border: 2px solid $gray
+        position: relative
+        z-index: 4
+        margin: 0 auto
+        top: 83%
+        width: 380px
+        padding: 10px
+        animation: slideInText 2s ease-out
+        .animTextSquare
+            position: absolute
+            width: 15px
+            height: 15px
+            background-color: $primary
+        .animText
+            color: $gray
+            span
+                color: $white
