@@ -1,0 +1,13 @@
+.contactsSectionContainer {
+  margin-top: 100px;
+}
+.contactsSectionContainer .contactsContainer {
+  margin-top: 50px;
+  text-align: start;
+}
+.contactsSectionContainer .contactsContainer .contactsText {
+  width: 500px;
+  color: #ABB2BF;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}/*# sourceMappingURL=ContactsSection.module.css.map */

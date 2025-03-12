@@ -1,3 +1,9 @@
 .homeContainer {
   padding: 0 200px;
+  overflow: hidden;
+}
+.homeContainer .heroLinesSquare {
+  position: absolute;
+  bottom: 8%;
+  right: -2%;
 }/*# sourceMappingURL=Home.module.css.map */

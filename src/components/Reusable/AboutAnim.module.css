@@ -1,0 +1,97 @@
+.animContainer {
+  border: 1px solid red;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.animContainer .aboutBackground {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.animContainer .aboutChips {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.animContainer .aboutEnergyDrink1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.animContainer .aboutEnergyDrink2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.animContainer .aboutGamer {
+  position: absolute;
+  width: 320px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 3;
+}
+.animContainer .aboutGamerEyes1 {
+  position: absolute;
+  width: 6px;
+  top: 23%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 4;
+}
+.animContainer .aboutGamerEyes2 {
+  position: absolute;
+  width: 6px;
+  top: 23.5%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 4;
+}
+.animContainer .aboutMonitorLight {
+  position: absolute;
+  width: 200px;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 2;
+}
+.animContainer .aboutNewGame {
+  position: absolute;
+  width: 120px;
+  top: 22%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 2;
+}
+.animContainer .aboutPizza {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.animContainer .aboutPizzaPlate {
+  position: absolute;
+  width: 60px;
+  bottom: 22%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 4;
+}/*# sourceMappingURL=AboutAnim.module.css.map */

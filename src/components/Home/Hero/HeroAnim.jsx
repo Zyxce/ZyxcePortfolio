@@ -5,13 +5,25 @@ import HeroTableSmall from '../../../images/HeroTableSmall.png'
 import HeroLogo from '../../../images/HeroLogo.png'
 import HeroHTML from '../../../images/HeroHTML.png'
 import HeroCSS from '../../../images/HeroCSS.png'
-import HeroCplus from '../../../images/HeroCplus.png'
+import HeroCsharp from '../../../images/HeroCsharp.png'
 import HeroDeveloper from '../../../images/HeroDeveloper.png'
+import linesFigure from '../../../images/linesFigure.svg'
+import squareDots from '../../../images/squareDots.svg'
 
 const HeroAnim = (props) => {
   const { paragraphText, spanText } = props
   return (
     <div className={style.animContainer}>
+      <img
+        className={style.animLinesFigure}
+        src={linesFigure}
+        alt={'herooooooooooooooo'}
+      />
+      <img
+        className={style.animSquareDots}
+        src={squareDots}
+        alt={'herooooooooooooooo'}
+      />
       <img
         className={style.animHeroDeveloper}
         src={HeroDeveloper}
@@ -33,8 +45,8 @@ const HeroAnim = (props) => {
         alt={'herooooooooooooooo'}
       />
       <img
-        className={style.animHeroCplus}
-        src={HeroCplus}
+        className={style.animHeroCsharp}
+        src={HeroCsharp}
         alt={'herooooooooooooooo'}
       />
       <img

@@ -92,6 +92,18 @@
   margin: 50px 0;
   position: relative;
 }
+.animContainer .animLinesFigure {
+  position: absolute;
+  top: 60%;
+  left: -15%;
+  transform: translate(-50%, -50%);
+}
+.animContainer .animSquareDots {
+  position: absolute;
+  top: 10%;
+  right: -15%;
+  transform: translate(-50%, -50%);
+}
 .animContainer .animHeroDeveloper {
   width: 350px;
   position: absolute;
@@ -129,10 +141,10 @@
   z-index: 1;
   animation: slideInLogo 1s ease-out 0s forwards, scale 5s ease-in-out 2s infinite;
 }
-.animContainer .animHeroCplus, .animContainer .animHeroHTML, .animContainer .animHeroCSS {
+.animContainer .animHeroCsharp, .animContainer .animHeroHTML, .animContainer .animHeroCSS {
   opacity: 0;
 }
-.animContainer .animHeroCplus {
+.animContainer .animHeroCsharp {
   width: 60px;
   position: absolute;
   top: 35%;

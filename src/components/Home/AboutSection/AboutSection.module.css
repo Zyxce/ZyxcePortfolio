@@ -1,0 +1,20 @@
+.aboutContainer {
+  margin-top: 100px;
+}
+.aboutContainer .aboutContentContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.aboutContainer .aboutContentContainer .aboutTextContainer {
+  text-align: start;
+  width: 500px;
+}
+.aboutContainer .aboutContentContainer .aboutTextContainer .aboutText {
+  color: #ABB2BF;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.aboutContainer .aboutContentContainer .aboutTextContainer .aboutText:nth-child(2), .aboutContainer .aboutContentContainer .aboutTextContainer .aboutText:nth-child(3), .aboutContainer .aboutContentContainer .aboutTextContainer .aboutBtn {
+  margin-top: 30px;
+}/*# sourceMappingURL=AboutSection.module.css.map */

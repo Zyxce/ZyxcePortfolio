@@ -40,5 +40,17 @@
     "tools": "Tools",
     "other": "Other",
     "frameworks": "Frameworks"
+  },
+  "about": {
+    "aboutme": "about-me",
+    "helloim": "Hello, i’m Vitaly Sokolov!",
+    "imdevfrom": "I’m a self-taught front-end developer based in Moscow, Russia. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences",
+    "mycreative": "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.",
+    "other": "Other",
+    "frameworks": "Frameworks"
+  },
+  "contacts": {
+    "contacts": "contacts",
+    "iminterested": "I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me"
   }
 }
