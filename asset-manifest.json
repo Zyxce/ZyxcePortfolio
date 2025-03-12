@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/ZyxcePortfolio/static/css/main.4353b6e7.css",
-    "main.js": "/ZyxcePortfolio/static/js/main.489110a5.js",
+    "main.css": "/ZyxcePortfolio/static/css/main.e28ec578.css",
+    "main.js": "/ZyxcePortfolio/static/js/main.b9a6810b.js",
+    "static/media/CryptoScan.png": "/ZyxcePortfolio/static/media/CryptoScan.94a776fa22a07181f15c.png",
     "static/media/Hand.gif": "/ZyxcePortfolio/static/media/Hand.9d0c4026c5de8f2955e9.gif",
     "static/media/HeroDeveloper.png": "/ZyxcePortfolio/static/media/HeroDeveloper.98932ec4dc65481a170b.png",
+    "static/media/Blanko.png": "/ZyxcePortfolio/static/media/Blanko.2c8fc13ae9a7fd82a03e.png",
     "static/media/HeroTableBig.png": "/ZyxcePortfolio/static/media/HeroTableBig.e8e90ea317fce3c44b5e.png",
+    "static/media/CosmoJump.jpg": "/ZyxcePortfolio/static/media/CosmoJump.0007d387638cce49c997.jpg",
+    "static/media/TestImage.jpg": "/ZyxcePortfolio/static/media/TestImage.c1c3f944a2314ae137e4.jpg",
     "static/media/HeroTableSmall.png": "/ZyxcePortfolio/static/media/HeroTableSmall.541035c43afc8ff7cfe4.png",
+    "static/media/linesFigure.svg": "/ZyxcePortfolio/static/media/linesFigure.7fa682b17ac35dfcac2d0b6910eea345.svg",
+    "static/media/squareDots.svg": "/ZyxcePortfolio/static/media/squareDots.712e4ca731fd973ed289041f934a3877.svg",
     "index.html": "/ZyxcePortfolio/index.html",
-    "main.4353b6e7.css.map": "/ZyxcePortfolio/static/css/main.4353b6e7.css.map",
-    "main.489110a5.js.map": "/ZyxcePortfolio/static/js/main.489110a5.js.map"
+    "static/media/squareLines.svg": "/ZyxcePortfolio/static/media/squareLines.5ded3b65d7f216c31b67008e185503f3.svg",
+    "main.e28ec578.css.map": "/ZyxcePortfolio/static/css/main.e28ec578.css.map",
+    "main.b9a6810b.js.map": "/ZyxcePortfolio/static/js/main.b9a6810b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4353b6e7.css",
-    "static/js/main.489110a5.js"
+    "static/css/main.e28ec578.css",
+    "static/js/main.b9a6810b.js"
   ]
 }
