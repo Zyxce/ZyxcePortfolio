@@ -1,0 +1,51 @@
+.skillsHomeContainer {
+  margin-top: 100px;
+}
+.skillsHomeContainer .skillsHomeBottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeCardsContainer {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  gap: 15px;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeCardsContainer .skillsHomeCards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeFigures {
+  position: relative;
+  width: 60vh;
+  height: 250px;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeFigures .skillsHomeFigure:nth-child(1) {
+  position: absolute;
+  top: 15%;
+  left: 0;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeFigures .skillsHomeFigure:nth-child(2) {
+  position: absolute;
+  bottom: 30%;
+  right: 36%;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeFigures .skillsHomeFigure:nth-child(3) {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeFigures .skillsHomeFigure:nth-child(4) {
+  position: absolute;
+  width: 56px;
+  bottom: 0;
+  right: 0;
+}
+.skillsHomeContainer .skillsHomeBottom .skillsHomeFigures .skillsHomeFigure:nth-child(5) {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}/*# sourceMappingURL=SkillsHome.module.css.map */

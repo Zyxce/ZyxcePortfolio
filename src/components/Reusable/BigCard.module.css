@@ -1,0 +1,42 @@
+.cardContainer {
+  border: 1px solid #ABB2BF;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 330px;
+  text-align: start;
+}
+.cardContainer .cardImageContainer {
+  height: 200px;
+}
+.cardContainer .cardImageContainer .cardImage {
+  max-width: 330px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cardContainer .cardStack {
+  color: #ABB2BF;
+  padding: 10px 20px;
+  line-height: 1.6rem;
+  border-top: 1px solid #ABB2BF;
+  border-bottom: 1px solid #ABB2BF;
+}
+.cardContainer .cardContentContainer {
+  padding: 20px 20px 10px 20px;
+}
+.cardContainer .cardContentContainer .cardName {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.cardContainer .cardContentContainer .cardDescription {
+  color: #ABB2BF;
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+.cardContainer .cardContentContainer .cardBtnContainer {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+  justify-content: start;
+}/*# sourceMappingURL=BigCard.module.css.map */

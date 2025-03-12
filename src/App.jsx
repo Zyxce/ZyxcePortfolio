@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <CustomCursor />
         <Routes>
-          <Route path="/Zyxce" element={<MainLayout />}>
+          <Route path="/ZyxcePortfolio" element={<MainLayout />}>
             <Route index element={<Home />} />
           </Route>
         </Routes>

@@ -1,0 +1,24 @@
+.sectionTitleContainer {
+  display: flex;
+  position: relative;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: auto 0;
+}
+.sectionTitleContainer .sectionTitleHeader {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.sectionTitleContainer .sectionTitleHeader span {
+  margin-right: 2px;
+  font-size: 2rem;
+  color: #27DEBF;
+}
+.sectionTitleContainer .sectionTitleLine {
+  position: absolute;
+  background-color: #27DEBF;
+  height: 2px;
+  top: 50%;
+  left: calc(100% + 20px);
+}/*# sourceMappingURL=SectionTitle.module.css.map */

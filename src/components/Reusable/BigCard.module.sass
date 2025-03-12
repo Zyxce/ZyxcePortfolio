@@ -1,0 +1,38 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+
+.cardContainer
+    border: 1px solid $gray
+    height: fit-content
+    max-width: 330px
+    text-align: start
+    .cardImageContainer
+        height: 200px
+        .cardImage
+            max-width: 330px
+            height: 200px
+            object-fit: cover
+    .cardStack
+        color: $gray
+        padding: 10px 20px
+        line-height: 1.6rem
+        border-top: 1px solid $gray
+        border-bottom: 1px solid $gray
+    .cardContentContainer
+        padding: 20px 20px 10px 20px
+        .cardName
+            color: $white
+            font-size: 1.6rem
+        .cardDescription
+            color: $gray
+            margin-top: 20px
+            font-size: 1rem
+            line-height: 1.6rem
+        .cardBtnContainer
+            display: flex
+            margin-top: 15px
+            gap: 15px
+            justify-content: start
+            .cardBtn

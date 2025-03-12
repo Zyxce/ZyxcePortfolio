@@ -70,7 +70,11 @@ const HeroText = (props) => {
         </div>
       </div>
       <p className={style.heroTextDescription}>{translateDescription}</p>
-      <ButtonBorder classStyle={style.heroTextBtn} text={translateBtn} />
+      <ButtonBorder
+        classStyle={style.heroTextBtn}
+        text={translateBtn}
+        color={'primary'}
+      />
     </div>
   )
 }

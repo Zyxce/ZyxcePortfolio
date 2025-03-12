@@ -1,1 +1,52 @@
-/*# sourceMappingURL=ProjectsSection.module.css.map */
+.projectsSection .projectsSectionTop {
+  display: flex;
+  justify-content: space-between;
+}
+.projectsSection .projectsSectionTop .projectsSectionBtn {
+  width: 130px;
+  height: 45px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: 1s ease-in-out;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectsSection .projectsSectionTop .projectsSectionBtn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #27DEBF;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+.projectsSection .projectsSectionTop .projectsSectionBtn span {
+  color: #ABB2BF;
+  font-size: 1rem;
+  transition: 1s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+.projectsSection .projectsSectionTop .projectsSectionBtn:hover {
+  transition: 1s ease-in-out;
+}
+.projectsSection .projectsSectionTop .projectsSectionBtn:hover svg {
+  stroke-dashoffset: -480;
+}
+.projectsSection .projectsSectionTop .projectsSectionBtn:hover span {
+  color: #fff;
+}
+.projectsSection .projectsSectionBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=ProjectsSection.module.css.map */

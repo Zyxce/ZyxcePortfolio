@@ -1,0 +1,23 @@
+[
+  {
+    "projectImage": "../../../images/TestImage.jpg",
+    "projectName": "Ebat",
+    "projectStack": "CSS, HTML, CSS, HTML, JavaScript CSS, HTML, JavaScript",
+    "projectDescription": "EBAT ESHE",
+    "button": "Live"
+  },
+  {
+    "projectImage": "../../images/TestImage.jpg",
+    "projectName": "Sosat",
+    "projectStack": "CSS, HTML, JavaScript",
+    "projectDescription": "Sosat ESHE",
+    "button": "Live"
+  },
+  {
+    "projectImage": "../../images/TestImage.jpg",
+    "projectName": "Lizat",
+    "projectStack": "CSS, HTML, JavaScript",
+    "projectDescription": "Lizat ESHE",
+    "button": "Live"
+  }
+]

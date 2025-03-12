@@ -25,5 +25,20 @@
     "create": "I enjoy creating interactive user experiences",
     "quote": "With great pizza comes great responsibility",
     "author": "- Michelangelo"
+  },
+  "projects": {
+    "projects": "projects",
+    "view": "View All",
+    "cryptoscan": "Crypto app for tracking and finding the best price on marketplaces among +1000 coins",
+    "cosmojump": "A game in which you need to climb as high as possible",
+    "blanko": "A simple website with a beautiful modern minimalistic layout"
+  },
+  "skills": {
+    "skills": "skills",
+    "languages": "Languages",
+    "engines": "Game Engines",
+    "tools": "Tools",
+    "other": "Other",
+    "frameworks": "Frameworks"
   }
 }
