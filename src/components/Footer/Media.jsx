@@ -16,7 +16,7 @@ const Media = (props) => {
           whileTap={{ scale: 0.9 }}
           transition={{ type: 'spring', stiffness: 400, damping: 10 }}
         >
-          <a href="GITHUB" className={style.socialLink}>
+          <a href="https://github.com/Zyxce" className={style.socialLink}>
             <FaGithub className={style.socialIcon} />
           </a>
         </motion.div>
@@ -26,7 +26,7 @@ const Media = (props) => {
           whileTap={{ scale: 0.9 }}
           transition={{ type: 'spring', stiffness: 400, damping: 10 }}
         >
-          <a href="TELEGRAM" className={style.socialLink}>
+          <a href="https://t.me/CerfZerf" className={style.socialLink}>
             <FaTelegram className={style.socialIcon} />
           </a>
         </motion.div>

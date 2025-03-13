@@ -1,9 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import style from './ButtonBorder.module.css'
 
 const ButtonBorder = (props) => {
-  const { text, classStyle, color } = props
+  const { text, classStyle, color, navigate } = props
+
+  const n = useNavigate()
 
   if (color === 'gray') {
     return (
@@ -12,6 +15,7 @@ const ButtonBorder = (props) => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+        {...(navigate && { onClick: () => n(navigate) })}
       >
         <button className={style.buttonGray}>{text}</button>
       </motion.div>
@@ -25,6 +29,7 @@ const ButtonBorder = (props) => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+        {...(navigate && { onClick: () => n(navigate) })}
       >
         <button className={style.buttonPrimary}>{text}</button>
       </motion.div>

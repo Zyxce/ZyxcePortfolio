@@ -1,13 +1,12 @@
 .animContainer
-    border: 1px solid red
-    width: 400px
-    height: 400px
+    width: 500px
+    height: 500px
     position: relative
 
     .aboutBackground
         position: absolute
-        width: 400px
-        height: 400px
+        width: 100%
+        height: 100%
         top: 0
         left: 0
         opacity: 1
@@ -15,28 +14,37 @@
 
     .aboutChips
         position: absolute
-        top: 0
-        left: 0
-        opacity: 0
-        z-index: 1
+        width: 7.5%
+        bottom: 25%
+        left: 26%
+        transform: translate(-50%, -50%)
+        opacity: 1
+        z-index: 4
+        animation: slideInChips 1.5s
 
     .aboutEnergyDrink1
         position: absolute
-        top: 0
-        left: 0
-        opacity: 0
-        z-index: 1
+        width: 6.25%
+        bottom: 25%
+        left: 20%
+        transform: translate(-50%, -50%)
+        opacity: 1
+        z-index: 4
+        animation: slideInEnergy1 1.5s
 
     .aboutEnergyDrink2
         position: absolute
-        top: 0
-        left: 0
-        opacity: 0
-        z-index: 1
+        width: 6.25%
+        bottom: 38%
+        right: 10%
+        transform: translate(-50%, -50%)
+        opacity: 1
+        z-index: 4
+        animation: slideInEnergy2 1.5s
 
     .aboutGamer
         position: absolute
-        width: 320px
+        width: 80%
         top: 50%
         left: 50%
         transform: translate(-50%, -50%)
@@ -45,51 +53,161 @@
 
         &Eyes1
             position: absolute
-            width: 6px
+            width: 1.5%
             top: 23%
             left: 32%
             transform: translate(-50%, -50%)
             opacity: 1
             z-index: 4
+            animation: spin 2s linear infinite
         &Eyes2
             position: absolute
-            width: 6px
+            width: 1.5%
             top: 23.5%
             left: 36%
             transform: translate(-50%, -50%)
             opacity: 1
             z-index: 4
+            animation: spin 2s linear infinite
 
     .aboutMonitorLight
         position: absolute
-        width: 200px
+        width: 50%
         top: 34%
         left: 50%
         transform: translate(-50%, -50%)
         opacity: 1
         z-index: 2
+        animation: screenBlink 3s infinite
 
     .aboutNewGame
         position: absolute
-        width: 120px
+        width: 30%
         top: 22%
         left: 60%
         transform: translate(-50%, -50%)
         opacity: 1
         z-index: 2
+        animation: slideInNewGame 1.5s ease-out 0s forwards, float 5s ease-in-out 2s infinite
 
     .aboutPizza
         position: absolute
-        top: 0
-        left: 0
-        opacity: 0
-        z-index: 1
+        width: 15%
+        bottom: 20%
+        left: 36%
+        transform: translate(-50%, -50%)
+        opacity: 1
+        z-index: 5
+        animation: slideInPizza 1.5s
 
         &Plate
             position: absolute
-            width: 60px
-            bottom: 22%
-            left: 30%
+            width: 15%
+            bottom: 17%
+            left: 37%
             transform: translate(-50%, -50%)
             opacity: 1
             z-index: 4
+    .squareDots1
+        position: absolute
+        top: 8%
+        right: -40%
+        z-index: 4
+        width: 46px
+
+@keyframes screenBlink
+    0%
+        opacity: 1
+
+    10%
+        opacity: 0.2
+
+    20%
+        opacity: 1
+
+    30%
+        opacity: 0.5
+
+    40%
+        opacity: 1
+
+    50%
+        opacity: 0.8
+
+    60%
+        opacity: 1
+
+    70%
+        opacity: 0.3
+
+    80%
+        opacity: 1
+
+    90%
+        opacity: 0.6
+
+    100%
+        opacity: 1
+
+@keyframes float
+    0%, 100%
+        transform: translate(-50%, -50%) translateY(0)
+    50%
+        transform: translate(-50%, -50%) translateY(-2%)
+
+@keyframes spin
+    0%
+        transform: translate(-50%, -50%) rotate(0deg)
+
+    100%
+        transform: translate(-50%, -50%) rotate(360deg)
+
+//SlideIn Animatios
+
+@keyframes slideInNewGame
+    0%
+        transform: translate(-50%, -50%) translateX(50%) translateY(50%)
+        width: 15%
+        opacity: 0
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateY(0)
+        width: 30%
+        opacity: 1
+
+@keyframes slideInChips
+    0%
+        width: 3.5%
+        opacity: 0
+    100%
+        width: 7.5%
+        opacity: 1
+
+@keyframes slideInEnergy1
+    0%
+        transform: translate(-50%, -50%) translateX(-300%) translateY(0%)
+        width: 3.25%
+        opacity: 0
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateY(0)
+        width: 6.25%
+        opacity: 1
+
+@keyframes slideInEnergy2
+    0%
+        transform: translate(-50%, -50%) translateX(300%) translateY(0%)
+        width: 3.25%
+        opacity: 0
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateY(0)
+        width: 6.25%
+        opacity: 1
+
+@keyframes slideInPizza
+    0%
+        transform: translate(-50%, -50%) translateX(300%) translateY(300%)
+        width: 7.25%
+        opacity: 0
+    100%
+        transform: translate(-50%, -50%) translateX(0) translateY(0)
+        width: 15%
+        opacity: 1

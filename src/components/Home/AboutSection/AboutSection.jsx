@@ -18,9 +18,10 @@ const AboutSection = () => {
           <p className={style.aboutText}>{t('about.imdevfrom')}</p>
           <p className={style.aboutText}>{t('about.mycreative')}</p>
           <ButtonBorder
-            text={'Read more ->'}
+            text={t('about.readmore')}
             classStyle={style.aboutBtn}
             color={'primary'}
+            navigate={'/ZyxcePortfolio/About'}
           ></ButtonBorder>
         </div>
         <div className={style.aboutAnimContainer}>

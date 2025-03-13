@@ -74,6 +74,7 @@ const HeroText = (props) => {
         classStyle={style.heroTextBtn}
         text={translateBtn}
         color={'primary'}
+        navigate={'/ZyxcePortfolio/Contacts'}
       />
     </div>
   )

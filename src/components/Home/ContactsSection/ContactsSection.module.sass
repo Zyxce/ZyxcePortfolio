@@ -3,12 +3,52 @@ $background: #282C33
 $primary: #27DEBF
 $white: #fff
 .contactsSectionContainer
-    margin-top: 100px
+    margin: 100px 0
     .contactsContainer
         margin-top: 50px
         text-align: start
+        display: flex
+        justify-content: space-between
         .contactsText
             width: 500px
             color: $gray
             font-size: 1.1rem
             line-height: 1.6rem
+        .contactsSocial
+            padding: 16px
+            border: 1px solid $gray
+            width: fit-content
+            display: flex
+            flex-direction: column
+            gap: 15px
+            margin: 0 10% 0 30%
+            position: relative
+            .socialHeader
+                color: $white
+                font-size: 1.2rem
+            .socialContainer
+                display: flex
+                transition: 0.3s
+                .socialIcon
+                    color: $gray
+                    font-size: 1.8rem
+                    transition: 0.3s
+                .socialUrl
+                    text-decoration: none
+                    font-size: 1.2rem
+                    margin: auto 0
+                    margin-left: 10px
+                    color: $gray
+                    transition: 0.3s
+            .socialContainer:hover
+                .socialIcon, .socialUrl
+                    color: $primary
+            .squareLines1
+                position: absolute
+                width: 44px
+                bottom: -15%
+                right: -70%
+            .linesFigure1
+                position: absolute
+                top: -30%
+                left: -130%

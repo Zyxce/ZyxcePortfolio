@@ -14,7 +14,7 @@
   max-width: -moz-fit-content;
   max-width: fit-content;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   animation: slideInFromBottom 1.5s ease-out 0s forwards;
 }
 .heroQuoteContainer .heroQuoteTop {

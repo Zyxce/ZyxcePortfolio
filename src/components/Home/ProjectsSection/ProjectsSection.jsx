@@ -7,9 +7,11 @@ import CryptoScan from '../../../images/CryptoScan.png'
 import CosmoJump from '../../../images/CosmoJump.jpg'
 import Blanko from '../../../images/Blanko.png'
 import style from './ProjectsSection.module.css'
+import { useNavigate } from 'react-router-dom'
 
 const PorjectsSection = () => {
   const { t } = useTranslation()
+  const n = useNavigate()
 
   const cardsArray = [
     {
@@ -44,7 +46,10 @@ const PorjectsSection = () => {
         <SectionTitle symbol={'#'} isLine={true} lineWidth={'40vw'}>
           {t('projects.projects')}
         </SectionTitle>
-        <button className={style.projectsSectionBtn}>
+        <button
+          className={style.projectsSectionBtn}
+          onClick={() => n('/ZyxcePortfolio/Projects')}
+        >
           <svg width="130px" height="45px" viewBox="0 0 180 60" class="border">
             <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
             <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />

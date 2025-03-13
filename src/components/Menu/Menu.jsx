@@ -15,10 +15,26 @@ const Menu = () => {
       <Logo anim={true} mail={false} />
       <div className={style.contentContainer}>
         <nav className={style.navContainer}>
-          <NavButton className={style.navItem} text={t('menu.home')} />
-          <NavButton className={style.navItem} text={t('menu.works')} />
-          <NavButton className={style.navItem} text={t('menu.aboutme')} />
-          <NavButton className={style.navItem} text={t('menu.contacts')} />
+          <NavButton
+            className={style.navItem}
+            text={t('menu.home')}
+            url={'/ZyxcePortfolio'}
+          />
+          <NavButton
+            className={style.navItem}
+            text={t('menu.works')}
+            url={'/ZyxcePortfolio/Projects'}
+          />
+          <NavButton
+            className={style.navItem}
+            text={t('menu.aboutme')}
+            url={'/ZyxcePortfolio/About'}
+          />
+          <NavButton
+            className={style.navItem}
+            text={t('menu.contacts')}
+            url={'/ZyxcePortfolio/Contacts'}
+          />
         </nav>
         <LanguageSelector />
       </div>

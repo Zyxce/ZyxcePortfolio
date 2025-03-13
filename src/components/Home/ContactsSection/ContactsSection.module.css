@@ -1,13 +1,61 @@
 .contactsSectionContainer {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 .contactsSectionContainer .contactsContainer {
   margin-top: 50px;
   text-align: start;
+  display: flex;
+  justify-content: space-between;
 }
 .contactsSectionContainer .contactsContainer .contactsText {
   width: 500px;
   color: #ABB2BF;
   font-size: 1.1rem;
   line-height: 1.6rem;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial {
+  padding: 16px;
+  border: 1px solid #ABB2BF;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 10% 0 30%;
+  position: relative;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .socialHeader {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .socialContainer {
+  display: flex;
+  transition: 0.3s;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .socialContainer .socialIcon {
+  color: #ABB2BF;
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .socialContainer .socialUrl {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: auto 0;
+  margin-left: 10px;
+  color: #ABB2BF;
+  transition: 0.3s;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .socialContainer:hover .socialIcon, .contactsSectionContainer .contactsContainer .contactsSocial .socialContainer:hover .socialUrl {
+  color: #27DEBF;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .squareLines1 {
+  position: absolute;
+  width: 44px;
+  bottom: -15%;
+  right: -70%;
+}
+.contactsSectionContainer .contactsContainer .contactsSocial .linesFigure1 {
+  position: absolute;
+  top: -30%;
+  left: -130%;
 }/*# sourceMappingURL=ContactsSection.module.css.map */

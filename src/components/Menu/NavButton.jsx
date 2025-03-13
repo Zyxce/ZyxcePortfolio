@@ -1,9 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import style from './NavButton.module.css'
 
 const NavButton = (props) => {
-  const { text } = props
+  const { text, url } = props
 
   return (
     <motion.div
@@ -12,10 +13,10 @@ const NavButton = (props) => {
       whileTap={{ scale: 0.95 }}
       transition={{ type: 'spring', stiffness: 400, damping: 10 }}
     >
-      <p className={style.btnText}>
+      <Link className={style.btnText} to={url}>
         <span className={style.btnSymbol}>#</span>
         {text}
-      </p>
+      </Link>
     </motion.div>
   )
 }

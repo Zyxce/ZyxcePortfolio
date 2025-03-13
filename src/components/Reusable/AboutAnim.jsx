@@ -10,6 +10,8 @@ import aboutMonitorLight from '../../images/aboutMonitorLight.png'
 import aboutNewGame from '../../images/aboutNewGame.png'
 import aboutPizza from '../../images/aboutPizza.png'
 import aboutPizzaPlate from '../../images/aboutPizzaPlate.png'
+import squareLines from '../../images/squareLines.svg'
+import squareDots from '../../images/squareDots.svg'
 
 const AboutAnim = () => {
   return (
@@ -61,6 +63,7 @@ const AboutAnim = () => {
         src={aboutPizzaPlate}
         alt={'Zyxce'}
       />
+      <img className={style.squareDots1} src={squareDots} alt={'zyxce'}></img>
     </div>
   )
 }

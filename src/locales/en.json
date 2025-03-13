@@ -29,6 +29,9 @@
   "projects": {
     "projects": "projects",
     "view": "View All",
+    "listofprojects": "List of my projects",
+    "completeaps": "complete-apps",
+    "smallprojects": "small-projects",
     "cryptoscan": "Crypto app for tracking and finding the best price on marketplaces among +1000 coins",
     "cosmojump": "A game in which you need to climb as high as possible",
     "blanko": "A simple website with a beautiful modern minimalistic layout"
@@ -47,10 +50,12 @@
     "imdevfrom": "I’m a self-taught front-end developer based in Moscow, Russia. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences",
     "mycreative": "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.",
     "other": "Other",
-    "frameworks": "Frameworks"
+    "frameworks": "Frameworks",
+    "readmore": "Read more ->"
   },
   "contacts": {
     "contacts": "contacts",
-    "iminterested": "I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me"
+    "iminterested": "I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me",
+    "socialHeader": "Message me here"
   }
 }
