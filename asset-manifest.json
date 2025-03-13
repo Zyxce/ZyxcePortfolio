@@ -1,11 +1,22 @@
 {
   "files": {
-    "main.css": "/ZyxcePortfolio/static/css/main.fda58427.css",
-    "main.js": "/ZyxcePortfolio/static/js/main.7e50574e.js",
+    "main.css": "/ZyxcePortfolio/static/css/main.fbb3ba69.css",
+    "main.js": "/ZyxcePortfolio/static/js/main.d4a9c94c.js",
+    "static/media/Pioner.png": "/ZyxcePortfolio/static/media/Pioner.401843e90e60e79aca81.png",
+    "static/media/Aperture.png": "/ZyxcePortfolio/static/media/Aperture.36cfe34cd785de805f44.png",
+    "static/media/Evklid.png": "/ZyxcePortfolio/static/media/Evklid.b97654cf713bd35b3d25.png",
     "static/media/CryptoScan.png": "/ZyxcePortfolio/static/media/CryptoScan.94a776fa22a07181f15c.png",
+    "static/media/YahtClub.png": "/ZyxcePortfolio/static/media/YahtClub.7d41b835660f340374c8.png",
+    "static/media/Wpolitika.png": "/ZyxcePortfolio/static/media/Wpolitika.42911ef10bd5ccaa6467.png",
+    "static/media/Collection.png": "/ZyxcePortfolio/static/media/Collection.1f02130d0acde63c3148.png",
+    "static/media/RoboSchool.png": "/ZyxcePortfolio/static/media/RoboSchool.14b0bf1f9314796a7f26.png",
+    "static/media/Lionic.png": "/ZyxcePortfolio/static/media/Lionic.ed0a251eebb8841855d0.png",
+    "static/media/FromBoard.png": "/ZyxcePortfolio/static/media/FromBoard.9a2153c0a3cd422ac465.png",
+    "static/media/Simple.png": "/ZyxcePortfolio/static/media/Simple.0613be06e092be52d280.png",
     "static/media/Hand.gif": "/ZyxcePortfolio/static/media/Hand.9d0c4026c5de8f2955e9.gif",
     "static/media/HeroDeveloper.png": "/ZyxcePortfolio/static/media/HeroDeveloper.98932ec4dc65481a170b.png",
     "static/media/Blanko.png": "/ZyxcePortfolio/static/media/Blanko.2c8fc13ae9a7fd82a03e.png",
+    "static/media/Zyxce.png": "/ZyxcePortfolio/static/media/Zyxce.aca3da8e0978cf471cd8.png",
     "static/media/aboutGamer.png": "/ZyxcePortfolio/static/media/aboutGamer.f002652e7c5dc3357b74.png",
     "static/media/HeroTableBig.png": "/ZyxcePortfolio/static/media/HeroTableBig.e8e90ea317fce3c44b5e.png",
     "static/media/aboutBackground.png": "/ZyxcePortfolio/static/media/aboutBackground.5bf37501761b18238bd0.png",
@@ -18,11 +29,11 @@
     "static/media/squareDots.svg": "/ZyxcePortfolio/static/media/squareDots.712e4ca731fd973ed289041f934a3877.svg",
     "index.html": "/ZyxcePortfolio/index.html",
     "static/media/squareLines.svg": "/ZyxcePortfolio/static/media/squareLines.5ded3b65d7f216c31b67008e185503f3.svg",
-    "main.fda58427.css.map": "/ZyxcePortfolio/static/css/main.fda58427.css.map",
-    "main.7e50574e.js.map": "/ZyxcePortfolio/static/js/main.7e50574e.js.map"
+    "main.fbb3ba69.css.map": "/ZyxcePortfolio/static/css/main.fbb3ba69.css.map",
+    "main.d4a9c94c.js.map": "/ZyxcePortfolio/static/js/main.d4a9c94c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fda58427.css",
-    "static/js/main.7e50574e.js"
+    "static/css/main.fbb3ba69.css",
+    "static/js/main.d4a9c94c.js"
   ]
 }
