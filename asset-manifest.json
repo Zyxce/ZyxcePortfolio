@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ZyxcePortfolio/static/css/main.fbb3ba69.css",
-    "main.js": "/ZyxcePortfolio/static/js/main.d4a9c94c.js",
+    "main.css": "/ZyxcePortfolio/static/css/main.b5e2350d.css",
+    "main.js": "/ZyxcePortfolio/static/js/main.63e80781.js",
     "static/media/Pioner.png": "/ZyxcePortfolio/static/media/Pioner.401843e90e60e79aca81.png",
     "static/media/Aperture.png": "/ZyxcePortfolio/static/media/Aperture.36cfe34cd785de805f44.png",
     "static/media/Evklid.png": "/ZyxcePortfolio/static/media/Evklid.b97654cf713bd35b3d25.png",
@@ -29,11 +29,11 @@
     "static/media/squareDots.svg": "/ZyxcePortfolio/static/media/squareDots.712e4ca731fd973ed289041f934a3877.svg",
     "index.html": "/ZyxcePortfolio/index.html",
     "static/media/squareLines.svg": "/ZyxcePortfolio/static/media/squareLines.5ded3b65d7f216c31b67008e185503f3.svg",
-    "main.fbb3ba69.css.map": "/ZyxcePortfolio/static/css/main.fbb3ba69.css.map",
-    "main.d4a9c94c.js.map": "/ZyxcePortfolio/static/js/main.d4a9c94c.js.map"
+    "main.b5e2350d.css.map": "/ZyxcePortfolio/static/css/main.b5e2350d.css.map",
+    "main.63e80781.js.map": "/ZyxcePortfolio/static/js/main.63e80781.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb3ba69.css",
-    "static/js/main.d4a9c94c.js"
+    "static/css/main.b5e2350d.css",
+    "static/js/main.63e80781.js"
   ]
 }
