@@ -1,0 +1,24 @@
+.customCursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1000;
+  transition: transform 0.2s ease-out;
+}
+
+.emphasized {
+  width: 4px;
+  height: 30px;
+  border-radius: 15%;
+  background-color: #27DEBF;
+}
+
+.hovered {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}/*# sourceMappingURL=CustomCursor.module.css.map */

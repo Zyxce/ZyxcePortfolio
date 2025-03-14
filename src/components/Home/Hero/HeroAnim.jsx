@@ -60,8 +60,10 @@ const HeroAnim = (props) => {
         alt={'herooooooooooooooo'}
       />
       <div className={style.animTextContainer}>
-        <div className={style.animTextSquare}></div>
-        <p className={style.animText}>
+        <div className={style.animTextSquare}>
+          <p>://</p>
+        </div>
+        <p className={style.animText} data-cursor="emphasize">
           {paragraphText} <span>{spanText}</span>
         </p>
       </div>

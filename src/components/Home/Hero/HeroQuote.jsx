@@ -6,7 +6,9 @@ const HeroQuote = (props) => {
   return (
     <div className={style.heroQuoteContainer}>
       <div className={style.heroQuoteTop}>
-        <p className={style.heroQuoteHeader}>{quote}</p>
+        <p className={style.heroQuoteHeader} data-cursor="emphasize">
+          {quote}
+        </p>
         <div className={style.heroQuoteCircle}>
           <p>“</p>
         </div>
@@ -15,7 +17,9 @@ const HeroQuote = (props) => {
         </div>
       </div>
       <div className={style.heroQuoteBottom}>
-        <p className={style.heroQuoteAuthor}>{author}</p>
+        <p className={style.heroQuoteAuthor} data-cursor="emphasize">
+          {author}
+        </p>
       </div>
     </div>
   )

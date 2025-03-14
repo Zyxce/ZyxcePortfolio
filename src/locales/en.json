@@ -34,7 +34,18 @@
     "smallprojects": "small-projects",
     "cryptoscan": "Crypto app for tracking and finding the best price on marketplaces among +1000 coins",
     "cosmojump": "A game in which you need to climb as high as possible",
-    "blanko": "A simple website with a beautiful modern minimalistic layout"
+    "blanko": "A simple website with a beautiful modern minimalistic layout",
+    "zyxce": "You are here now :)",
+    "simple": "Description for Simple project",
+    "aperture": "Description for Aperture project",
+    "fromboard": "Description for FromBoard project",
+    "wpolitika": "Description for Wpolitika project",
+    "yaht": "Description for YahtClub project",
+    "collection": "Description for Collection project",
+    "evklid": "Description for Evklid project",
+    "roboschool": "Description for RoboSchool project",
+    "lionic": "Description for Lionic project",
+    "pioner": "Description for Pioner project"
   },
   "skills": {
     "skills": "skills",
@@ -46,12 +57,21 @@
   },
   "about": {
     "aboutme": "about-me",
+    "whoami": "Who am i?",
     "helloim": "Hello, i’m Vitaly Sokolov!",
     "imdevfrom": "I’m a self-taught front-end developer based in Moscow, Russia. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences",
     "mycreative": "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.",
     "other": "Other",
+    "myfunfacts": "my-fun-facts",
     "frameworks": "Frameworks",
-    "readmore": "Read more ->"
+    "readmore": "Read more ->",
+    "ilikespring": "I like <span>spring</span> because it's a time of <span>renewal</span> and fresh <span>beginnings</span>",
+    "ilikepizza": "I enjoy <span>pizza</span>, especially with a variety of toppings",
+    "myfavoritemovie": "My favorite movie is <span>Terminator 2</span>",
+    "imstilluniversity": "I am still studying at <span>university</span>",
+    "playcs": "I enjoy playing <span>CS2</span> in my free time, and I'm <span> 10 lvl faceit</span>",
+    "iwasinarmy": "I served in the <span>army</span>, which taught me <span>discipline and teamwork</span> and to appreciate every moment of <span>life</span>",
+    "ilikecars": "I have a passion for <span>cars</span> and my dream it's <span>Tyota GT86</span>"
   },
   "contacts": {
     "contacts": "contacts",

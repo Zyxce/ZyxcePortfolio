@@ -13,22 +13,36 @@ const BigCard = (props) => {
 
   return (
     <div className={style.cardContainer}>
-      <div className={style.cardImageContainer}>
-        <img src={projectImage} alt={'Zyxce'} className={style.cardImage}></img>
-      </div>
-      <p className={style.cardStack}>{projectStack}</p>
-      <div className={style.cardContentContainer}>
-        <h3 className={style.cardName}>{projectName}</h3>
-        <p className={style.cardDescription}>{projectDescription}</p>
-        <div className={style.cardBtnContainer}>
-          {buttons.map((button) => (
-            <ButtonBorder
-              text={button.text}
-              classStyle={style.cardBtn}
-              color={button.color}
-            ></ButtonBorder>
-          ))}
+      {projectImage && (
+        <div className={style.cardImageContainer}>
+          <img
+            src={projectImage}
+            alt={'Zyxce'}
+            className={style.cardImage}
+          ></img>
         </div>
+      )}
+      <p className={style.cardStack} data-cursor="emphasize">
+        {projectStack}
+      </p>
+      <div className={style.cardContentContainer}>
+        <h3 className={style.cardName} data-cursor="emphasize">
+          {projectName}
+        </h3>
+        <p className={style.cardDescription} data-cursor="emphasize">
+          {projectDescription}
+        </p>
+        {buttons && (
+          <div className={style.cardBtnContainer}>
+            {buttons.map((button) => (
+              <ButtonBorder
+                text={button.text}
+                classStyle={style.cardBtn}
+                color={button.color}
+              ></ButtonBorder>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )

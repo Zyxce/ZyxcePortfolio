@@ -12,11 +12,15 @@ const Footer = () => {
         <div className={style.topLine}></div>
         <div className={style.footerContent}>
           <Logo className={style.footerLogo} anim={false} mail={true} />
-          <p className={style.footerContentText}>{t('footer.frontend')}</p>
+          <p className={style.footerContentText} data-cursor="emphasize">
+            {t('footer.frontend')}
+          </p>
         </div>
         <Media className={style.footerMedia} headerText={t('footer.media')} />
       </div>
-      <div className={style.footerCopytight}>{t('footer.copyright')}</div>
+      <div className={style.footerCopytight} data-cursor="emphasize">
+        {t('footer.copyright')}
+      </div>
     </div>
   )
 }

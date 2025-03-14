@@ -49,6 +49,7 @@ const PorjectsSection = () => {
         <button
           className={style.projectsSectionBtn}
           onClick={() => n('/ZyxcePortfolio/Projects')}
+          data-cursor="hover"
         >
           <svg width="130px" height="45px" viewBox="0 0 180 60" class="border">
             <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />

@@ -14,9 +14,15 @@ const AboutSection = () => {
       </SectionTitle>
       <div className={style.aboutContentContainer}>
         <div className={style.aboutTextContainer}>
-          <p className={style.aboutText}>{t('about.helloim')}</p>
-          <p className={style.aboutText}>{t('about.imdevfrom')}</p>
-          <p className={style.aboutText}>{t('about.mycreative')}</p>
+          <p className={style.aboutText} data-cursor="emphasize">
+            {t('about.helloim')}
+          </p>
+          <p className={style.aboutText} data-cursor="emphasize">
+            {t('about.imdevfrom')}
+          </p>
+          <p className={style.aboutText} data-cursor="emphasize">
+            {t('about.mycreative')}
+          </p>
           <ButtonBorder
             text={t('about.readmore')}
             classStyle={style.aboutBtn}

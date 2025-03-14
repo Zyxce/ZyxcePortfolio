@@ -1,0 +1,71 @@
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
+.aboutContainer
+    padding: 100px 200px
+    text-align: start
+    position: relative
+    .aboutDescription
+        margin-top: 15px
+        color: $gray
+        font-size: 1.1rem
+        line-height: 1.6rem
+    .aboutContentSection
+        margin-top: 50px
+        display: flex
+        justify-content: space-between
+        .aboutTextContainer
+            text-align: start
+            width: 500px
+            .aboutText
+                color: $gray
+                font-size: 1.1rem
+                line-height: 1.6rem
+            .aboutText:nth-child(2), .aboutText:nth-child(3)
+                margin-top: 30px
+        .aboutAnim
+            margin: 0 auto
+    .aboutSkillsSection
+        margin-top: 100px
+        .aboutCardsContainer
+            margin-top: 50px
+            display: flex
+            gap: 25px
+    .aboutFactsSection
+        margin-top: 100px
+        .aboutFactsContainer
+            margin-top: 50px
+            display: flex
+            white-space: nowrap
+            flex-wrap: wrap
+            gap: 25px
+            p
+                border: 1px solid $gray
+                padding: 5px
+                color: $gray
+                span
+                    color: $white
+    .squareLines1
+        position: absolute
+        right: -3%
+        top: 10%
+        width: 128px
+    .squareLines2
+        position: absolute
+        right: -3%
+        top: 70%
+        width: 112px
+    .squareDots1
+        position: absolute
+        left: -1%
+        top: 30%
+    .squareDots2
+        position: absolute
+        left: -1%
+        top: 90%
+    .squareDots3
+        position: absolute
+        right: 3%
+        top: 40%
+        width: 96px

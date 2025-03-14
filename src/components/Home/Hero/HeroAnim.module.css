@@ -103,6 +103,10 @@
   height: 15px;
   background-color: #27DEBF;
 }
+.animContainer .animTextContainer .animTextSquare p {
+  margin-left: 20px;
+  color: #fff;
+}
 .animContainer .animTextContainer .animText {
   color: #ABB2BF;
 }

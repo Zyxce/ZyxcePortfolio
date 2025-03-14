@@ -1,0 +1,85 @@
+.aboutContainer {
+  padding: 100px 200px;
+  text-align: start;
+  position: relative;
+}
+.aboutContainer .aboutDescription {
+  margin-top: 15px;
+  color: #ABB2BF;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.aboutContainer .aboutContentSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutContainer .aboutContentSection .aboutTextContainer {
+  text-align: start;
+  width: 500px;
+}
+.aboutContainer .aboutContentSection .aboutTextContainer .aboutText {
+  color: #ABB2BF;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.aboutContainer .aboutContentSection .aboutTextContainer .aboutText:nth-child(2), .aboutContainer .aboutContentSection .aboutTextContainer .aboutText:nth-child(3) {
+  margin-top: 30px;
+}
+.aboutContainer .aboutContentSection .aboutAnim {
+  margin: 0 auto;
+}
+.aboutContainer .aboutSkillsSection {
+  margin-top: 100px;
+}
+.aboutContainer .aboutSkillsSection .aboutCardsContainer {
+  margin-top: 50px;
+  display: flex;
+  gap: 25px;
+}
+.aboutContainer .aboutFactsSection {
+  margin-top: 100px;
+}
+.aboutContainer .aboutFactsSection .aboutFactsContainer {
+  margin-top: 50px;
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.aboutContainer .aboutFactsSection .aboutFactsContainer p {
+  border: 1px solid #ABB2BF;
+  padding: 5px;
+  color: #ABB2BF;
+}
+.aboutContainer .aboutFactsSection .aboutFactsContainer p span {
+  color: #fff;
+}
+.aboutContainer .squareLines1 {
+  position: absolute;
+  right: -3%;
+  top: 10%;
+  width: 128px;
+}
+.aboutContainer .squareLines2 {
+  position: absolute;
+  right: -3%;
+  top: 70%;
+  width: 112px;
+}
+.aboutContainer .squareDots1 {
+  position: absolute;
+  left: -1%;
+  top: 30%;
+}
+.aboutContainer .squareDots2 {
+  position: absolute;
+  left: -1%;
+  top: 90%;
+}
+.aboutContainer .squareDots3 {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  width: 96px;
+}/*# sourceMappingURL=About.module.css.map */

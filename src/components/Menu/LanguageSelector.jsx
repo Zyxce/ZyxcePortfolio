@@ -18,8 +18,8 @@ const LanguageSelector = () => {
       field: 'ru',
     },
     {
-      label: 'EU',
-      field: 'eu',
+      label: 'BY',
+      field: 'by',
     },
   ]
 
@@ -33,12 +33,13 @@ const LanguageSelector = () => {
         <div
           className={style.selectorContainer}
           onClick={() => setIsOpen(true)}
+          data-cursor="hover"
         >
           <p className={style.selectorText}>{currentLanguage.toUpperCase()}</p>
           <SlArrowDown size={15} className={style.selectorArrow} />
         </div>
       ) : (
-        <div className={style.selectorContainer}>
+        <div className={style.selectorContainer} data-cursor="hover">
           <p className={style.selectorText} onClick={() => setIsOpen(false)}>
             {currentLanguage.toUpperCase()}
           </p>

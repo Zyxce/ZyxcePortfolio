@@ -7,21 +7,24 @@ import CryptoScan from '../../images/CryptoScan.png'
 import CosmoJump from '../../images/CosmoJump.jpg'
 import Blanko from '../../images/Blanko.png'
 import Aperture from '../../images/Aperture.png'
-import Collection from '../../images/Collection.png'
-import Evklid from '../../images/Evklid.png'
 import FromBoard from '../../images/FromBoard.png'
-import Lionic from '../../images/Lionic.png'
-import Pioner from '../../images/Pioner.png'
-import RoboSchool from '../../images/RoboSchool.png'
 import Simple from '../../images/Simple.png'
 import Wpolitika from '../../images/Wpolitika.png'
-import YahtClub from '../../images/YahtClub.png'
 import Zyxce from '../../images/Zyxce.png'
+import squareLines from '../../images/squareLines.svg'
+import squareDots from '../../images/squareDots.svg'
+
+// import Lionic from '../../images/Lionic.png'
+// import Pioner from '../../images/Pioner.png'
+// import RoboSchool from '../../images/RoboSchool.png'
+// import Collection from '../../images/Collection.png'
+// import Evklid from '../../images/Evklid.png'
+// import YahtClub from '../../images/YahtClub.png'
 
 const Projects = () => {
   const { t } = useTranslation()
 
-  const cardsArray = [
+  const appsArray = [
     {
       projectImage: CryptoScan,
       projectName: 'CryptoScan',
@@ -49,78 +52,75 @@ const Projects = () => {
     {
       projectImage: Zyxce,
       projectName: 'Zyxce',
-      projectStack: 'HTML CSS SASS JavaScript React',
-      projectDescription: t('projects.cosmojump'),
+      projectStack: 'HTML CSS SASS JavaScript TypeScript React',
+      projectDescription: t('projects.zyxce'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
       projectImage: Simple,
       projectName: 'Simple',
       projectStack: 'HTML HAML CSS SASS JavaScript',
-      projectDescription: t('projects.blanko'),
+      projectDescription: t('projects.simple'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
       projectImage: Aperture,
       projectName: 'Aperture',
       projectStack: 'HTML HAML CSS SASS JavaScript',
-      projectDescription: t('projects.cosmojump'),
+      projectDescription: t('projects.aperture'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
       projectImage: FromBoard,
       projectName: 'FromBoard',
       projectStack: 'HTML CSS SASS JavaScript React',
-      projectDescription: t('projects.blanko'),
+      projectDescription: t('projects.fromboard'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
       projectImage: Wpolitika,
       projectName: 'Wpolitika',
-      projectStack: 'HTML CSS JavaScript WordPress PHP',
-      projectDescription: t('projects.cosmojump'),
+      projectStack: 'WordPress PHP',
+      projectDescription: t('projects.wpolitika'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
+  ]
+
+  const smallArray = [
     {
-      projectImage: YahtClub,
       projectName: 'YahtClub',
       projectStack: 'HTML CSS JavaScript',
-      projectDescription: t('projects.blanko'),
+      projectDescription: t('projects.yaht'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: Collection,
       projectName: 'Collection',
       projectStack: 'HTML CSS JavaScript',
-      projectDescription: t('projects.cosmojump'),
+      projectDescription: t('projects.collection'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: Evklid,
       projectName: 'Evklid',
       projectStack: 'HTML CSS',
-      projectDescription: t('projects.blanko'),
+      projectDescription: t('projects.evklid'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: RoboSchool,
       projectName: 'RoboSchool',
       projectStack: 'HTML CSS',
-      projectDescription: t('projects.cosmojump'),
+      projectDescription: t('projects.roboschool'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: Lionic,
       projectName: 'Lionic',
       projectStack: 'HTML CSS JavaScript',
-      projectDescription: t('projects.cosmojump'),
+      projectDescription: t('projects.lionic'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: Pioner,
       projectName: 'Pioner',
       projectStack: 'HTML CSS JavaScript',
-      projectDescription: t('projects.blanko'),
+      projectDescription: t('projects.pioner'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
   ]
@@ -129,25 +129,33 @@ const Projects = () => {
       <SectionTitle symbol={'/'} isLine={false} lineWidth={'40vw'}>
         {t('projects.projects')}
       </SectionTitle>
-      <p className={style.projectsDescription}>
+      <p className={style.projectsDescription} data-cursor="emphasize">
         {t('projects.listofprojects')}
       </p>
       <div className={style.projectsApsContainer}>
-        <SectionTitle symbol={'#'} isLine={false} lineWidth={'40vw'}>
+        <SectionTitle symbol={'#'} isLine={true} lineWidth={'50vw'}>
           {t('projects.completeaps')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {cardsArray.map((card) => (
+          {appsArray.map((card) => (
             <BigCard key={card.name} {...card} />
           ))}
         </div>
       </div>
-      <div className={style.projectsSmallContainer}>
-        <SectionTitle symbol={'#'} isLine={false} lineWidth={'40vw'}>
+      <div className={style.projectsApsContainer}>
+        <SectionTitle symbol={'#'} isLine={true} lineWidth={'20vw'}>
           {t('projects.smallprojects')}
         </SectionTitle>
-        <div className={style.projectsApsCards}></div>
+        <div className={style.projectsApsCards}>
+          {smallArray.map((card) => (
+            <BigCard key={card.name} {...card} />
+          ))}
+        </div>
       </div>
+      <img className={style.squareLines1} src={squareLines} alt={'zyxce'}></img>
+      <img className={style.squareLines2} src={squareLines} alt={'zyxce'}></img>
+      <img className={style.squareDots1} src={squareDots} alt={'zyxce'}></img>
+      <img className={style.squareDots2} src={squareDots} alt={'zyxce'}></img>
     </div>
   )
 }

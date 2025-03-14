@@ -14,16 +14,20 @@ const ContactsSection = () => {
         {t('contacts.contacts')}
       </SectionTitle>
       <div className={style.contactsContainer}>
-        <p className={style.contactsText}>{t('contacts.iminterested')}</p>
+        <p className={style.contactsText} data-cursor="emphasize">
+          {t('contacts.iminterested')}
+        </p>
         <div className={style.contactsSocial}>
-          <h5 className={style.socialHeader}>{t('contacts.socialHeader')}</h5>
-          <div className={style.socialContainer}>
+          <h5 className={style.socialHeader} data-cursor="emphasize">
+            {t('contacts.socialHeader')}
+          </h5>
+          <div className={style.socialContainer} data-cursor="hover">
             <FaTelegram className={style.socialIcon} />
             <a className={style.socialUrl} href="https://t.me/CerfZerf">
               @CerfZerf
             </a>
           </div>
-          <div className={style.socialContainer}>
+          <div className={style.socialContainer} data-cursor="hover">
             <FaDiscord className={style.socialIcon} />
             <a className={style.socialUrl} href="https://discord.com/laksor">
               @laksor

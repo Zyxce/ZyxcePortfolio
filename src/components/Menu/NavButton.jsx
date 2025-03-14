@@ -13,7 +13,7 @@ const NavButton = (props) => {
       whileTap={{ scale: 0.95 }}
       transition={{ type: 'spring', stiffness: 400, damping: 10 }}
     >
-      <Link className={style.btnText} to={url}>
+      <Link className={style.btnText} to={url} data-cursor="hover">
         <span className={style.btnSymbol}>#</span>
         {text}
       </Link>

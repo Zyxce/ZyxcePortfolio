@@ -5,7 +5,7 @@ const SectionTitle = (props) => {
   const { symbol, children, isLine, lineWidth } = props
   return (
     <div className={style.sectionTitleContainer}>
-      <h3 className={style.sectionTitleHeader}>
+      <h3 className={style.sectionTitleHeader} data-cursor="emphasize">
         <span>{symbol}</span>
         {children}
       </h3>

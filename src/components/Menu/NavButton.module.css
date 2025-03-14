@@ -16,9 +16,6 @@
   line-height: 1.4rem;
   color: #27DEBF;
 }
-.btnContainer:hover {
-  cursor: pointer;
-}
 .btnContainer:hover .btnText {
   color: #fff;
 }

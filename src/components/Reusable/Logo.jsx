@@ -72,6 +72,7 @@ const Logo = (props) => {
         className={`${style.logoText} ${isError ? style.error : ''} ${
           isComplete ? style.complete : ''
         }`}
+        data-cursor="emphasize"
       >
         {text}
       </p>
@@ -83,7 +84,10 @@ const Logo = (props) => {
           transition={{ type: 'spring', stiffness: 400, damping: 10 }}
         >
           <p className={style.logoMail}>
-            <a href="mailto:Zyxceles@gmail.com?subject=Привет&body=Здравствуйте!">
+            <a
+              href="mailto:Zyxceles@gmail.com?subject=Привет&body=Здравствуйте!"
+              data-cursor="hover"
+            >
               Zyxceles@gmail.com
             </a>
           </p>

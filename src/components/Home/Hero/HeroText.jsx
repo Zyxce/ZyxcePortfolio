@@ -50,7 +50,7 @@ const HeroText = (props) => {
   return (
     <div className={style.heroTextContainer}>
       <div className={style.heroTextHeaderContainer}>
-        <h1 className={style.heroText}>
+        <h1 className={style.heroText} data-cursor="emphasize">
           {translateHey} <img src={Hand} alt={'hand'} />, {translateIm}{' '}
           <span>{translateName}</span>
         </h1>
@@ -63,13 +63,16 @@ const HeroText = (props) => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
               className={style.highlightedText}
+              data-cursor="emphasize"
             >
               {displayedText}
             </motion.span>
           </AnimatePresence>
         </div>
       </div>
-      <p className={style.heroTextDescription}>{translateDescription}</p>
+      <p className={style.heroTextDescription} data-cursor="emphasize">
+        {translateDescription}
+      </p>
       <ButtonBorder
         classStyle={style.heroTextBtn}
         text={translateBtn}

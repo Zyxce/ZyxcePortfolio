@@ -1,0 +1,96 @@
+.contactsContainer {
+  padding: 100px 200px 200px 200px;
+  text-align: start;
+  position: relative;
+}
+.contactsContainer .contactsDescription {
+  margin-top: 15px;
+  color: #ABB2BF;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.contactsContainer .contactsContentSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contactsContainer .contactsContentSection .contactsText {
+  width: 500px;
+  color: #ABB2BF;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.contactsContainer .contactsContentSection .contactsSocial {
+  padding: 16px;
+  border: 1px solid #ABB2BF;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 10% 0 30%;
+  position: relative;
+}
+.contactsContainer .contactsContentSection .contactsSocial .socialHeader {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.contactsContainer .contactsContentSection .contactsSocial .socialContainer {
+  display: flex;
+  transition: 0.3s;
+}
+.contactsContainer .contactsContentSection .contactsSocial .socialContainer .socialIcon {
+  color: #ABB2BF;
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+.contactsContainer .contactsContentSection .contactsSocial .socialContainer .socialUrl {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: auto 0;
+  margin-left: 10px;
+  color: #ABB2BF;
+  transition: 0.3s;
+}
+.contactsContainer .contactsContentSection .contactsSocial .socialContainer:hover .socialIcon, .contactsContainer .contactsContentSection .contactsSocial .socialContainer:hover .socialUrl {
+  color: #27DEBF;
+}
+.contactsContainer .contactsContentSection .contactsSocial .squareLines1 {
+  position: absolute;
+  width: 44px;
+  bottom: -15%;
+  right: -70%;
+}
+.contactsContainer .contactsContentSection .contactsSocial .linesFigure1 {
+  position: absolute;
+  top: -30%;
+  left: -130%;
+}
+.contactsContainer .squareLines1 {
+  position: absolute;
+  right: -3%;
+  top: 10%;
+  width: 128px;
+}
+.contactsContainer .squareLines2 {
+  position: absolute;
+  right: -3%;
+  top: 70%;
+  width: 112px;
+}
+.contactsContainer .squareDots1 {
+  position: absolute;
+  left: -1%;
+  top: 90%;
+}
+.contactsContainer .squareDots2 {
+  position: absolute;
+  left: -1%;
+  top: 90%;
+}
+.contactsContainer .squareDots3 {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  width: 96px;
+}/*# sourceMappingURL=Contacts.module.css.map */

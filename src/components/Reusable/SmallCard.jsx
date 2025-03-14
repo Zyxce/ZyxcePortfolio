@@ -5,8 +5,12 @@ const SmallCard = (props) => {
   const { header, skills } = props
   return (
     <div className={style.cardContainer}>
-      <h4 className={style.cardHeader}>{header}</h4>
-      <p className={style.cardText}>{skills}</p>
+      <h4 className={style.cardHeader} data-cursor="emphasize">
+        {header}
+      </h4>
+      <p className={style.cardText} data-cursor="emphasize">
+        {skills}
+      </p>
     </div>
   )
 }

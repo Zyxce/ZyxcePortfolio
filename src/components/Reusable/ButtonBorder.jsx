@@ -17,7 +17,9 @@ const ButtonBorder = (props) => {
         transition={{ type: 'spring', stiffness: 400, damping: 10 }}
         {...(navigate && { onClick: () => n(navigate) })}
       >
-        <button className={style.buttonGray}>{text}</button>
+        <button className={style.buttonGray} data-cursor="hover">
+          {text}
+        </button>
       </motion.div>
     )
   }
@@ -31,7 +33,9 @@ const ButtonBorder = (props) => {
         transition={{ type: 'spring', stiffness: 400, damping: 10 }}
         {...(navigate && { onClick: () => n(navigate) })}
       >
-        <button className={style.buttonPrimary}>{text}</button>
+        <button className={style.buttonPrimary} data-cursor="hover">
+          {text}
+        </button>
       </motion.div>
     )
   }
