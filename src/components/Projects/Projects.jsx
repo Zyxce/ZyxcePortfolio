@@ -8,6 +8,7 @@ import CosmoJump from '../../images/CosmoJump.jpg'
 import Blanko from '../../images/Blanko.png'
 import Aperture from '../../images/Aperture.png'
 import FromBoard from '../../images/FromBoard.png'
+import PrintTest from '../../images/PrintTest.jpg'
 import Simple from '../../images/Simple.png'
 import Wpolitika from '../../images/Wpolitika.png'
 import Zyxce from '../../images/Zyxce.png'
@@ -31,8 +32,16 @@ const Projects = () => {
       projectStack: 'HTML CSS SASS JavaScript TypeScript React CoinLoreAPI',
       projectDescription: t('projects.cryptoscan'),
       buttons: [
-        { text: 'Live <~>', color: 'primary' },
-        { text: 'Cached >=', color: 'gray' },
+        {
+          text: 'Live <~>',
+          color: 'primary',
+          url: 'https://zyxce.github.io/CryptoScan/',
+        },
+        {
+          text: 'GitHub >=',
+          color: 'gray',
+          url: 'https://github.com/Zyxce/CryptoScan',
+        },
       ],
     },
     {
@@ -43,19 +52,57 @@ const Projects = () => {
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: Blanko,
-      projectName: 'Blanko',
-      projectStack: 'HTML HAML CSS SASS JavaScript',
-      projectDescription: t('projects.blanko'),
-      buttons: [{ text: 'Cached >=', color: 'gray' }],
+      projectImage: PrintTest,
+      projectName: 'PrintTest',
+      projectStack: 'HTML CSS SASS TypeScript React',
+      projectDescription: t('projects.printTest'),
+      buttons: [
+        {
+          text: 'Live <~>',
+          color: 'primary',
+          url: 'https://zyxce.github.io/PrintTest-App/',
+        },
+        {
+          text: 'GitHub >=',
+          color: 'gray',
+          url: 'https://github.com/Zyxce/PrintTest-App',
+        },
+      ],
     },
     {
       projectImage: Zyxce,
       projectName: 'Zyxce',
       projectStack: 'HTML CSS SASS JavaScript TypeScript React',
       projectDescription: t('projects.zyxce'),
+      buttons: [
+        {
+          text: 'GitHub >=',
+          color: 'gray',
+          url: 'https://zyxce.github.io/ZyxcePortfolio/',
+        },
+      ],
+    },
+    {
+      projectImage: Wpolitika,
+      projectName: 'Wpolitika',
+      projectStack: 'WordPress PHP',
+      projectDescription: t('projects.wpolitika'),
+      buttons: [
+        {
+          text: 'Live <~>',
+          color: 'primary',
+          url: 'https://wpolitika.com/',
+        },
+      ],
+    },
+    {
+      projectImage: Blanko,
+      projectName: 'Blanko',
+      projectStack: 'HTML HAML CSS SASS JavaScript',
+      projectDescription: t('projects.blanko'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
+
     {
       projectImage: Simple,
       projectName: 'Simple',
@@ -75,13 +122,6 @@ const Projects = () => {
       projectName: 'FromBoard',
       projectStack: 'HTML CSS SASS JavaScript React',
       projectDescription: t('projects.fromboard'),
-      buttons: [{ text: 'Cached >=', color: 'gray' }],
-    },
-    {
-      projectImage: Wpolitika,
-      projectName: 'Wpolitika',
-      projectStack: 'WordPress PHP',
-      projectDescription: t('projects.wpolitika'),
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
   ]

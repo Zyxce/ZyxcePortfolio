@@ -2,10 +2,9 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import SectionTitle from '../../Reusable/SectionTitle'
 import BigCard from '../../Reusable/BigCard'
-import TestImage from '../../../images/TestImage.jpg'
 import CryptoScan from '../../../images/CryptoScan.png'
 import CosmoJump from '../../../images/CosmoJump.jpg'
-import Blanko from '../../../images/Blanko.png'
+import PrintTest from '../../../images/PrintTest.jpg'
 import style from './ProjectsSection.module.css'
 import { useNavigate } from 'react-router-dom'
 
@@ -20,8 +19,16 @@ const PorjectsSection = () => {
       projectStack: 'HTML CSS SASS JavaScript TypeScript React CoinLoreAPI',
       projectDescription: t('projects.cryptoscan'),
       buttons: [
-        { text: 'Live <~>', color: 'primary' },
-        { text: 'Cached >=', color: 'gray' },
+        {
+          text: 'Live <~>',
+          color: 'primary',
+          url: 'https://zyxce.github.io/CryptoScan/',
+        },
+        {
+          text: 'GitHub >=',
+          color: 'gray',
+          url: 'https://github.com/Zyxce/CryptoScan',
+        },
       ],
     },
     {
@@ -32,11 +39,22 @@ const PorjectsSection = () => {
       buttons: [{ text: 'Cached >=', color: 'gray' }],
     },
     {
-      projectImage: Blanko,
-      projectName: 'Blanko',
-      projectStack: 'HTML HAML CSS SASS JavaScript',
-      projectDescription: t('projects.blanko'),
-      buttons: [{ text: 'Cached >=', color: 'gray' }],
+      projectImage: PrintTest,
+      projectName: 'PrintTest',
+      projectStack: 'HTML CSS SASS TypeScript React',
+      projectDescription: t('projects.printTest'),
+      buttons: [
+        {
+          text: 'Live <~>',
+          color: 'primary',
+          url: 'https://zyxce.github.io/PrintTest-App/',
+        },
+        {
+          text: 'GitHub >=',
+          color: 'gray',
+          url: 'https://github.com/Zyxce/PrintTest-App',
+        },
+      ],
     },
   ]
 

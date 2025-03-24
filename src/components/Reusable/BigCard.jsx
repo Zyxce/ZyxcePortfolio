@@ -39,6 +39,7 @@ const BigCard = (props) => {
                 text={button.text}
                 classStyle={style.cardBtn}
                 color={button.color}
+                url={button.url}
               ></ButtonBorder>
             ))}
           </div>

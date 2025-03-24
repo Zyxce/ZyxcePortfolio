@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ZyxcePortfolio/static/css/main.12064f4b.css",
-    "main.js": "/ZyxcePortfolio/static/js/main.acd97456.js",
+    "main.js": "/ZyxcePortfolio/static/js/main.b379f722.js",
     "static/media/Aperture.png": "/ZyxcePortfolio/static/media/Aperture.36cfe34cd785de805f44.png",
     "static/media/CryptoScan.png": "/ZyxcePortfolio/static/media/CryptoScan.94a776fa22a07181f15c.png",
     "static/media/Wpolitika.png": "/ZyxcePortfolio/static/media/Wpolitika.42911ef10bd5ccaa6467.png",
@@ -12,11 +12,11 @@
     "static/media/Blanko.png": "/ZyxcePortfolio/static/media/Blanko.2c8fc13ae9a7fd82a03e.png",
     "static/media/Zyxce.png": "/ZyxcePortfolio/static/media/Zyxce.aca3da8e0978cf471cd8.png",
     "static/media/aboutGamer.png": "/ZyxcePortfolio/static/media/aboutGamer.f002652e7c5dc3357b74.png",
+    "static/media/PrintTest.jpg": "/ZyxcePortfolio/static/media/PrintTest.46cf8cafbc4e51a25c8e.jpg",
     "static/media/HeroTableBig.png": "/ZyxcePortfolio/static/media/HeroTableBig.e8e90ea317fce3c44b5e.png",
     "static/media/aboutBackground.png": "/ZyxcePortfolio/static/media/aboutBackground.5bf37501761b18238bd0.png",
     "static/media/CosmoJump.jpg": "/ZyxcePortfolio/static/media/CosmoJump.0007d387638cce49c997.jpg",
     "static/media/aboutNewGame.png": "/ZyxcePortfolio/static/media/aboutNewGame.1a507d9d946877ad69ad.png",
-    "static/media/TestImage.jpg": "/ZyxcePortfolio/static/media/TestImage.c1c3f944a2314ae137e4.jpg",
     "static/media/HeroTableSmall.png": "/ZyxcePortfolio/static/media/HeroTableSmall.541035c43afc8ff7cfe4.png",
     "static/media/aboutMonitorLight.png": "/ZyxcePortfolio/static/media/aboutMonitorLight.f77cd62b42d092d63ac4.png",
     "static/media/linesFigure.svg": "/ZyxcePortfolio/static/media/linesFigure.7fa682b17ac35dfcac2d0b6910eea345.svg",
@@ -24,10 +24,10 @@
     "index.html": "/ZyxcePortfolio/index.html",
     "static/media/squareLines.svg": "/ZyxcePortfolio/static/media/squareLines.5ded3b65d7f216c31b67008e185503f3.svg",
     "main.12064f4b.css.map": "/ZyxcePortfolio/static/css/main.12064f4b.css.map",
-    "main.acd97456.js.map": "/ZyxcePortfolio/static/js/main.acd97456.js.map"
+    "main.b379f722.js.map": "/ZyxcePortfolio/static/js/main.b379f722.js.map"
   },
   "entrypoints": [
     "static/css/main.12064f4b.css",
-    "static/js/main.acd97456.js"
+    "static/js/main.b379f722.js"
   ]
 }
