@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { IHeroTextProps } from '../../../types'
 import Hand from '../../../images/Hand.gif'
 import ButtonBorder from '../../Reusable/ButtonBorder'
 import style from './HeroText.module.css'
 
-const HeroText = (props) => {
+const HeroText: React.FC<IHeroTextProps> = (props) => {
   const { heroTextTranslation } = props
   const {
     translateHey,
@@ -14,15 +15,15 @@ const HeroText = (props) => {
     textsArray,
     translateBtn,
   } = heroTextTranslation
-  const texts = textsArray
+  const texts: string[] = textsArray
 
-  const [currentTextIndex, setCurrentTextIndex] = useState(0)
-  const [displayedText, setDisplayedText] = useState('')
-  const [isDeleting, setIsDeleting] = useState(false)
+  const [currentTextIndex, setCurrentTextIndex] = useState<number>(0)
+  const [displayedText, setDisplayedText] = useState<string>('')
+  const [isDeleting, setIsDeleting] = useState<boolean>(false)
 
   useEffect(() => {
-    const currentText = texts[currentTextIndex]
-    let timeout
+    const currentText: string = texts[currentTextIndex]
+    let timeout: NodeJS.Timeout
 
     if (!isDeleting) {
       if (displayedText.length < currentText.length) {
@@ -45,7 +46,7 @@ const HeroText = (props) => {
     }
 
     return () => clearTimeout(timeout)
-  }, [displayedText, isDeleting, currentTextIndex])
+  }, [displayedText, isDeleting, currentTextIndex, texts])
 
   return (
     <div className={style.heroTextContainer}>

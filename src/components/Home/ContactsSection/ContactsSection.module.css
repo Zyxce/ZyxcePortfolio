@@ -53,9 +53,30 @@
   width: 44px;
   bottom: -15%;
   right: -70%;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .linesFigure1 {
   position: absolute;
   top: -30%;
   left: -130%;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
+}
+
+@keyframes springBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    animation-timing-function: ease-out;
+  }
+  20% {
+    transform: translateY(var(--spring-height)) scale(1.1, 0.9);
+    animation-timing-function: ease-in;
+  }
+  40% {
+    transform: translateY(0) scale(0.95, var(--squash-factor));
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(calc(var(--spring-height) * 0.7)) scale(1.05, 0.95);
+    animation-timing-function: ease-in;
+  }
 }/*# sourceMappingURL=ContactsSection.module.css.map */

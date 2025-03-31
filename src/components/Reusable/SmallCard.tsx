@@ -1,7 +1,8 @@
 import React from 'react'
+import { ISmallCard } from '../../types'
 import style from './SmallCard.module.css'
 
-const SmallCard = (props) => {
+const SmallCard: React.FC<ISmallCard> = (props) => {
   const { header, skills } = props
   return (
     <div className={style.cardContainer}>

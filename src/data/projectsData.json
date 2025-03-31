@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "projectImage": "CryptoScan",
+    "projectName": "CryptoScan",
+    "projectStack": "HTML CSS SASS JavaScript TypeScript React Node.js Express.js News|Crypto API",
+    "projectDescription": "t('projects.cryptoscan')",
+    "buttons": [
+      {
+        "text": "Live <~>",
+        "color": "primary",
+        "url": "https://zyxce.github.io/CryptoScan/"
+      },
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/CryptoScan"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "projectImage": "CosmoJump",
+    "projectName": "CosmoJump",
+    "projectStack": "C# Unity3D AdobeIllustrator",
+    "projectDescription": "t('projects.cosmojump')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "projectImage": "PrintTest",
+    "projectName": "PrintTest",
+    "projectStack": "HTML CSS SASS TypeScript React",
+    "projectDescription": "t('projects.printTest')",
+    "buttons": [
+      {
+        "text": "Live <~>",
+        "color": "primary",
+        "url": "https://zyxce.github.io/PrintTest-App/"
+      },
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/PrintTest-App"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "projectImage": "Zyxce",
+    "projectName": "Zyxce",
+    "projectStack": "HTML CSS SASS JavaScript TypeScript React",
+    "projectDescription": "t('projects.zyxce')",
+    "buttons": [
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/ZyxcePortfolio"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "projectImage": "Wpolitika",
+    "projectName": "Wpolitika",
+    "projectStack": "WordPress PHP",
+    "projectDescription": "t('projects.wpolitika')",
+    "buttons": [
+      {
+        "text": "Live <~>",
+        "color": "primary",
+        "url": "https://wpolitika.com/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "projectImage": "Blanko",
+    "projectName": "Blanko",
+    "projectStack": "HTML HAML CSS SASS JavaScript",
+    "projectDescription": "t('projects.blanko')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "projectImage": "Simple",
+    "projectName": "Simple",
+    "projectStack": "HTML HAML CSS SASS JavaScript",
+    "projectDescription": "t('projects.simple')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "projectImage": "Aperture",
+    "projectName": "Aperture",
+    "projectStack": "HTML HAML CSS SASS JavaScript",
+    "projectDescription": "t('projects.aperture')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "projectImage": "FromBoard",
+    "projectName": "FromBoard",
+    "projectStack": "HTML CSS SASS JavaScript React",
+    "projectDescription": "t('projects.fromboard')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "projectImage": null,
+    "projectName": "YahtClub",
+    "projectStack": "HTML CSS JavaScript",
+    "projectDescription": "t('projects.yaht')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "projectImage": null,
+    "projectName": "Collection",
+    "projectStack": "HTML CSS JavaScript",
+    "projectDescription": "t('projects.collection')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "projectImage": null,
+    "projectName": "Evklid",
+    "projectStack": "HTML CSS",
+    "projectDescription": "t('projects.evklid')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "projectImage": null,
+    "projectName": "RoboSchool",
+    "projectStack": "HTML CSS",
+    "projectDescription": "t('projects.roboschool')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "projectImage": null,
+    "projectName": "Lionic",
+    "projectStack": "HTML CSS JavaScript",
+    "projectDescription": "t('projects.lionic')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "projectImage": null,
+    "projectName": "Pioner",
+    "projectStack": "HTML CSS JavaScript",
+    "projectDescription": "t('projects.pioner')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  }
+]

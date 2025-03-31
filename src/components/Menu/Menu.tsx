@@ -6,7 +6,7 @@ import Logo from '../Reusable/Logo'
 import LanguageSelector from './LanguageSelector'
 import SidePanel from './SidePanel'
 
-const Menu = () => {
+const Menu: React.FC = () => {
   const { t } = useTranslation()
 
   return (

@@ -1,6 +1,24 @@
 
+$gray: #ABB2BF
+$background: #282C33
+$primary: #27DEBF
+$white: #fff
 .mainContainer
     display: flex
     flex-direction: column
+    .mainMenu
+        position: sticky
+        top: 0
+        z-index: 10
+        &::before
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            background: rgba($background, 0.7)
+            backdrop-filter: blur(10px)
+            z-index: -1
     .mainContent
     .mainFooter

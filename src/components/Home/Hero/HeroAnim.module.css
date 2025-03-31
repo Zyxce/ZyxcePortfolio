@@ -3,18 +3,23 @@
   height: 500px;
   margin: 50px 0;
   position: relative;
+  --spring-duration: 4s;
+  --spring-height: -40px;
+  --squash-factor: 1.1;
 }
 .animContainer .animLinesFigure {
   position: absolute;
   top: 60%;
-  left: -15%;
+  left: -25%;
   transform: translate(-50%, -50%);
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .animContainer .animSquareDots {
   position: absolute;
   top: 10%;
   right: -15%;
   transform: translate(-50%, -50%);
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .animContainer .animHeroDeveloper {
   width: 87.5%;
@@ -95,7 +100,8 @@
   top: 83%;
   width: 95%;
   padding: 10px;
-  animation: slideInText 2s ease-out;
+  animation: slideInText 2s ease-out, borderGlow 3s linear infinite;
+  overflow: hidden;
 }
 .animContainer .animTextContainer .animTextSquare {
   position: absolute;
@@ -200,5 +206,60 @@
     transform: translate(-50%, -50%) translateY(0);
     opacity: 90%;
     width: 25%;
+  }
+}
+@keyframes springBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    animation-timing-function: ease-out;
+  }
+  20% {
+    transform: translateY(var(--spring-height)) scale(1.1, 0.9);
+    animation-timing-function: ease-in;
+  }
+  40% {
+    transform: translateY(0) scale(0.95, var(--squash-factor));
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(calc(var(--spring-height) * 0.7)) scale(1.05, 0.95);
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes borderGlow {
+  0% {
+    border-color: transparent;
+    border-top-color: #27DEBF;
+    border-left-color: #ABB2BF;
+    border-bottom-color: #ABB2BF;
+    border-right-color: #ABB2BF;
+  }
+  25% {
+    border-color: transparent;
+    border-top-color: #ABB2BF;
+    border-left-color: #ABB2BF;
+    border-bottom-color: #ABB2BF;
+    border-right-color: #27DEBF;
+  }
+  50% {
+    border-color: transparent;
+    border-top-color: #ABB2BF;
+    border-left-color: #ABB2BF;
+    border-bottom-color: #27DEBF;
+    border-right-color: #ABB2BF;
+  }
+  75% {
+    border-color: transparent;
+    border-top-color: #ABB2BF;
+    border-left-color: #27DEBF;
+    border-bottom-color: #ABB2BF;
+    border-right-color: #ABB2BF;
+  }
+  100% {
+    border-color: transparent;
+    border-top-color: #27DEBF;
+    border-left-color: #ABB2BF;
+    border-bottom-color: #ABB2BF;
+    border-right-color: #ABB2BF;
   }
 }/*# sourceMappingURL=HeroAnim.module.css.map */

@@ -27,4 +27,18 @@ body {
 
 ::-webkit-scrollbar-corner {
   background: var(--background);
+}
+
+::-moz-selection {
+  background: rgba(39, 222, 192, 0.4588235294);
+  color: white;
+}
+
+::selection {
+  background: rgba(39, 222, 192, 0.4588235294);
+  color: white;
+}
+
+::-moz-selection {
+  background: #27DEBF;
 }/*# sourceMappingURL=index.css.map */

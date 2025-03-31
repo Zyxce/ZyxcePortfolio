@@ -8,7 +8,7 @@ import squareLines from '../../images/squareLines.svg'
 import squareDots from '../../images/squareDots.svg'
 import style from './Home.module.css'
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div className={style.homeContainer}>
       <Hero />

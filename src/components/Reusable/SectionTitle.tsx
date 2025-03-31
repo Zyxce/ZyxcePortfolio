@@ -1,7 +1,8 @@
 import React from 'react'
+import { ISectionTitle } from '../../types'
 import style from './SectionTitle.module.css'
 
-const SectionTitle = (props) => {
+const SectionTitle: React.FC<ISectionTitle> = (props) => {
   const { symbol, children, isLine, lineWidth } = props
   return (
     <div className={style.sectionTitleContainer}>

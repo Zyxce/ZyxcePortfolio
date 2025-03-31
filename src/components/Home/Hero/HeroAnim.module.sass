@@ -8,16 +8,22 @@ $white: #fff
     height: 500px
     margin: 50px 0
     position: relative
+    --spring-duration: 4s
+    --spring-height: -40px
+    --squash-factor: 1.1
+
     .animLinesFigure
         position: absolute
         top: 60%
-        left: -15%
+        left: -25%
         transform: translate(-50%, -50%)
+        animation: springBounce var(--spring-duration) infinite ease-in-out
     .animSquareDots
         position: absolute
         top: 10%
         right: -15%
         transform: translate(-50%, -50%)
+        animation: springBounce var(--spring-duration) infinite ease-in-out
     .animHeroDeveloper
         width: 87.5%
         position: absolute
@@ -94,7 +100,8 @@ $white: #fff
         top: 83%
         width: 95%
         padding: 10px
-        animation: slideInText 2s ease-out
+        animation: slideInText 2s ease-out, borderGlow 3s linear infinite
+        overflow: hidden
         .animTextSquare
             position: absolute
             width: 15px
@@ -178,3 +185,50 @@ $white: #fff
         transform: translate(-50%, -50%) translateY(0)
         opacity: 90%
         width: 25%
+//sringBounce for square
+@keyframes springBounce
+    0%, 100%
+        transform: translateY(0) scale(1)
+        animation-timing-function: ease-out
+    20%
+        transform: translateY(var(--spring-height)) scale(1.1, 0.9)
+        animation-timing-function: ease-in
+    40%
+        transform: translateY(0) scale(0.95, var(--squash-factor))
+        animation-timing-function: ease-out
+    60%
+        transform: translateY(calc(var(--spring-height) * 0.7)) scale(1.05, 0.95)
+        animation-timing-function: ease-in
+//glow for .animTextContainer
+@keyframes borderGlow
+    0%
+        border-color: transparent
+        border-top-color: $primary
+        border-left-color: $gray
+        border-bottom-color: $gray
+        border-right-color: $gray
+    25%
+        border-color: transparent
+        border-top-color: $gray
+        border-left-color: $gray
+        border-bottom-color: $gray
+        border-right-color: $primary
+
+    50%
+        border-color: transparent
+        border-top-color: $gray
+        border-left-color: $gray
+        border-bottom-color: $primary
+        border-right-color: $gray
+    75%
+        border-color: transparent
+        border-top-color: $gray
+        border-left-color: $primary
+        border-bottom-color: $gray
+        border-right-color: $gray
+    100%
+        border-color: transparent
+        border-top-color: $primary
+        border-left-color: $gray
+        border-bottom-color: $gray
+        border-right-color: $gray

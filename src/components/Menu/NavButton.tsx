@@ -1,9 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { INavButton } from '../../types'
 import style from './NavButton.module.css'
 
-const NavButton = (props) => {
+const NavButton: React.FC<INavButton> = (props) => {
   const { text, url } = props
 
   return (

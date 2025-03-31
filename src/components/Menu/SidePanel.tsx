@@ -3,10 +3,10 @@ import { FaGithub, FaTelegram, FaDiscord } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import style from './SidePanel.module.css'
 
-const SidePanel = () => {
-  const [isGit, setIsGit] = useState(false)
-  const [isTelegram, setIsTelegram] = useState(false)
-  const [isDiscord, setIsDiscord] = useState(false)
+const SidePanel: React.FC = () => {
+  const [isGit, setIsGit] = useState<boolean>(false)
+  const [isTelegram, setIsTelegram] = useState<boolean>(false)
+  const [isDiscord, setIsDiscord] = useState<boolean>(false)
 
   return (
     <div className={style.sidePanel}>

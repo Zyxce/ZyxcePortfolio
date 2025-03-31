@@ -13,7 +13,7 @@ import aboutPizzaPlate from '../../images/aboutPizzaPlate.png'
 import squareLines from '../../images/squareLines.svg'
 import squareDots from '../../images/squareDots.svg'
 
-const AboutAnim = () => {
+const AboutAnim: React.FC = () => {
   return (
     <div className={style.animContainer}>
       <img

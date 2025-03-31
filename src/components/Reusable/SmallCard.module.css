@@ -3,6 +3,16 @@
   height: -moz-fit-content;
   height: fit-content;
   max-width: 180px;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background: #282C33;
+}
+.cardContainer:hover {
+  transform: rotate(15deg);
+  border-color: #27DEBF;
+  box-shadow: 0 0 2px rgba(39, 222, 191, 0.3);
+}
+.cardContainer:hover .cardHeader {
+  border-color: #27DEBF;
 }
 .cardContainer .cardHeader {
   color: #fff;

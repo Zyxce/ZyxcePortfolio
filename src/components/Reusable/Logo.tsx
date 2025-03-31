@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { FaCode } from 'react-icons/fa'
 import { motion } from 'framer-motion'
+import { ILogo } from '../../types'
 import style from './Logo.module.css'
 
-const Logo = (props) => {
+const Logo: React.FC<ILogo> = (props) => {
   const { anim, mail } = props
-  const [text, setText] = useState('')
-  const [isError, setIsError] = useState(false)
-  const [isComplete, setIsComplete] = useState(false)
+  const [text, setText] = useState<string>('')
+  const [isError, setIsError] = useState<boolean>(false)
+  const [isComplete, setIsComplete] = useState<boolean>(false)
 
   useEffect(() => {
     const animateText = async () => {
@@ -64,7 +65,8 @@ const Logo = (props) => {
     }
   }, [anim])
 
-  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+  const delay = (ms: number) =>
+    new Promise((resolve) => setTimeout(resolve, ms))
   return (
     <div className={style.logoContainer}>
       <FaCode className={style.logoIcon} size={30} />

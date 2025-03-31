@@ -3,6 +3,7 @@
   align-items: center;
   margin-left: 40px;
   position: relative;
+  z-index: 5;
 }
 .selectorContainer .selectorText {
   color: #ABB2BF;

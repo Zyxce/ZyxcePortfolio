@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import { SlArrowDown, SlArrowUp } from 'react-icons/sl'
 import { useTranslation } from 'react-i18next'
+import { ILanguageArray } from '../../types'
 import style from './LanguageSelector.module.css'
 
-const LanguageSelector = () => {
-  const [isOpen, setIsOpen] = useState(false)
+const LanguageSelector: React.FC = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false)
   const { i18n } = useTranslation()
-  const currentLanguage = i18n.language
+  const currentLanguage: string = i18n.language
 
-  const languageArray = [
+  const languageArray: ILanguageArray[] = [
     {
       label: 'EN',
       field: 'en',

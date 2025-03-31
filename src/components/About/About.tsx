@@ -1,5 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import skillsData from '../../data/skillsData.json'
+import { ISmallCard } from '../../types'
 import style from './About.module.css'
 import SectionTitle from '../Reusable/SectionTitle'
 import AboutAnim from '../Reusable/AboutAnim'
@@ -7,32 +9,11 @@ import SmallCard from '../Reusable/SmallCard'
 import squareLines from '../../images/squareLines.svg'
 import squareDots from '../../images/squareDots.svg'
 
-const About = () => {
+const About: React.FC = () => {
   const { t } = useTranslation()
-  const skillsArray = [
-    {
-      header: t('skills.tools'),
-      skills: 'VSCode Figma Git VisualStudio AdobeIllustrator AdobePhotoshop',
-    },
-    {
-      header: t('skills.languages'),
-      skills: 'JavaScript C# TypeScript Python',
-    },
-    {
-      header: t('skills.engines'),
-      skills: 'Unity 3D',
-    },
-    {
-      header: t('skills.other'),
-      skills: 'HTML HAML CSS SASS/SCSS',
-    },
-    {
-      header: t('skills.frameworks'),
-      skills: 'React',
-    },
-  ]
+  const skillsArray: ISmallCard[] = skillsData
 
-  const factsArray = [
+  const factsArray: string[] = [
     t('about.ilikespring'),
     t('about.ilikepizza'),
     t('about.myfavoritemovie'),

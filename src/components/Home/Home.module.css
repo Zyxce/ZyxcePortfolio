@@ -6,33 +6,58 @@
   position: absolute;
   bottom: 8%;
   right: -2%;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .homeContainer .squareLines2 {
   position: absolute;
   bottom: -70%;
   right: -2%;
   width: 128px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .homeContainer .squareLines3 {
   position: absolute;
   bottom: -170%;
   left: -2%;
   width: 128px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .homeContainer .squareDots1 {
   position: absolute;
   bottom: -20%;
   left: -2%;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .homeContainer .squareDots2 {
   position: absolute;
   bottom: -190%;
   right: -1%;
   width: 94px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .homeContainer .squareDots3 {
   position: absolute;
   bottom: -220%;
   left: -1%;
   width: 64px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
+}
+
+@keyframes springBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    animation-timing-function: ease-out;
+  }
+  20% {
+    transform: translateY(var(--spring-height)) scale(1.1, 0.9);
+    animation-timing-function: ease-in;
+  }
+  40% {
+    transform: translateY(0) scale(0.95, var(--squash-factor));
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(calc(var(--spring-height) * 0.7)) scale(1.05, 0.95);
+    animation-timing-function: ease-in;
+  }
 }/*# sourceMappingURL=Home.module.css.map */

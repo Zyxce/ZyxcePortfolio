@@ -1,8 +1,9 @@
 import React from 'react'
+import { IBigCard } from '../../types'
 import style from './BigCard.module.css'
-import ButtonBorder from '../Reusable/ButtonBorder'
+import ButtonBorder from './ButtonBorder'
 
-const BigCard = (props) => {
+const BigCard: React.FC<IBigCard> = (props) => {
   const {
     projectImage,
     projectName,

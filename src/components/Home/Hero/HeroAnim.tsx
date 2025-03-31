@@ -1,4 +1,5 @@
 import React from 'react'
+import { IHeroAnim } from '../../../types'
 import style from './HeroAnim.module.css'
 import HeroTableBig from '../../../images/HeroTableBig.png'
 import HeroTableSmall from '../../../images/HeroTableSmall.png'
@@ -10,7 +11,7 @@ import HeroDeveloper from '../../../images/HeroDeveloper.png'
 import linesFigure from '../../../images/linesFigure.svg'
 import squareDots from '../../../images/squareDots.svg'
 
-const HeroAnim = (props) => {
+const HeroAnim: React.FC<IHeroAnim> = (props) => {
   const { paragraphText, spanText } = props
   return (
     <div className={style.animContainer}>

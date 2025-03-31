@@ -4,7 +4,7 @@ import style from './Footer.module.css'
 import Logo from '../Reusable/Logo'
 import Media from './Media'
 
-const Footer = () => {
+const Footer: React.FC = () => {
   const { t } = useTranslation()
   return (
     <div className={style.footerContainer}>

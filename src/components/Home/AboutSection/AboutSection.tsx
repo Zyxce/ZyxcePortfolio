@@ -5,7 +5,7 @@ import SectionTitle from '../../Reusable/SectionTitle'
 import AboutAnim from '../../Reusable/AboutAnim'
 import ButtonBorder from '../../Reusable/ButtonBorder'
 
-const AboutSection = () => {
+const AboutSection: React.FC = () => {
   const { t } = useTranslation()
   return (
     <div className={style.aboutContainer}>

@@ -1,12 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
+import { NavigateFunction, useNavigate } from 'react-router-dom'
+import { IButtonBorder } from '../../types'
 import style from './ButtonBorder.module.css'
 
-const ButtonBorder = (props) => {
+const ButtonBorder: React.FC<IButtonBorder> = (props) => {
   const { text, classStyle, color, navigate, url } = props
 
-  const n = useNavigate()
+  const n: NavigateFunction = useNavigate()
 
   if (color === 'gray') {
     return url ? (

@@ -60,26 +60,50 @@
   right: -3%;
   top: 10%;
   width: 128px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .aboutContainer .squareLines2 {
   position: absolute;
   right: -3%;
   top: 70%;
   width: 112px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .aboutContainer .squareDots1 {
   position: absolute;
   left: -1%;
   top: 30%;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .aboutContainer .squareDots2 {
   position: absolute;
   left: -1%;
   top: 90%;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
 }
 .aboutContainer .squareDots3 {
   position: absolute;
   right: 3%;
   top: 40%;
   width: 96px;
+  animation: springBounce var(--spring-duration) infinite ease-in-out;
+}
+
+@keyframes springBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    animation-timing-function: ease-out;
+  }
+  20% {
+    transform: translateY(var(--spring-height)) scale(1.1, 0.9);
+    animation-timing-function: ease-in;
+  }
+  40% {
+    transform: translateY(0) scale(0.95, var(--squash-factor));
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(calc(var(--spring-height) * 0.7)) scale(1.05, 0.95);
+    animation-timing-function: ease-in;
+  }
 }/*# sourceMappingURL=About.module.css.map */

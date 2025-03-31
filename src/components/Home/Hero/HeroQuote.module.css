@@ -16,22 +16,65 @@
   margin: 0 auto;
   margin-top: 50px;
   animation: slideInFromBottom 1.5s ease-out 0s forwards;
+  transition: transform 0.3s ease;
 }
 .heroQuoteContainer .heroQuoteTop {
+  position: relative;
+  z-index: 1;
+}
+.heroQuoteContainer .heroQuoteTop:hover .michelangeloImg {
+  transform: translateY(-130px);
+}
+.heroQuoteContainer .heroQuoteTop:hover .pizzaBoxloImg {
+  transform: translateY(-90px);
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteMichelangeContainer {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 20%;
+  top: -150px;
+  z-index: -1;
+  overflow: hidden;
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteMichelangeContainer .michelangeloImg {
+  position: absolute;
+  width: 200px;
+  left: 20px;
+  top: 130px;
+  transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.heroQuoteContainer .heroQuoteTop .heroQuotePizzaBoxContainer {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top: -150px;
+  left: 50%;
+  z-index: -1;
+  overflow: hidden;
+}
+.heroQuoteContainer .heroQuoteTop .heroQuotePizzaBoxContainer .pizzaBoxloImg {
+  position: absolute;
+  width: 90px;
+  left: 20px;
+  top: 150px;
+  transition: transform 1.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.heroQuoteContainer .heroQuoteTop .heroQuoteTextContainer {
   border: 1px solid #ABB2BF;
+  z-index: 3;
   display: inline-flex;
   width: auto;
   max-width: -moz-fit-content;
   max-width: fit-content;
   padding: 32px;
-  position: relative;
 }
-.heroQuoteContainer .heroQuoteTop .heroQuoteHeader {
+.heroQuoteContainer .heroQuoteTop .heroQuoteTextContainer .heroQuoteHeader {
   color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
 }
-.heroQuoteContainer .heroQuoteTop .heroQuoteCircle {
+.heroQuoteContainer .heroQuoteTop .heroQuoteTextContainer .heroQuoteCircle {
   position: absolute;
   top: -20px;
   left: 20px;
@@ -40,13 +83,13 @@
   border-radius: 50%;
   background-color: #282C33;
 }
-.heroQuoteContainer .heroQuoteTop .heroQuoteCircle p {
+.heroQuoteContainer .heroQuoteTop .heroQuoteTextContainer .heroQuoteCircle p {
   margin-top: 20px;
   color: #ABB2BF;
   font-size: 3rem;
   line-height: 2rem;
 }
-.heroQuoteContainer .heroQuoteTop .heroQuoteCircle:last-child {
+.heroQuoteContainer .heroQuoteTop .heroQuoteTextContainer .heroQuoteCircle:last-child {
   top: 68px;
   left: 90%;
   bottom: 0px;

@@ -1,13 +1,14 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import { IHeroTextTranslation } from '../../../types'
 import HeroAnim from './HeroAnim'
 import HeroText from './HeroText'
 import HeroQuote from './HeroQuote'
 import style from './Hero.module.css'
 
-const Hero = () => {
+const Hero: React.FC = () => {
   const { t } = useTranslation()
-  const heroTextTranslation = {
+  const heroTextTranslation: IHeroTextTranslation = {
     translateHey: t('hero.hey'),
     translateIm: t('hero.im'),
     translateName: t('hero.name'),

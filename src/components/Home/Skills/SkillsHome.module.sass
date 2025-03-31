@@ -22,20 +22,39 @@
                 position: absolute
                 top: 15%
                 left: 0
+                animation: springBounce var(--spring-duration) infinite ease-in-out
             .skillsHomeFigure:nth-child(2)
                 position: absolute
                 bottom: 30%
                 right: 36%
+                animation: springBounce var(--spring-duration) infinite ease-in-out
             .skillsHomeFigure:nth-child(3)
                 position: absolute
                 top: 0
                 right: 5%
+                animation: springBounce var(--spring-duration) infinite ease-in-out
             .skillsHomeFigure:nth-child(4)
                 position: absolute
                 width: 56px
                 bottom: 0
                 right: 0
+                animation: springBounce var(--spring-duration) infinite ease-in-out
             .skillsHomeFigure:nth-child(5)
                 position: absolute
                 bottom: 0
                 left: 5%
+                animation: springBounce var(--spring-duration) infinite ease-in-out
+
+@keyframes springBounce
+    0%, 100%
+        transform: translateY(0) scale(1)
+        animation-timing-function: ease-out
+    20%
+        transform: translateY(var(--spring-height)) scale(1.1, 0.9)
+        animation-timing-function: ease-in
+    40%
+        transform: translateY(0) scale(0.95, var(--squash-factor))
+        animation-timing-function: ease-out
+    60%
+        transform: translateY(calc(var(--spring-height) * 0.7)) scale(1.05, 0.95)
+        animation-timing-function: ease-in

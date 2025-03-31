@@ -6,11 +6,13 @@ import style from './MainLayout.module.css'
 const MainLayout = () => {
   return (
     <div className={style.mainContainer}>
-      <Menu />
+      <div className={style.mainMenu}>
+        <Menu />
+      </div>
       <div className={style.mainContent}>
         <Outlet />
       </div>
-      <Footer className={style.mainFooter} />
+      <Footer />
     </div>
   )
 }

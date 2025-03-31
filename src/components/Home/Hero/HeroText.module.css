@@ -10,6 +10,8 @@
   flex-direction: column;
   text-align: center;
   gap: 15px;
+  position: relative;
+  height: 80px;
 }
 .heroTextContainer .heroTextHeaderContainer .heroText {
   color: #fff;
@@ -23,7 +25,9 @@
   width: 35px;
 }
 .heroTextContainer .heroTextHeaderContainer .heroTextAnimateContainer {
+  position: absolute;
   height: 35px;
+  bottom: -10px;
 }
 .heroTextContainer .heroTextHeaderContainer .heroTextAnimateContainer .highlightedText {
   color: #27DEBF;
