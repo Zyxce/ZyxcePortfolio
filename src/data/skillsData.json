@@ -1,22 +1,22 @@
 [
   {
-    "header": "Tools",
+    "header": "t('skills.tools')",
     "skills": "VSCode Figma Git VisualStudio AdobeIllustrator AdobePhotoshop"
   },
   {
-    "header": "Languages",
+    "header": "t('skills.languages')",
     "skills": "JavaScript C# TypeScript Python"
   },
   {
-    "header": "Engines",
+    "header": "t('skills.engines')",
     "skills": "Unity 3D"
   },
   {
-    "header": "Other",
+    "header": "t('skills.other')",
     "skills": "HTML HAML CSS SASS/SCSS"
   },
   {
-    "header": "Frameworks",
+    "header": "t('skills.frameworks')",
     "skills": "React"
   }
 ]

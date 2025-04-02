@@ -11,7 +11,10 @@ import style from './SkillsHome.module.css'
 
 const SkillsHome: React.FC = () => {
   const { t } = useTranslation()
-  const skillsArray: ISmallCard[] = skillsData.reverse()
+  const skillsArray: ISmallCard[] = skillsData.reverse().map((item) => ({
+    ...item,
+    header: t(item.header.replace("t('", '').replace("')", '')),
+  }))
   return (
     <div className={style.skillsHomeContainer}>
       <SectionTitle symbol={'#'} isLine={true} lineWidth={'18vw'}>

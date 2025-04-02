@@ -11,16 +11,21 @@ import squareDots from '../../images/squareDots.svg'
 
 const About: React.FC = () => {
   const { t } = useTranslation()
-  const skillsArray: ISmallCard[] = skillsData
+  const skillsArray: ISmallCard[] = skillsData.reverse().map((item) => ({
+    ...item,
+    header: t(item.header.replace("t('", '').replace("')", '')),
+  }))
 
   const factsArray: string[] = [
     t('about.ilikespring'),
     t('about.ilikepizza'),
     t('about.myfavoritemovie'),
     t('about.imstilluniversity'),
+    t('about.sleepdeprived'),
     t('about.playcs'),
-    t('about.iwasinarmy'),
+    t('about.dancebadly'),
     t('about.ilikecars'),
+    t('about.eternalsunset'),
   ]
 
   return (

@@ -1,0 +1,31 @@
+.attentionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 30px;
+}
+.attentionContainer .attentionImg {
+  width: 50%;
+  max-width: 520px;
+  min-width: 250px;
+}
+.attentionContainer .attentionContentContainer {
+  margin-top: 20px;
+  max-width: 520px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.attentionContainer .attentionContentContainer .attentionTitle {
+  margin: 0 auto;
+  color: #27DEBF;
+}
+.attentionContainer .attentionContentContainer .attentionText {
+  margin-top: 15px;
+  color: #ABB2BF;
+}
+.attentionContainer .attentionContentContainer .attentionText span {
+  color: #fff;
+}/*# sourceMappingURL=AttentionLayout.module.css.map */
