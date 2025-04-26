@@ -14,15 +14,16 @@ import PrintTest from '../../images/PrintTest.jpg'
 import Simple from '../../images/Simple.png'
 import Wpolitika from '../../images/Wpolitika.png'
 import Zyxce from '../../images/Zyxce.png'
+import Nexora from '../../images/Nexora.jpg'
 import squareLines from '../../images/squareLines.svg'
 import squareDots from '../../images/squareDots.svg'
+import YahtClub from '../../images/YahtClub.png'
 
 // import Lionic from '../../images/Lionic.png'
 // import Pioner from '../../images/Pioner.png'
 // import RoboSchool from '../../images/RoboSchool.png'
 // import Collection from '../../images/Collection.png'
 // import Evklid from '../../images/Evklid.png'
-// import YahtClub from '../../images/YahtClub.png'
 
 const Projects: React.FC = () => {
   const { t } = useTranslation()
@@ -37,6 +38,8 @@ const Projects: React.FC = () => {
     Simple: Simple,
     Aperture: Aperture,
     FromBoard: FromBoard,
+    Nexora: Nexora,
+    YahtClub: YahtClub,
   }
 
   const cardsArray: IProjectData[] = projectsData.map((item) => ({
@@ -64,7 +67,7 @@ const Projects: React.FC = () => {
           {t('projects.completeaps')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {cardsArray.slice(0, 9).map((card) => (
+          {cardsArray.slice(0, 11).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>
@@ -74,7 +77,7 @@ const Projects: React.FC = () => {
           {t('projects.smallprojects')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {cardsArray.slice(9, 15).map((card) => (
+          {cardsArray.slice(11, 16).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>
