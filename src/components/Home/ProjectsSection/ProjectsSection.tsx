@@ -7,6 +7,7 @@ import SectionTitle from '../../Reusable/SectionTitle'
 import BigCard from '../../Reusable/BigCard'
 import CryptoScan from '../../../images/CryptoScan.png'
 import CosmoJump from '../../../images/CosmoJump.jpg'
+import WeatherNow from '../../../images/WeatherNow.png'
 import PrintTest from '../../../images/PrintTest.jpg'
 import style from './ProjectsSection.module.css'
 
@@ -16,7 +17,7 @@ const PorjectsSection: React.FC = () => {
 
   const imagesMap: Record<string, string> = {
     CryptoScan: CryptoScan,
-    CosmoJump: CosmoJump,
+    WeatherNow: WeatherNow,
     PrintTest: PrintTest,
   }
 

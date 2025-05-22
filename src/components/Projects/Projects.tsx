@@ -18,6 +18,7 @@ import Nexora from '../../images/Nexora.jpg'
 import squareLines from '../../images/squareLines.svg'
 import squareDots from '../../images/squareDots.svg'
 import YahtClub from '../../images/YahtClub.png'
+import WeatherNow from '../../images/WeatherNow.png'
 
 // import Lionic from '../../images/Lionic.png'
 // import Pioner from '../../images/Pioner.png'
@@ -40,6 +41,7 @@ const Projects: React.FC = () => {
     FromBoard: FromBoard,
     Nexora: Nexora,
     YahtClub: YahtClub,
+    WeatherNow: WeatherNow,
   }
 
   const cardsArray: IProjectData[] = projectsData.map((item) => ({

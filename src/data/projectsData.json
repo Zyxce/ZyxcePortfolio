@@ -20,14 +20,20 @@
   },
   {
     "id": 2,
-    "projectImage": "CosmoJump",
-    "projectName": "CosmoJump",
-    "projectStack": "C# Unity3D AdobeIllustrator",
-    "projectDescription": "t('projects.cosmojump')",
+    "projectImage": "WeatherNow",
+    "projectName": "WeatherNow",
+    "projectStack": "HTML CSS SASS TypeScript React OpenWeather | OpenMeteo API",
+    "projectDescription": "t('projects.weathernow')",
     "buttons": [
       {
-        "text": "Cached >=",
-        "color": "gray"
+        "text": "Live <~>",
+        "color": "primary",
+        "url": "https://zyxce.github.io/WeatherNow/"
+      },
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/WeatherNow"
       }
     ]
   },
@@ -164,6 +170,19 @@
   },
   {
     "id": 12,
+    "projectImage": "CosmoJump",
+    "projectName": "CosmoJump",
+    "projectStack": "C# Unity3D AdobeIllustrator",
+    "projectDescription": "t('projects.cosmojump')",
+    "buttons": [
+      {
+        "text": "Cached >=",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 13,
     "projectImage": "Masked Headline ",
     "projectName": "Masked Headline ",
     "projectStack": "HTML CSS",
@@ -172,17 +191,17 @@
       {
         "text": "Live <~>",
         "color": "primary",
-        "url": "https://github.com/Zyxce/MST2"
+        "url": "https://zyxce.github.io/MST2/"
       },
       {
         "text": "GitHub >=",
         "color": "gray",
-        "url": "https://zyxce.github.io/MST2/"
+        "url": "https://github.com/Zyxce/MST2"
       }
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "projectImage": null,
     "projectName": "Collection",
     "projectStack": "HTML CSS JavaScript",
@@ -195,7 +214,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "projectImage": null,
     "projectName": "Evklid",
     "projectStack": "HTML CSS",
@@ -208,7 +227,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "projectImage": null,
     "projectName": "RoboSchool",
     "projectStack": "HTML CSS",
@@ -221,7 +240,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "projectImage": null,
     "projectName": "Lionic",
     "projectStack": "HTML CSS JavaScript",
@@ -234,7 +253,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "projectImage": null,
     "projectName": "Pioner",
     "projectStack": "HTML CSS JavaScript",

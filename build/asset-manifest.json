@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/ZyxcePortfolio/static/css/main.60c5fae3.css",
-    "main.js": "/ZyxcePortfolio/static/js/main.d28b32ba.js",
+    "main.js": "/ZyxcePortfolio/static/js/main.ae54d691.js",
     "static/media/Aperture.png": "/ZyxcePortfolio/static/media/Aperture.36cfe34cd785de805f44.png",
     "static/media/CryptoScan.png": "/ZyxcePortfolio/static/media/CryptoScan.94a776fa22a07181f15c.png",
+    "static/media/YahtClub.png": "/ZyxcePortfolio/static/media/YahtClub.7d41b835660f340374c8.png",
     "static/media/Wpolitika.png": "/ZyxcePortfolio/static/media/Wpolitika.42911ef10bd5ccaa6467.png",
     "static/media/FromBoard.png": "/ZyxcePortfolio/static/media/FromBoard.9a2153c0a3cd422ac465.png",
     "static/media/Simple.png": "/ZyxcePortfolio/static/media/Simple.0613be06e092be52d280.png",
@@ -12,6 +13,7 @@
     "static/media/HeroDeveloper.png": "/ZyxcePortfolio/static/media/HeroDeveloper.98932ec4dc65481a170b.png",
     "static/media/Blanko.png": "/ZyxcePortfolio/static/media/Blanko.2c8fc13ae9a7fd82a03e.png",
     "static/media/Zyxce.png": "/ZyxcePortfolio/static/media/Zyxce.aca3da8e0978cf471cd8.png",
+    "static/media/Nexora.jpg": "/ZyxcePortfolio/static/media/Nexora.2bf4678829e7cf2681b9.jpg",
     "static/media/pizzaBox.png": "/ZyxcePortfolio/static/media/pizzaBox.91995374323927913b4f.png",
     "static/media/aboutGamer.png": "/ZyxcePortfolio/static/media/aboutGamer.f002652e7c5dc3357b74.png",
     "static/media/attention.png": "/ZyxcePortfolio/static/media/attention.6ebc510b916dad6d52b0.png",
@@ -27,10 +29,10 @@
     "index.html": "/ZyxcePortfolio/index.html",
     "static/media/squareLines.svg": "/ZyxcePortfolio/static/media/squareLines.5ded3b65d7f216c31b67008e185503f3.svg",
     "main.60c5fae3.css.map": "/ZyxcePortfolio/static/css/main.60c5fae3.css.map",
-    "main.d28b32ba.js.map": "/ZyxcePortfolio/static/js/main.d28b32ba.js.map"
+    "main.ae54d691.js.map": "/ZyxcePortfolio/static/js/main.ae54d691.js.map"
   },
   "entrypoints": [
     "static/css/main.60c5fae3.css",
-    "static/js/main.d28b32ba.js"
+    "static/js/main.ae54d691.js"
   ]
 }
