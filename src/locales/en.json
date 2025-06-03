@@ -35,6 +35,7 @@
     "cryptoscan": "Crypto tracker with price analysis for 1000+ coins",
     "cosmojump": "Endless climbing game",
     "blanko": "Minimalist modern website",
+    "vkcrm": "SPA test project for VK: manage employee records with infinite scroll, modals, adaptive form fields, and a responsive data table",
     "weathernow": "SPA with Mobile-First approach, tracks the weather and lunar cycles at all points of the world",
     "zyxce": "You’re here right now :)",
     "simple": "Simple landing page",
@@ -53,7 +54,11 @@
   "skills": {
     "skills": "skills",
     "languages": "Languages",
-    "engines": "Game Engines",
+    "gameEngines": "Game Engines",
+    "libraries": "Libraries",
+    "stateManagement": "State",
+    "testing": "Testing",
+    "validation": "Validation",
     "tools": "Tools",
     "other": "Other",
     "frameworks": "Frameworks"

@@ -14,6 +14,7 @@ const About: React.FC = () => {
   const skillsArray: ISmallCard[] = skillsData.reverse().map((item) => ({
     ...item,
     header: t(item.header.replace("t('", '').replace("')", '')),
+    skills: item.skills.join(', '),
   }))
 
   const factsArray: string[] = [

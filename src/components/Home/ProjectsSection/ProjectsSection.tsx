@@ -6,9 +6,8 @@ import projectsData from '../../../data/projectsData.json'
 import SectionTitle from '../../Reusable/SectionTitle'
 import BigCard from '../../Reusable/BigCard'
 import CryptoScan from '../../../images/CryptoScan.png'
-import CosmoJump from '../../../images/CosmoJump.jpg'
+import vkcrm from '../../../images/VKCRM.png'
 import WeatherNow from '../../../images/WeatherNow.png'
-import PrintTest from '../../../images/PrintTest.jpg'
 import style from './ProjectsSection.module.css'
 
 const PorjectsSection: React.FC = () => {
@@ -18,7 +17,7 @@ const PorjectsSection: React.FC = () => {
   const imagesMap: Record<string, string> = {
     CryptoScan: CryptoScan,
     WeatherNow: WeatherNow,
-    PrintTest: PrintTest,
+    VKCRM: vkcrm,
   }
 
   const cardsArray: IProjectData[] = projectsData.map((item) => ({

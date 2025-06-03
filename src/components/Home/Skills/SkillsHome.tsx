@@ -14,6 +14,7 @@ const SkillsHome: React.FC = () => {
   const skillsArray: ISmallCard[] = skillsData.reverse().map((item) => ({
     ...item,
     header: t(item.header.replace("t('", '').replace("')", '')),
+    skills: item.skills.join(', '),
   }))
   return (
     <div className={style.skillsHomeContainer}>

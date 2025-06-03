@@ -1,22 +1,41 @@
 [
   {
+    "header": "t('skills.gameEngines')",
+    "skills": ["Unity 3D"]
+  },
+  {
     "header": "t('skills.tools')",
-    "skills": "VSCode Figma Git VisualStudio AdobeIllustrator AdobePhotoshop"
+    "skills": [
+      "VSCode",
+      "Figma",
+      "Git",
+      "Visual Studio",
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ]
+  },
+  {
+    "header": "t('skills.libraries')",
+    "skills": ["Swiper.js", "i18next", "Mantine"]
   },
   {
     "header": "t('skills.languages')",
-    "skills": "JavaScript C# TypeScript Python"
-  },
-  {
-    "header": "t('skills.engines')",
-    "skills": "Unity 3D"
-  },
-  {
-    "header": "t('skills.other')",
-    "skills": "HTML HAML CSS SASS/SCSS"
+    "skills": ["JavaScript", "TypeScript", "C#", "Python", "HTML", "SASS/SCSS"]
   },
   {
     "header": "t('skills.frameworks')",
-    "skills": "React"
+    "skills": ["React"]
+  },
+  {
+    "header": "t('skills.stateManagement')",
+    "skills": ["Redux", "Zustand"]
+  },
+  {
+    "header": "t('skills.testing')",
+    "skills": ["Jest", "ReactTL"]
+  },
+  {
+    "header": "t('skills.validation')",
+    "skills": ["Zod", "ReactHookForm"]
   }
 ]

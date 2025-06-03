@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { IBigCard } from '../../types'
 import style from './BigCard.module.css'
 import ButtonBorder from './ButtonBorder'
@@ -12,6 +12,8 @@ const BigCard: React.FC<IBigCard> = (props) => {
     buttons,
   } = props
 
+  const projectStackSmall = projectStack.slice(0, 5).join(' ')
+
   return (
     <div className={style.cardContainer}>
       {projectImage && (
@@ -23,9 +25,11 @@ const BigCard: React.FC<IBigCard> = (props) => {
           ></img>
         </div>
       )}
+
       <p className={style.cardStack} data-cursor="emphasize">
-        {projectStack}
+        {projectStackSmall}
       </p>
+
       <div className={style.cardContentContainer}>
         <h3 className={style.cardName} data-cursor="emphasize">
           {projectName}
