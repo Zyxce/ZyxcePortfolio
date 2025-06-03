@@ -1,6 +1,6 @@
 import React from 'react'
 import { ISmallCard } from '../../types'
-import style from './SmallCard.module.css'
+import style from '../../styles/components/Reusable/SmallCard.module.css'
 
 const SmallCard: React.FC<ISmallCard> = (props) => {
   const { header, skills } = props

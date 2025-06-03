@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './AttentionLayout.module.css'
+import style from '../styles/layouts/AttentionLayout.module.css'
 import attentionImg from '../images/attention.png'
 
 const AttentionLayout: React.FC = () => {

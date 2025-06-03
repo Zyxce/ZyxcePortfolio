@@ -4,10 +4,10 @@ import { ISmallCard } from '../../../types'
 import skillsData from '../../../data/skillsData.json'
 import SectionTitle from '../../Reusable/SectionTitle'
 import SmallCard from '../../Reusable/SmallCard'
-import dotSquare from '../../../images/squareDots.svg'
-import linesFigure from '../../../images/linesFigure.svg'
-import squareLines from '../../../images/squareLines.svg'
-import style from './SkillsHome.module.css'
+import dotSquare from '../../../images/Anim/Bg/squareDots.svg'
+import linesFigure from '../../../images/Anim/Bg//linesFigure.svg'
+import squareLines from '../../../images/Anim/Bg//squareLines.svg'
+import style from '../../../styles/components/Home/Skills/SkillsHome.module.css'
 
 const SkillsHome: React.FC = () => {
   const { t } = useTranslation()

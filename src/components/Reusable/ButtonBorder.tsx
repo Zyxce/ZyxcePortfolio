@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { NavigateFunction, useNavigate } from 'react-router-dom'
 import { IButtonBorder } from '../../types'
-import style from './ButtonBorder.module.css'
+import style from '../../styles/components/Reusable/ButtonBorder.module.css'
 
 const ButtonBorder: React.FC<IButtonBorder> = (props) => {
   const { text, classStyle, color, navigate, url } = props

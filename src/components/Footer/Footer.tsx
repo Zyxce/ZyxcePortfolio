@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import style from './Footer.module.css'
+import style from '../../styles/components/Footer/Footer.module.css'
 import Logo from '../Reusable/Logo'
 import Media from './Media'
 

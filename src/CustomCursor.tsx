@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useLocation } from 'react-router-dom'
-import styleModule from './CustomCursor.module.css'
+import styleModule from './styles/CustomCursor.module.css'
 
 const CustomCursor: React.FC = () => {
   const [cursorType, setCursorType] = useState<string>('')

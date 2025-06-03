@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaCode } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { ILogo } from '../../types'
-import style from './Logo.module.css'
+import style from '../../styles/components/Reusable/Logo.module.css'
 
 const Logo: React.FC<ILogo> = (props) => {
   const { anim, mail } = props

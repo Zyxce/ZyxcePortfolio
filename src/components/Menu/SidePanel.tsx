@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaTelegram, FaDiscord } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useStore } from '../../store/store'
-import style from './SidePanel.module.css'
+import style from '../../styles/components/Menu/SidePanel.module.css'
 
 const SidePanel: React.FC = () => {
   const isGit = useStore((state) => state.isGit)

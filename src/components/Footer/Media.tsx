@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaTelegram, FaDiscord } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { IMedia } from '../../types'
-import style from './Media.module.css'
+import style from '../../styles/components/Footer/Media.module.css'
 
 const Media: React.FC<IMedia> = (props) => {
   const { headerText } = props

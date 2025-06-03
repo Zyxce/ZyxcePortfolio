@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import style from './AboutSection.module.css'
+import style from '../../../styles/components/Home/AboutSection/AboutSection.module.css'
 import SectionTitle from '../../Reusable/SectionTitle'
 import AboutAnim from '../../Reusable/AboutAnim'
 import ButtonBorder from '../../Reusable/ButtonBorder'

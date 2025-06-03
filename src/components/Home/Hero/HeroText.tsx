@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { IHeroTextProps } from '../../../types'
 import Hand from '../../../images/Hand.gif'
 import ButtonBorder from '../../Reusable/ButtonBorder'
-import style from './HeroText.module.css'
+import style from '../../../styles/components/Home/Hero/HeroText.module.css'
 
 const HeroText: React.FC<IHeroTextProps> = (props) => {
   const { heroTextTranslation } = props

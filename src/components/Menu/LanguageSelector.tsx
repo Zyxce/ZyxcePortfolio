@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { SlArrowDown, SlArrowUp } from 'react-icons/sl'
 import { useStore } from '../../store/store'
 import { ILanguageArray } from '../../types'
-import style from './LanguageSelector.module.css'
+import style from '../../styles/components/Menu/Menu.module.css'
 
 const LanguageSelector: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false)

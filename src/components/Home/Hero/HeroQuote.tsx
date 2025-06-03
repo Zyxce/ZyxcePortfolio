@@ -1,6 +1,6 @@
 import React from 'react'
 import { IHeroQuote } from '../../../types'
-import style from './HeroQuote.module.css'
+import style from '../../../styles/components/Home/Hero/HeroQuote.module.css'
 import Michelangelo from '../../../images/Michelangelo.png'
 import pizzaBox from '../../../images/pizzaBox.png'
 

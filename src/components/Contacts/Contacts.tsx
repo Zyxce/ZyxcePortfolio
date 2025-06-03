@@ -1,11 +1,11 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaTelegram, FaDiscord } from 'react-icons/fa'
-import style from './Contacts.module.css'
+import style from '../../styles/components/Contacts/Contacts.module.css'
 import SectionTitle from '../Reusable/SectionTitle'
-import squareLines from '../../images/squareLines.svg'
-import linesFigure from '../../images/linesFigure.svg'
-import squareDots from '../../images/squareDots.svg'
+import squareLines from '../../images/Anim/Bg/squareLines.svg'
+import linesFigure from '../../images/Anim/Bg/linesFigure.svg'
+import squareDots from '../../images/Anim/Bg/squareDots.svg'
 
 const Contacts: React.FC = () => {
   const { t } = useTranslation()

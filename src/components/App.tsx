@@ -1,16 +1,15 @@
 import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { useMediaQuery } from 'react-responsive'
-import { useStore } from './store/store'
-import './default/normalize.css' // НОРМАЛИЗЕ СИ ЭС ЭС
-import './App.css'
-import MainLayout from './layouts/MainLayout'
-import AttentionLayout from './layouts/AttentionLayout'
-import Home from './components/Home/Home'
-import Projects from './components/Projects/Projects'
-import About from './components/About/About'
-import Contacts from './components/Contacts/Contacts'
-import CustomCursor from './CustomCursor'
+import { useStore } from '../store/store'
+import '../styles/components/App.css'
+import MainLayout from '../layouts/MainLayout'
+import AttentionLayout from '../layouts/AttentionLayout'
+import Home from './Home/Home'
+import Projects from './Projects/Projects'
+import About from './About/About'
+import Contacts from './Contacts/Contacts'
+import CustomCursor from '../CustomCursor'
 
 function App() {
   const isTouchDevice = useMediaQuery({ query: '(hover: none)' })

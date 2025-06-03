@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import style from './Menu.module.css'
+import style from '../../styles/components/Menu/Menu.module.css'
 import NavButton from './NavButton'
 import Logo from '../Reusable/Logo'
 import LanguageSelector from './LanguageSelector'

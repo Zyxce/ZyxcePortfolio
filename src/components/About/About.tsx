@@ -2,12 +2,12 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import skillsData from '../../data/skillsData.json'
 import { ISmallCard } from '../../types'
-import style from './About.module.css'
+import style from '../../styles/components/About/About.module.css'
 import SectionTitle from '../Reusable/SectionTitle'
 import AboutAnim from '../Reusable/AboutAnim'
 import SmallCard from '../Reusable/SmallCard'
-import squareLines from '../../images/squareLines.svg'
-import squareDots from '../../images/squareDots.svg'
+import squareLines from '../../images/Anim/Bg/squareLines.svg'
+import squareDots from '../../images/Anim/Bg/squareDots.svg'
 
 const About: React.FC = () => {
   const { t } = useTranslation()

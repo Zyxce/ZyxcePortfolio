@@ -4,9 +4,9 @@ import ProjectsSection from './ProjectsSection/ProjectsSection'
 import AboutSection from './AboutSection/AboutSection'
 import ContactsSection from './ContactsSection/ContactsSection'
 import SkillsHome from './Skills/SkillsHome'
-import squareLines from '../../images/squareLines.svg'
-import squareDots from '../../images/squareDots.svg'
-import style from './Home.module.css'
+import squareLines from '../../images/Anim/Bg/squareLines.svg'
+import squareDots from '../../images/Anim/Bg/squareDots.svg'
+import style from '../../styles/components/Home/Home.module.css'
 
 const Home: React.FC = () => {
   return (

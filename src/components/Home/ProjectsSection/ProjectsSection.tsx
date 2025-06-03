@@ -5,10 +5,10 @@ import { IProjectData } from '../../../types'
 import projectsData from '../../../data/projectsData.json'
 import SectionTitle from '../../Reusable/SectionTitle'
 import BigCard from '../../Reusable/BigCard'
-import CryptoScan from '../../../images/CryptoScan.png'
-import vkcrm from '../../../images/VKCRM.png'
-import WeatherNow from '../../../images/WeatherNow.png'
-import style from './ProjectsSection.module.css'
+import CryptoScan from '../../../images/Projects/CryptoScan.png'
+import vkcrm from '../../../images/Projects/VKCRM.png'
+import WeatherNow from '../../../images/Projects/WeatherNow.png'
+import style from '../../../styles/components/Home/ProjectsSection/ProjectsSection.module.css'
 
 const PorjectsSection: React.FC = () => {
   const { t } = useTranslation()

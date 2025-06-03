@@ -4,7 +4,7 @@ import { IHeroTextTranslation } from '../../../types'
 import HeroAnim from './HeroAnim'
 import HeroText from './HeroText'
 import HeroQuote from './HeroQuote'
-import style from './Hero.module.css'
+import style from '../../../styles/components/Home/Hero/Hero.module.css'
 
 const Hero: React.FC = () => {
   const { t } = useTranslation()

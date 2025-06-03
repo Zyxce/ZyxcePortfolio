@@ -1,6 +1,6 @@
 import React from 'react'
 import { ISectionTitle } from '../../types'
-import style from './SectionTitle.module.css'
+import style from '../../styles/components/Reusable/SectionTitle.module.css'
 
 const SectionTitle: React.FC<ISectionTitle> = (props) => {
   const { symbol, children, isLine, lineWidth } = props

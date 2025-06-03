@@ -2,9 +2,9 @@ import React from 'react'
 import { FaTelegram, FaDiscord } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import SectionTitle from '../../Reusable/SectionTitle'
-import style from './ContactsSection.module.css'
-import squareLines from '../../../images/squareLines.svg'
-import linesFigure from '../../../images/linesFigure.svg'
+import style from '../../../styles/components/Home/ContactsSection/ContactsSection.module.css'
+import squareLines from '../../../images/Anim/Bg/squareLines.svg'
+import linesFigure from '../../../images/Anim/Bg/linesFigure.svg'
 
 const ContactsSection: React.FC = () => {
   const { t } = useTranslation()
