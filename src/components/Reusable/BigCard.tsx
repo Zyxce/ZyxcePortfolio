@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { IBigCard } from '../../types'
-import style from '../../styles/components/Reusable/ButtonBorder.module.css'
+import style from '../../styles/components/Reusable/BigCard.module.css'
 import ButtonBorder from './ButtonBorder'
 
 const BigCard: React.FC<IBigCard> = (props) => {

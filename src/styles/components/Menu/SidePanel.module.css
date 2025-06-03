@@ -21,14 +21,14 @@
 .verticalLine {
   width: 2px;
   height: 200px;
-  background-color: #ABB2BF;
+  background-color: #abb2bf;
   margin-bottom: 20px;
 }
 
 .verticalLineActive {
   width: 2px;
   height: 200px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   position: absolute;
 }
 
@@ -36,7 +36,7 @@
   position: absolute;
   width: 50px;
   height: 2px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   top: 200px;
   left: 21px;
 }
@@ -45,7 +45,7 @@
   position: absolute;
   width: 2px;
   height: 154px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   top: 200px;
   left: 70px;
 }
@@ -54,7 +54,7 @@
   position: absolute;
   width: 2px;
   height: 99px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   top: 200px;
   left: 70px;
 }
@@ -63,7 +63,7 @@
   position: absolute;
   width: 2px;
   height: 220px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   top: 0px;
   left: 20px;
 }
@@ -72,7 +72,7 @@
   position: absolute;
   width: 31px;
   height: 2px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   top: 297px;
   left: 41px;
 }
@@ -81,7 +81,7 @@
   position: absolute;
   width: 31px;
   height: 2px;
-  background-color: #27DEBF;
+  background-color: #27debf;
   top: 353px;
   left: 41px;
 }
@@ -96,24 +96,24 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #282C33;
+  background-color: #282c33;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  border: 1px solid #ABB2BF;
+  border: 1px solid #abb2bf;
 }
 
 .socialLink:hover {
-  background-color: #27DEBF;
-  border: 1px solid #27DEBF;
+  background-color: #27debf;
+  border: 1px solid #27debf;
 }
 
 .socialIcon {
-  color: #ABB2BF;
+  color: #abb2bf;
   font-size: 1.5rem;
 }
 
 .socialLink:hover .socialIcon {
-  color: #282C33;
-}/*# sourceMappingURL=SidePanel.module.css.map */
+  color: #282c33;
+} /*# sourceMappingURL=SidePanel.module.css.map */
