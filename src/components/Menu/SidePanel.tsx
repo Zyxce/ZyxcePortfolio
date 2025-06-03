@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaGithub, FaTelegram, FaDiscord } from 'react-icons/fa'
 import { motion } from 'framer-motion'
+import { useStore } from '../../store/store'
 import style from './SidePanel.module.css'
 
 const SidePanel: React.FC = () => {
-  const [isGit, setIsGit] = useState<boolean>(false)
-  const [isTelegram, setIsTelegram] = useState<boolean>(false)
-  const [isDiscord, setIsDiscord] = useState<boolean>(false)
+  const isGit = useStore((state) => state.isGit)
+  const isTelegram = useStore((state) => state.isTelegram)
+  const isDiscord = useStore((state) => state.isDiscord)
+  const setIsGit = useStore((state) => state.setIsGit)
+  const setIsTelegram = useStore((state) => state.setIsTelegram)
+  const setIsDiscord = useStore((state) => state.setIsDiscord)
 
   return (
     <div className={style.sidePanel}>

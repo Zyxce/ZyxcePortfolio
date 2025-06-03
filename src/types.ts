@@ -1,3 +1,26 @@
+// типы для Zustand ОЧЕНЬ ВАЖНО
+export interface StoreState {
+  //состояния курсора
+  cursorType: string
+  setCursorType: (type: string) => void
+
+  //состояния боковой панели
+  isGit: boolean
+  isTelegram: boolean
+  isDiscord: boolean
+  setIsGit: (value: boolean) => void
+  setIsTelegram: (value: boolean) => void
+  setIsDiscord: (value: boolean) => void
+
+  //состояние i18n
+  currentLanguage: string
+  setLanguage: (lang: string) => void
+
+  //состояние для проектов
+  projects: IProjectData[]
+  setProjects: (projects: IProjectData[]) => void
+}
+
 // типы для компонентов проекты
 export interface IButtonType {
   text: string

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { IProjectData } from '../../types'
+import { useStore } from '../../store/store'
 import projectsData from '../../data/projectsData.json'
 import style from './Projects.module.css'
 import SectionTitle from '../Reusable/SectionTitle'
@@ -20,7 +21,6 @@ import squareDots from '../../images/squareDots.svg'
 import YahtClub from '../../images/YahtClub.png'
 import WeatherNow from '../../images/WeatherNow.png'
 import vkcrm from '../../images/VKCRM.png'
-
 // import Lionic from '../../images/Lionic.png'
 // import Pioner from '../../images/Pioner.png'
 // import RoboSchool from '../../images/RoboSchool.png'
@@ -29,34 +29,42 @@ import vkcrm from '../../images/VKCRM.png'
 
 const Projects: React.FC = () => {
   const { t } = useTranslation()
+  const projects = useStore((state) => state.projects)
+  const setProjects = useStore((state) => state.setProjects)
 
-  const imagesMap: Record<string, string> = {
-    CryptoScan: CryptoScan,
-    CosmoJump: CosmoJump,
-    PrintTest: PrintTest,
-    Zyxce: Zyxce,
-    Wpolitika: Wpolitika,
-    Blanko: Blanko,
-    Simple: Simple,
-    Aperture: Aperture,
-    FromBoard: FromBoard,
-    Nexora: Nexora,
-    YahtClub: YahtClub,
-    WeatherNow: WeatherNow,
-    VKCRM: vkcrm,
-  }
+  useEffect(() => {
+    if (projects.length === 0) {
+      const imagesMap: Record<string, string> = {
+        CryptoScan: CryptoScan,
+        CosmoJump: CosmoJump,
+        PrintTest: PrintTest,
+        Zyxce: Zyxce,
+        Wpolitika: Wpolitika,
+        Blanko: Blanko,
+        Simple: Simple,
+        Aperture: Aperture,
+        FromBoard: FromBoard,
+        Nexora: Nexora,
+        YahtClub: YahtClub,
+        WeatherNow: WeatherNow,
+        VKCRM: vkcrm,
+      }
 
-  const cardsArray: IProjectData[] = projectsData.map((item) => ({
-    ...item,
-    projectImage: item.projectImage ? imagesMap[item.projectImage] : null,
-    projectDescription: t(
-      item.projectDescription.replace("t('", '').replace("')", '')
-    ),
-    buttons: item.buttons.map((button) => ({
-      ...button,
-      color: button.color as 'primary' | 'gray', // явное приведение типа не удалять
-    })),
-  }))
+      const cardsArray: IProjectData[] = projectsData.map((item) => ({
+        ...item,
+        projectImage: item.projectImage ? imagesMap[item.projectImage] : null,
+        projectDescription: t(
+          item.projectDescription.replace("t('", '').replace("')", '')
+        ),
+        buttons: item.buttons.map((button) => ({
+          ...button,
+          color: button.color as 'primary' | 'gray',
+        })),
+      }))
+
+      setProjects(cardsArray)
+    }
+  }, [t, projects.length, setProjects])
 
   return (
     <div className={style.projectsContainer}>
@@ -71,7 +79,7 @@ const Projects: React.FC = () => {
           {t('projects.completeaps')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {cardsArray.slice(0, 13).map((card) => (
+          {projects.slice(0, 13).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>
@@ -81,7 +89,7 @@ const Projects: React.FC = () => {
           {t('projects.smallprojects')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {cardsArray.slice(13, 19).map((card) => (
+          {projects.slice(13, 19).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>

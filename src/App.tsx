@@ -1,5 +1,7 @@
+import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { useMediaQuery } from 'react-responsive'
+import { useStore } from './store/store'
 import './default/normalize.css' // НОРМАЛИЗЕ СИ ЭС ЭС
 import './App.css'
 import MainLayout from './layouts/MainLayout'
@@ -13,6 +15,10 @@ import CustomCursor from './CustomCursor'
 function App() {
   const isTouchDevice = useMediaQuery({ query: '(hover: none)' })
   const isAttention = useMediaQuery({ maxWidth: 1439 })
+  const setProjects = useStore((state) => state.setProjects)
+  useEffect(() => {
+    // Можно загрузить начальные данные проектов здесь
+  }, [setProjects])
   return (
     <BrowserRouter>
       <div className="App">

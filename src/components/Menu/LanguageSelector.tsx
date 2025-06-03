@@ -1,27 +1,18 @@
 import React, { useState } from 'react'
 import { SlArrowDown, SlArrowUp } from 'react-icons/sl'
-import { useTranslation } from 'react-i18next'
+import { useStore } from '../../store/store'
 import { ILanguageArray } from '../../types'
 import style from './LanguageSelector.module.css'
 
 const LanguageSelector: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
-  const { i18n } = useTranslation()
-  const currentLanguage: string = i18n.language
+  const currentLanguage = useStore((state) => state.currentLanguage)
+  const setLanguage = useStore((state) => state.setLanguage)
 
   const languageArray: ILanguageArray[] = [
-    {
-      label: 'EN',
-      field: 'en',
-    },
-    {
-      label: 'RU',
-      field: 'ru',
-    },
-    {
-      label: 'BY',
-      field: 'by',
-    },
+    { label: 'EN', field: 'en' },
+    { label: 'RU', field: 'ru' },
+    { label: 'BY', field: 'by' },
   ]
 
   const filteredLanguageArray = languageArray.filter(
@@ -55,7 +46,7 @@ const LanguageSelector: React.FC = () => {
                 key={index}
                 className={style.selectorText}
                 onClick={() => {
-                  i18n.changeLanguage(field)
+                  setLanguage(field)
                   setIsOpen(false)
                 }}
               >
