@@ -21,6 +21,8 @@ import squareDots from '../../images/Anim/Bg/squareDots.svg'
 import YahtClub from '../../images/Projects/YahtClub.png'
 import WeatherNow from '../../images/Projects/WeatherNow.png'
 import vkcrm from '../../images/Projects/VKCRM.png'
+import hrcrm from '../../images/Projects/HRCRM.png'
+import todoApp from '../../images/Projects/TodoApp.png'
 // import Lionic from '../../images/Projects/Lionic.png'
 // import Pioner from '../../images/Projects/Pioner.png'
 // import RoboSchool from '../../images/Projects/RoboSchool.png'
@@ -48,6 +50,8 @@ const Projects: React.FC = () => {
         YahtClub: YahtClub,
         WeatherNow: WeatherNow,
         VKCRM: vkcrm,
+        TodoApp: todoApp,
+        HRCRM: hrcrm,
       }
 
       const cardsArray: IProjectData[] = projectsData.map((item) => ({
@@ -79,7 +83,7 @@ const Projects: React.FC = () => {
           {t('projects.completeaps')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {projects.slice(0, 13).map((card) => (
+          {projects.slice(0, 15).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>
@@ -89,7 +93,7 @@ const Projects: React.FC = () => {
           {t('projects.smallprojects')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {projects.slice(13, 19).map((card) => (
+          {projects.slice(15, 21).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>

@@ -7,9 +7,9 @@
       "HTML",
       "CSS",
       "SASS",
-      "JavaScript",
       "TypeScript",
       "React",
+      "JavaScript",
       "Node.js",
       "Express.js",
       "News API",
@@ -89,6 +89,33 @@
   },
   {
     "id": 4,
+    "projectImage": "HRCRM",
+    "projectName": "HRCRM",
+    "projectStack": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "TypeScript",
+      "React",
+      "Zustand",
+      "Jest",
+      "JSON-Server",
+      "Zod",
+      "Axios",
+      "React Testing Library",
+      "React Hook Form"
+    ],
+    "projectDescription": "t('projects.hrcrm')",
+    "buttons": [
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/HRCRM"
+      }
+    ]
+  },
+  {
+    "id": 5,
     "projectImage": "PrintTest",
     "projectName": "PrintTest",
     "projectStack": ["HTML", "CSS", "SASS", "TypeScript", "React"],
@@ -107,7 +134,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "projectImage": "Zyxce",
     "projectName": "Zyxce",
     "projectStack": ["HTML", "CSS", "SASS", "TypeScript", "React"],
@@ -121,7 +148,26 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
+    "projectImage": "TodoApp",
+    "projectName": "TodoApp",
+    "projectStack": ["HTML", "CSS", "SASS", "TypeScript", "React"],
+    "projectDescription": "t('projects.todoApp')",
+    "buttons": [
+      {
+        "text": "Live <~>",
+        "color": "primary",
+        "url": "https://zyxce.github.io/TodoAppMind/"
+      },
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/TodoAppMind"
+      }
+    ]
+  },
+  {
+    "id": 8,
     "projectImage": "Nexora",
     "projectName": "Nexora",
     "projectStack": ["HTML", "CSS", "JavaScript"],
@@ -140,7 +186,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "projectImage": "Wpolitika",
     "projectName": "Wpolitika",
     "projectStack": ["WordPress", "PHP"],
@@ -154,7 +200,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 10,
     "projectImage": "Blanko",
     "projectName": "Blanko",
     "projectStack": ["HTML", "HAML", "CSS", "SASS", "JavaScript"],
@@ -167,7 +213,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "projectImage": "Simple",
     "projectName": "Simple",
     "projectStack": ["HTML", "HAML", "CSS", "SASS", "JavaScript"],
@@ -180,7 +226,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 12,
     "projectImage": "Aperture",
     "projectName": "Aperture",
     "projectStack": ["HTML", "HAML", "CSS", "SASS", "JavaScript"],
@@ -193,7 +239,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 13,
     "projectImage": "FromBoard",
     "projectName": "FromBoard",
     "projectStack": ["HTML", "CSS", "SASS", "JavaScript", "React"],
@@ -206,7 +252,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 14,
     "projectImage": "YahtClub",
     "projectName": "YahtClub",
     "projectStack": ["HTML", "CSS", "JavaScript"],
@@ -219,7 +265,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 15,
     "projectImage": "CosmoJump",
     "projectName": "CosmoJump",
     "projectStack": ["C#", "Unity3D", "Adobe Illustrator"],
@@ -232,7 +278,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 16,
     "projectImage": "Masked Headline ",
     "projectName": "Masked Headline ",
     "projectStack": ["HTML", "CSS"],
@@ -251,7 +297,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 17,
     "projectImage": null,
     "projectName": "Collection",
     "projectStack": ["HTML", "CSS", "JavaScript"],
@@ -264,7 +310,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 18,
     "projectImage": null,
     "projectName": "Evklid",
     "projectStack": ["HTML", "CSS"],
@@ -277,7 +323,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "projectImage": null,
     "projectName": "RoboSchool",
     "projectStack": ["HTML", "CSS"],
@@ -290,7 +336,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "projectImage": null,
     "projectName": "Lionic",
     "projectStack": ["HTML", "CSS", "JavaScript"],
@@ -303,7 +349,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "projectImage": null,
     "projectName": "Pioner",
     "projectStack": ["HTML", "CSS", "JavaScript"],

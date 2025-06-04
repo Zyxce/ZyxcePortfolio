@@ -6,7 +6,7 @@
 .projectsContainer .projectsDescription {
   margin-top: var(--spacing-xl);
   color: var(--color-gray);
-  font-size: var(--spacing-md);
+  font-size: var(--font-size-md);
   line-height: var(--line-height-base);
 }
 .projectsContainer .projectsApsContainer {

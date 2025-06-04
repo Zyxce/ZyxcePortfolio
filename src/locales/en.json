@@ -39,6 +39,8 @@
     "weathernow": "SPA with Mobile-First approach, tracks the weather and lunar cycles at all points of the world",
     "zyxce": "You’re here right now :)",
     "simple": "Simple landing page",
+    "hrcrm": "SPA project for HR: application storing different employee data, retrieving from the backend and fully adaptive tables and form fields for different data",
+    "todoApp": "Simple Todo app, had nothing to do, decided to make a nice minimalistic app",
     "aperture": "Photographer’s portfolio website",
     "printTest": "Typing speed test app",
     "fromboard": "Bulletin board",
