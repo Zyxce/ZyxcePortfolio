@@ -6,18 +6,18 @@
   margin: auto 0;
 }
 .sectionTitleContainer .sectionTitleHeader {
-  color: #fff;
-  font-size: 1.8rem;
-  line-height: 2rem;
+  color: var(--color-accent);
+  font-size: var(--font-size-heading);
+  line-height: var(--border-width-thick);
 }
 .sectionTitleContainer .sectionTitleHeader span {
   margin-right: 2px;
-  font-size: 2rem;
-  color: #27DEBF;
+  font-size: var(--font-size-symbol);
+  color: var(--color-primary);
 }
 .sectionTitleContainer .sectionTitleLine {
   position: absolute;
-  background-color: #27DEBF;
+  background-color: var(--color-primary);
   height: 2px;
   top: 50%;
   left: calc(100% + 20px);

@@ -1,11 +1,8 @@
 .animContainer {
   width: 500px;
   height: 500px;
-  margin: 50px 0;
+  margin: var(--spacing-section) 0;
   position: relative;
-  --spring-duration: 4s;
-  --spring-height: -40px;
-  --squash-factor: 1.1;
 }
 .animContainer .animLinesFigure {
   position: absolute;
@@ -92,14 +89,14 @@
   animation-delay: 1s;
 }
 .animContainer .animTextContainer {
-  background-color: #282C33;
-  border: 2px solid #ABB2BF;
+  background-color: var(--color-background);
+  border: var(--border-width-thick) solid var(--color-gray);
   position: relative;
   z-index: 4;
   margin: 0 auto;
-  top: 83%;
+  top: 85%;
   width: 95%;
-  padding: 10px;
+  padding: var(--spacing-sm);
   animation: slideInText 2s ease-out, borderGlow 3s linear infinite;
   overflow: hidden;
 }
@@ -107,17 +104,17 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  background-color: #27DEBF;
+  background-color: var(--color-primary);
 }
 .animContainer .animTextContainer .animTextSquare p {
-  margin-left: 20px;
-  color: #fff;
+  margin-left: var(--spacing-lg);
+  color: var(--color-accent);
 }
 .animContainer .animTextContainer .animText {
-  color: #ABB2BF;
+  color: var(--color-gray);
 }
 .animContainer .animTextContainer .animText span {
-  color: #fff;
+  color: var(--color-accent);
 }
 
 @keyframes float {
@@ -229,37 +226,37 @@
 @keyframes borderGlow {
   0% {
     border-color: transparent;
-    border-top-color: #27DEBF;
-    border-left-color: #ABB2BF;
-    border-bottom-color: #ABB2BF;
-    border-right-color: #ABB2BF;
+    border-top-color: var(--color-primary);
+    border-left-color: var(--color-gray);
+    border-bottom-color: var(--color-gray);
+    border-right-color: var(--color-gray);
   }
   25% {
     border-color: transparent;
-    border-top-color: #ABB2BF;
-    border-left-color: #ABB2BF;
-    border-bottom-color: #ABB2BF;
-    border-right-color: #27DEBF;
+    border-top-color: var(--color-gray);
+    border-left-color: var(--color-gray);
+    border-bottom-color: var(--color-gray);
+    border-right-color: var(--color-primary);
   }
   50% {
     border-color: transparent;
-    border-top-color: #ABB2BF;
-    border-left-color: #ABB2BF;
-    border-bottom-color: #27DEBF;
-    border-right-color: #ABB2BF;
+    border-top-color: var(--color-gray);
+    border-left-color: var(--color-gray);
+    border-bottom-color: var(--color-primary);
+    border-right-color: var(--color-gray);
   }
   75% {
     border-color: transparent;
-    border-top-color: #ABB2BF;
-    border-left-color: #27DEBF;
-    border-bottom-color: #ABB2BF;
-    border-right-color: #ABB2BF;
+    border-top-color: var(--color-gray);
+    border-left-color: var(--color-primary);
+    border-bottom-color: var(--color-gray);
+    border-right-color: var(--color-gray);
   }
   100% {
     border-color: transparent;
-    border-top-color: #27DEBF;
-    border-left-color: #ABB2BF;
-    border-bottom-color: #ABB2BF;
-    border-right-color: #ABB2BF;
+    border-top-color: var(--color-primary);
+    border-left-color: var(--color-gray);
+    border-bottom-color: var(--color-gray);
+    border-right-color: var(--color-gray);
   }
 }/*# sourceMappingURL=HeroAnim.module.css.map */

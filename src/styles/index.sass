@@ -1,42 +1,37 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
+
 *
   margin: 0
   padding: 0
   cursor: none
 body
-  font-family: 'Fira Code','Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell','Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
-  background-color: #282C33
+  font-family: var(--font-family)
+  background-color: var(--color-primary)
   overflow-x: hidden
   touch-action: pan-y
   max-width: 100%
-  --black: #111111
-  --grey: #808080
-  --background: var(--black)
+  background: var( --color-background)
 
-::-webkit-scrollbar
-  height: 12px
-  width: 5px
-  background: var(--background)
+  ::-webkit-scrollbar
+    height: 12px
+    width: 5px
+    background: var(--color-background)
 
-::-webkit-scrollbar:horizontal
-  display: none
-  height: 0
-  scrollbar-width: none
+  ::-webkit-scrollbar:horizontal
+    display: none
+    height: 0
+    scrollbar-width: none
 
-::-webkit-scrollbar-thumb
-  background: var(--grey)
-  border-radius: 1ex
-  -webkit-border-radius: 1ex
+  ::-webkit-scrollbar-thumb
+    background: var(--color-grey)
+    border-radius: 1ex
+    -webkit-border-radius: 1ex
 
-::-webkit-scrollbar-corner
-  background: var(--background)
+  ::-webkit-scrollbar-corner
+    background: var(--color-background)
 
-::selection
-  background: #27dec075
-  color: white
+  ::selection
+    background: var(--color-selection)
+    color: var(--color-accent)
 
-::-moz-selection
-  background: #27DEBF
+  ::-moz-selection
+    background: var(--color-primary)

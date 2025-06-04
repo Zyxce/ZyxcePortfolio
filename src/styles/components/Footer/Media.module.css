@@ -1,32 +1,32 @@
 .mediaContainer .mediaHeader {
-  font-size: 1.4rem;
-  color: #fff;
+  font-size: var(--font-size-xl);
+  color: var(--color-accent);
 }
 .mediaContainer .socialButtons {
   display: flex;
   flex-direction: row;
-  margin-top: 15px;
-  gap: 15px;
+  margin-top: var(--spacing-md);
+  gap: var(--spacing-md);
 }
 .mediaContainer .socialButtons .socialDiv .socialLink {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-color: #282C33;
+  border-radius: var(--border-radius-full);
+  background-color: var(--color-background);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
-  border: 1px solid #ABB2BF;
+  transition: all var(--transition-base) ease;
+  border: var(--border-width) solid var(--color-gray);
 }
 .mediaContainer .socialButtons .socialDiv .socialLink:hover {
-  background-color: #27DEBF;
-  border: 1px solid #27DEBF;
+  background-color: var(--color-primary);
+  border: var(--border-width) solid var(--color-primary);
 }
 .mediaContainer .socialButtons .socialDiv .socialLink .socialIcon {
-  color: #ABB2BF;
-  font-size: 1.3rem;
+  color: var(--color-gray);
+  font-size: var(--font-size-icon-base);
 }
 .mediaContainer .socialButtons .socialDiv .socialLink:hover .socialIcon {
-  color: #282C33;
+  color: var(--color-background);
 }/*# sourceMappingURL=Media.module.css.map */

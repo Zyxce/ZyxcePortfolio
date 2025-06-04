@@ -1,26 +1,22 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 .customCursor
     position: fixed
-    width: 10px
-    height: 10px
-    background-color: white
+    width: var(--cursor-size)
+    height: var(--cursor-size)
+    background-color: var(--color-accent)
     border-radius: 50%
     pointer-events: none
     z-index: 1000
-    transition: transform 0.2s ease-out
+    transition: transform var(--transition-base) ease-out
 
 .emphasized
     width: 4px
     height: 30px
     border-radius: 15%
-    background-color: $primary
+    background-color: var(--color-primary)
 
 .hovered
-    width: 15px
-    height: 15px
+    width: var(--cursor-hover-size)
+    height: var(--cursor-hover-size)
     border-radius: 50%
     background-color: white

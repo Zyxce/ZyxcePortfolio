@@ -1,16 +1,16 @@
 .aboutContainer {
-  padding: 100px 200px;
+  padding: var(--spacing-large-section) var(--spacing-body);
   text-align: start;
   position: relative;
 }
 .aboutContainer .aboutDescription {
-  margin-top: 15px;
-  color: #ABB2BF;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  margin-top: var(--spacing-xl);
+  color: var(--color-gray);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
 }
 .aboutContainer .aboutContentSection {
-  margin-top: 50px;
+  margin-top: var(--spacing-section);
   display: flex;
   justify-content: space-between;
 }
@@ -19,41 +19,41 @@
   width: 500px;
 }
 .aboutContainer .aboutContentSection .aboutTextContainer .aboutText {
-  color: #ABB2BF;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  color: var(--color-gray);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
 }
 .aboutContainer .aboutContentSection .aboutTextContainer .aboutText:nth-child(2), .aboutContainer .aboutContentSection .aboutTextContainer .aboutText:nth-child(3) {
-  margin-top: 30px;
+  margin-top: var(--spacing-xxl);
 }
 .aboutContainer .aboutContentSection .aboutAnim {
   margin: 0 auto;
 }
 .aboutContainer .aboutSkillsSection {
-  margin-top: 100px;
+  margin-top: var(--spacing-large-section);
 }
 .aboutContainer .aboutSkillsSection .aboutCardsContainer {
-  margin-top: 50px;
+  margin-top: var(--spacing-section);
   display: flex;
-  gap: 25px;
+  gap: var(--spacing-xl);
 }
 .aboutContainer .aboutFactsSection {
-  margin-top: 100px;
+  margin-top: var(--spacing-large-section);
 }
 .aboutContainer .aboutFactsSection .aboutFactsContainer {
-  margin-top: 50px;
+  margin-top: var(--spacing-section);
   display: flex;
   white-space: nowrap;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: var(--spacing-xl);
 }
 .aboutContainer .aboutFactsSection .aboutFactsContainer p {
-  border: 1px solid #ABB2BF;
-  padding: 5px;
-  color: #ABB2BF;
+  border: var(--border-width) solid var(--color-gray);
+  padding: var(--spacing-xs);
+  color: var(--color-gray);
 }
 .aboutContainer .aboutFactsSection .aboutFactsContainer p span {
-  color: #fff;
+  color: var(--color-accent);
 }
 .aboutContainer .squareLines1 {
   position: absolute;

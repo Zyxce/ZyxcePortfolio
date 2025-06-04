@@ -1,52 +1,52 @@
 .contactsSectionContainer {
-  margin: 100px 0;
+  margin: var(--spacing-large-section) 0;
 }
 .contactsSectionContainer .contactsContainer {
-  margin-top: 50px;
+  margin-top: var(--spacing-section);
   text-align: start;
   display: flex;
   justify-content: space-between;
 }
 .contactsSectionContainer .contactsContainer .contactsText {
   width: 500px;
-  color: #ABB2BF;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  color: var(--color-gray);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
 }
 .contactsSectionContainer .contactsContainer .contactsSocial {
-  padding: 16px;
-  border: 1px solid #ABB2BF;
+  padding: var(--spacing-md);
+  border: var(--border-width) solid var(--color-gray);
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: var(--spacing-md);
   margin: 0 10% 0 30%;
   position: relative;
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .socialHeader {
-  color: #fff;
-  font-size: 1.2rem;
+  color: var(--color-accent);
+  font-size: var(--font-size-lg);
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .socialContainer {
   display: flex;
-  transition: 0.3s;
+  transition: var(--transition-base);
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .socialContainer .socialIcon {
-  color: #ABB2BF;
-  font-size: 1.8rem;
-  transition: 0.3s;
+  color: var(--color-gray);
+  font-size: var(--font-size-heading);
+  transition: var(--transition-base);
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .socialContainer .socialUrl {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: var(--font-size-lg);
   margin: auto 0;
-  margin-left: 10px;
-  color: #ABB2BF;
-  transition: 0.3s;
+  margin-left: var(--spacing-sm);
+  color: var(--color-gray);
+  transition: var(--transition-base);
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .socialContainer:hover .socialIcon, .contactsSectionContainer .contactsContainer .contactsSocial .socialContainer:hover .socialUrl {
-  color: #27DEBF;
+  color: var(--color-primary);
 }
 .contactsSectionContainer .contactsContainer .contactsSocial .squareLines1 {
   position: absolute;

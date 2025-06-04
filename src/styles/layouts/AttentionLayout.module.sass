@@ -1,29 +1,26 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
+
 .attentionContainer
     display: flex
     flex-direction: column
     align-items: center
     justify-content: center
     height: 100vh
-    padding: 0 30px
+    padding: 0 var(--spacing-xxl)
     .attentionImg
         width: 50%
         max-width: 520px
         min-width: 250px
     .attentionContentContainer
-        margin-top: 20px
+        margin-top: var(--spacing-lg)
         max-width: 520px
         text-align: start
         display: flex
         flex-direction: column
         .attentionTitle
             margin: 0 auto
-            color: $primary
+            color: var(--color-primary)
         .attentionText
-            margin-top: 15px
-            color: $gray
+            margin-top: var(--spacing-md)
+            color: var(--color-gray)
             span
-                color: $white
+                color: var(--color-accent)

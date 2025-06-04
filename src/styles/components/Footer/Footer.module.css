@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 64px 200px 32px 200px;
-  margin-top: 30px;
+  padding: var(--spacing-section) var(--spacing-body) var(--spacing-xxl) var(--spacing-body);
+  margin-top: var(--spacing-xxl);
 }
 .footerContainer .topLine {
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
-  height: 1px;
-  background-color: #ABB2BF;
+  height: var(--border-width);
+  background-color: var(--color-gray);
 }
 .footerContainer .foooterTop {
   display: flex;
@@ -24,10 +24,10 @@
 }
 .footerContainer .foooterTop .footerContent .footerContentText {
   margin-top: auto;
-  color: #fff;
+  color: var(--color-accent);
 }
 .footerContainer .footerCopytight {
-  margin-top: 40px;
-  font-size: 1.1rem;
-  color: #ABB2BF;
+  margin-top: var(--spacing-xxl);
+  font-size: var(--font-size-md);
+  color: var(--color-gray);
 }/*# sourceMappingURL=Footer.module.css.map */

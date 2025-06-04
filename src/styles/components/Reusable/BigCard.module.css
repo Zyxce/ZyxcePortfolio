@@ -1,10 +1,10 @@
 .cardContainer {
-  border: 1px solid #ABB2BF;
+  border: var(--border-width) solid var(--color-gray);
   height: -moz-fit-content;
   height: fit-content;
   max-width: 330px;
   text-align: start;
-  transition: transform 0.6s ease;
+  transition: transform var(--transition-slow) ease;
 }
 .cardContainer:hover {
   transform: scale(1.05);
@@ -19,28 +19,28 @@
      object-fit: cover;
 }
 .cardContainer .cardStack {
-  color: #ABB2BF;
-  line-height: 1.6rem;
-  border-top: 1px solid #ABB2BF;
-  border-bottom: 1px solid #ABB2BF;
-  padding: 10px 20px;
+  color: var(--color-gray);
+  line-height: var(--line-height-base);
+  border-top: var(--border-width) solid var(--color-gray);
+  border-bottom: var(--border-width) solid var(--color-gray);
+  padding: var(--spacing-mds) var(--spacing-lg);
 }
 .cardContainer .cardContentContainer {
-  padding: 20px 20px 10px 20px;
+  padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-mds) var(--spacing-lg);
 }
 .cardContainer .cardContentContainer .cardName {
-  color: #fff;
-  font-size: 1.6rem;
+  color: var(--color-accent);
+  font-size: var(--font-size-xxl);
 }
 .cardContainer .cardContentContainer .cardDescription {
-  color: #ABB2BF;
-  margin-top: 20px;
-  font-size: 1rem;
-  line-height: 1.6rem;
+  color: var(--color-gray);
+  margin-top: var(--spacing-lg);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
 }
 .cardContainer .cardContentContainer .cardBtnContainer {
   display: flex;
-  margin-top: 15px;
-  gap: 15px;
+  margin-top: var(--spacing-md);
+  gap: var(--spacing-md);
   justify-content: start;
 }/*# sourceMappingURL=BigCard.module.css.map */

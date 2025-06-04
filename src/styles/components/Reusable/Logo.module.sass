@@ -1,31 +1,27 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 .logoContainer
     display: flex
     align-items: center
     .logoIcon
-        color: #ABB2BF
+        color: var(--color-gray)
     .logoText
-        margin-left: 10px
-        color: white
-        font-size: 1.6rem
-        line-height: 1.6rem
+        margin-left: var(--spacing-mds)
+        color: var(--color-accent)
+        font-size: var(--font-size-xxl)
+        line-height: var(--line-height-base)
     .logoMail
-        margin-top: 2px
-        margin-left: 30px
+        margin-top: var(--border-width-thick)
+        margin-left: var(--spacing-xxl)
         position: relative
         a
             text-decoration: none
-            color: #ABB2BF
-            font-size: 1.1rem
-            line-height: 1.2rem
+            color: var(--color-gray)
+            font-size: var(--font-size-md)
+            line-height: var(--line-height-sm)
         &:hover
             cursor: pointer
             a
-                color: $white
+                color: var(--color-accent)
         &::after
             content: ''
             position: absolute
@@ -34,7 +30,7 @@ $white: #fff
             height: 2px
             bottom: -2px
             left: 0
-            background-color: $primary
+            background-color: var(--color-primary)
             transition: transform 0.25s ease-out
             transform-origin: bottom right
         &:hover::after
@@ -70,4 +66,4 @@ $white: #fff
 .logoContainer
     .complete
 
-        color: #27DEBF
+        color: var(--color-primary)

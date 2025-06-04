@@ -1,5 +1,5 @@
 .homeContainer {
-  padding: 0 200px;
+  padding: 0 var(--spacing-body);
   overflow: hidden;
 }
 .homeContainer .squareLines1 {

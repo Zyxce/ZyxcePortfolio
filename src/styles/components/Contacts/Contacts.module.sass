@@ -1,54 +1,51 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
+
 .contactsContainer
-    padding: 100px 200px 200px 200px
+    padding: var(--spacing-large-section) var(--spacing-body) var(--spacing-body) var(--spacing-body)
     text-align: start
     position: relative
     .contactsDescription
-        margin-top: 15px
-        color: $gray
-        font-size: 1.1rem
-        line-height: 1.6rem
+        margin-top: var(--spacing-xl)
+        color: var(--color-gray)
+        font-size: var(--font-size-md)
+        line-height: var(--line-height-base)
     .contactsContentSection
-        margin-top: 50px
+        margin-top: var(--spacing-section)
         display: flex
         justify-content: space-between
         .contactsText
             width: 500px
-            color: $gray
-            font-size: 1.1rem
-            line-height: 1.6rem
+            color: var(--color-gray)
+            font-size: var(--font-size-md)
+            line-height: var(--line-height-base)
         .contactsSocial
-            padding: 16px
-            border: 1px solid $gray
+            padding: var(--spacing-md)
+            border: var(--border-width)solid var(--color-gray)
             width: fit-content
             display: flex
             flex-direction: column
-            gap: 15px
+            gap: var(--spacing-md)
             margin: 0 10% 0 30%
             position: relative
             .socialHeader
-                color: $white
-                font-size: 1.2rem
+                color: var(--color-accent)
+                font-size: var(--font-size-lg)
             .socialContainer
                 display: flex
-                transition: 0.3s
+                transition: var(--transition-base)
                 .socialIcon
-                    color: $gray
-                    font-size: 1.8rem
-                    transition: 0.3s
+                    color: var(--color-gray)
+                    font-size: var(--font-size-heading)
+                    transition: var(--transition-base)
                 .socialUrl
                     text-decoration: none
-                    font-size: 1.2rem
+                    font-size: var(--font-size-lg)
                     margin: auto 0
-                    margin-left: 10px
-                    color: $gray
-                    transition: 0.3s
+                    margin-left: var(--spacing-sm)
+                    color: var(--color-gray)
+                    transition: var(--transition-base)
             .socialContainer:hover
                 .socialIcon, .socialUrl
-                    color: $primary
+                    color: var(--color-primary)
             .squareLines1
                 position: absolute
                 width: 44px

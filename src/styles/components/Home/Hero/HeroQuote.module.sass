@@ -1,7 +1,3 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 @keyframes slideInFromBottom
     0%
@@ -16,9 +12,9 @@ $white: #fff
     flex-direction: column
     max-width: fit-content
     margin: 0 auto
-    margin-top: 50px
+    margin-top: var(--spacing-section)
     animation: slideInFromBottom 1.5s ease-out 0s forwards
-    transition: transform 0.3s ease
+    transition: transform var(--transition-base) ease
     .heroQuoteTop
         position: relative
         z-index: 1
@@ -40,7 +36,7 @@ $white: #fff
                 width: 200px
                 left: 20px
                 top: 130px
-                transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55)
+                transition: transform var(--transition-michelangelo)
         .heroQuotePizzaBoxContainer
             position: absolute
             width: 200px
@@ -54,17 +50,17 @@ $white: #fff
                 width: 90px
                 left: 20px
                 top: 150px
-                transition: transform 1.2s cubic-bezier(0.68, -0.55, 0.27, 1.55)
+                transition: transform var(--transition-pizzabox)
         .heroQuoteTextContainer
-            border: 1px solid $gray
+            border: var(--border-width) solid var(--color-gray)
             z-index: 3
             display: inline-flex
             width: auto
             max-width: fit-content
-            padding: 32px
+            padding: var(--spacing-xxl)
             .heroQuoteHeader
-                color: $white
-                font-size: 1.4rem
+                color: var(--color-accent)
+                font-size: var(--font-size-xl)
                 font-weight: bold
             .heroQuoteCircle
                 position: absolute
@@ -72,12 +68,12 @@ $white: #fff
                 left: 20px
                 width: 44px
                 height: 44px
-                border-radius: 50%
-                background-color: $background
+                border-radius: var(--border-radius-full)
+                background-color: var(--color-background)
 
                 p
-                    margin-top: 20px
-                    color: $gray
+                    margin-top: var(--spacing-lg)
+                    color: var(--color-gray)
                     font-size: 3rem
                     line-height: 2rem
             .heroQuoteCircle:last-child
@@ -88,11 +84,11 @@ $white: #fff
 
     .heroQuoteBottom
         margin-left: auto
-        border: 1px solid $gray
+        border: var(--border-width) solid var(--color-gray)
         display: inline-flex
         width: auto
         max-width: fit-content
-        padding: 16px
+        padding: var(--spacing-md)
         .heroQuoteAuthor
-            color: $white
-            font-size: 1.4rem
+            color: var(--color-accent)
+            font-size: var(--font-size-xl)

@@ -5,48 +5,39 @@
 }
 
 body {
-  font-family: "Fira Code", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  background-color: #282C33;
+  font-family: var(--font-family);
+  background-color: var(--color-primary);
   overflow-x: hidden;
   touch-action: pan-y;
   max-width: 100%;
-  --black: #111111;
-  --grey: #808080;
-  --background: var(--black);
+  background: var(--color-background);
 }
-
-::-webkit-scrollbar {
+body ::-webkit-scrollbar {
   height: 12px;
   width: 5px;
-  background: var(--background);
+  background: var(--color-background);
 }
-
-::-webkit-scrollbar:horizontal {
+body ::-webkit-scrollbar:horizontal {
   display: none;
   height: 0;
   scrollbar-width: none;
 }
-
-::-webkit-scrollbar-thumb {
-  background: var(--grey);
+body ::-webkit-scrollbar-thumb {
+  background: var(--color-grey);
   border-radius: 1ex;
   -webkit-border-radius: 1ex;
 }
-
-::-webkit-scrollbar-corner {
-  background: var(--background);
+body ::-webkit-scrollbar-corner {
+  background: var(--color-background);
 }
-
-::-moz-selection {
-  background: rgba(39, 222, 192, 0.4588235294);
-  color: white;
+body ::-moz-selection {
+  background: var(--color-selection);
+  color: var(--color-accent);
 }
-
-::selection {
-  background: rgba(39, 222, 192, 0.4588235294);
-  color: white;
+body ::selection {
+  background: var(--color-selection);
+  color: var(--color-accent);
 }
-
-::-moz-selection {
-  background: #27DEBF;
+body ::-moz-selection {
+  background: var(--color-primary);
 }/*# sourceMappingURL=index.css.map */

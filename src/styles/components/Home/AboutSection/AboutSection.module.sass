@@ -1,21 +1,18 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
+
 .aboutContainer
-    margin-top: 100px
+    margin-top: var(--spacing-large-section)
     .aboutContentContainer
-        margin-top: 50px
+        margin-top: var(--spacing-section)
         display: flex
         justify-content: space-between
         .aboutTextContainer
             text-align: start
             width: 500px
             .aboutText
-                color: $gray
-                font-size: 1.1rem
-                line-height: 1.6rem
+                color: var(--color-gray)
+                font-size: var(--font-size-md)
+                line-height: var(--line-height-base)
             .aboutText:nth-child(2), .aboutText:nth-child(3),.aboutBtn
-                margin-top: 30px
+                margin-top: var(--spacing-xxl)
         .aboutAnimContainer
             margin: 0 auto

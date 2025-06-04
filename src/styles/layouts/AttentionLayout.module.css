@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  padding: 0 30px;
+  padding: 0 var(--spacing-xxl);
 }
 .attentionContainer .attentionImg {
   width: 50%;
@@ -12,7 +12,7 @@
   min-width: 250px;
 }
 .attentionContainer .attentionContentContainer {
-  margin-top: 20px;
+  margin-top: var(--spacing-lg);
   max-width: 520px;
   text-align: start;
   display: flex;
@@ -20,12 +20,12 @@
 }
 .attentionContainer .attentionContentContainer .attentionTitle {
   margin: 0 auto;
-  color: #27DEBF;
+  color: var(--color-primary);
 }
 .attentionContainer .attentionContentContainer .attentionText {
-  margin-top: 15px;
-  color: #ABB2BF;
+  margin-top: var(--spacing-md);
+  color: var(--color-gray);
 }
 .attentionContainer .attentionContentContainer .attentionText span {
-  color: #fff;
+  color: var(--color-accent);
 }/*# sourceMappingURL=AttentionLayout.module.css.map */

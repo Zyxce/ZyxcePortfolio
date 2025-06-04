@@ -1,8 +1,8 @@
 .aboutContainer {
-  margin-top: 100px;
+  margin-top: var(--spacing-large-section);
 }
 .aboutContainer .aboutContentContainer {
-  margin-top: 50px;
+  margin-top: var(--spacing-section);
   display: flex;
   justify-content: space-between;
 }
@@ -11,12 +11,12 @@
   width: 500px;
 }
 .aboutContainer .aboutContentContainer .aboutTextContainer .aboutText {
-  color: #ABB2BF;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  color: var(--color-gray);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
 }
 .aboutContainer .aboutContentContainer .aboutTextContainer .aboutText:nth-child(2), .aboutContainer .aboutContentContainer .aboutTextContainer .aboutText:nth-child(3), .aboutContainer .aboutContentContainer .aboutTextContainer .aboutBtn {
-  margin-top: 30px;
+  margin-top: var(--spacing-xxl);
 }
 .aboutContainer .aboutContentContainer .aboutAnimContainer {
   margin: 0 auto;

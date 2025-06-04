@@ -1,8 +1,5 @@
 .App {
   text-align: center;
-  --spring-duration: 4s;
-  --spring-height: -40px;
-  --squash-factor: 1.1;
 }
 .App h1, .App h2, .App h3, .App h4 {
   padding: 0;

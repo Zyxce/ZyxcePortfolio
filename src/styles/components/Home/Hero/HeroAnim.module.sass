@@ -1,17 +1,9 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 .animContainer
     width: 500px
     height: 500px
-    margin: 50px 0
+    margin: var(--spacing-section) 0
     position: relative
-    --spring-duration: 4s
-    --spring-height: -40px
-    --squash-factor: 1.1
-
     .animLinesFigure
         position: absolute
         top: 60%
@@ -92,28 +84,28 @@ $white: #fff
         animation-delay: 1s
 
     .animTextContainer
-        background-color: $background
-        border: 2px solid $gray
+        background-color: var(--color-background)
+        border: var(--border-width-thick) solid var(--color-gray)
         position: relative
         z-index: 4
         margin: 0 auto
-        top: 83%
+        top: 85%
         width: 95%
-        padding: 10px
+        padding: var(--spacing-sm)
         animation: slideInText 2s ease-out, borderGlow 3s linear infinite
         overflow: hidden
         .animTextSquare
             position: absolute
             width: 15px
             height: 15px
-            background-color: $primary
+            background-color: var(--color-primary)
             p
-                margin-left: 20px
-                color: $white
+                margin-left: var(--spacing-lg)
+                color: var(--color-accent)
         .animText
-            color: $gray
+            color: var(--color-gray)
             span
-                color: $white
+                color: var(--color-accent)
 
 @keyframes float
     0%, 100%
@@ -203,32 +195,32 @@ $white: #fff
 @keyframes borderGlow
     0%
         border-color: transparent
-        border-top-color: $primary
-        border-left-color: $gray
-        border-bottom-color: $gray
-        border-right-color: $gray
+        border-top-color: var(--color-primary)
+        border-left-color: var(--color-gray)
+        border-bottom-color: var(--color-gray)
+        border-right-color: var(--color-gray)
     25%
         border-color: transparent
-        border-top-color: $gray
-        border-left-color: $gray
-        border-bottom-color: $gray
-        border-right-color: $primary
+        border-top-color: var(--color-gray)
+        border-left-color: var(--color-gray)
+        border-bottom-color: var(--color-gray)
+        border-right-color: var(--color-primary)
 
     50%
         border-color: transparent
-        border-top-color: $gray
-        border-left-color: $gray
-        border-bottom-color: $primary
-        border-right-color: $gray
+        border-top-color: var(--color-gray)
+        border-left-color: var(--color-gray)
+        border-bottom-color: var(--color-primary)
+        border-right-color: var(--color-gray)
     75%
         border-color: transparent
-        border-top-color: $gray
-        border-left-color: $primary
-        border-bottom-color: $gray
-        border-right-color: $gray
+        border-top-color: var(--color-gray)
+        border-left-color: var(--color-primary)
+        border-bottom-color: var(--color-gray)
+        border-right-color: var(--color-gray)
     100%
         border-color: transparent
-        border-top-color: $primary
-        border-left-color: $gray
-        border-bottom-color: $gray
-        border-right-color: $gray
+        border-top-color: var(--color-primary)
+        border-left-color: var(--color-gray)
+        border-bottom-color: var(--color-gray)
+        border-right-color: var(--color-gray)

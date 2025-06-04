@@ -1,21 +1,17 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 .footerContainer
     display: flex
     flex-direction: column
     position: relative
-    padding: 64px 200px 32px 200px
-    margin-top: 30px
+    padding: var(--spacing-section) var(--spacing-body) var(--spacing-xxl) var(--spacing-body)
+    margin-top: var(--spacing-xxl)
     .topLine
         position: absolute
         top: 0px
         left: 0
         width: 100%
-        height: 1px
-        background-color: $gray
+        height: var(--border-width)
+        background-color: var(--color-gray)
 
     .foooterTop
         display: flex
@@ -27,9 +23,9 @@ $white: #fff
             .footerLogo
             .footerContentText
                 margin-top: auto
-                color: $white
+                color: var(--color-accent)
         .footerMedia
     .footerCopytight
-        margin-top: 40px
-        font-size: 1.1rem
-        color: $gray
+        margin-top: var(--spacing-xxl)
+        font-size: var(--font-size-md)
+        color: var(--color-gray)

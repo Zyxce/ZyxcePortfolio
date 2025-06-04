@@ -1,7 +1,3 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 .sectionTitleContainer
     display: flex
@@ -9,17 +5,17 @@ $white: #fff
     max-width: fit-content
     margin: auto 0
     .sectionTitleHeader
-        color: $white
-        font-size: 1.8rem
-        line-height: 2rem
+        color: var(--color-accent)
+        font-size: var(--font-size-heading)
+        line-height: var(--border-width-thick)
         span
             margin-right: 2px
-            font-size: 2rem
+            font-size: var(--font-size-symbol)
 
-            color: $primary
+            color: var(--color-primary)
     .sectionTitleLine
         position: absolute
-        background-color: $primary
+        background-color: var(--color-primary)
         height: 2px
         top: 50%
         left: calc(100% + 20px)

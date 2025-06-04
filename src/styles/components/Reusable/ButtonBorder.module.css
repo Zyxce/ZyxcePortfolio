@@ -3,18 +3,18 @@
   width: auto;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  padding: 8px 16px;
+  padding: var(--spacing-sm) var(--spacing-md);
   background: rgba(40, 44, 51, 0);
-  border: 1px solid #27DEBF;
-  color: #fff;
-  font-size: 1.1rem;
+  border: var(--border-width) solid var(--color-primary);
+  color: var(--color-accent);
+  font-size: var(--font-size-md);
   text-align: center;
   white-space: nowrap;
   position: relative;
 }
 .buttonPrimary:hover {
-  border-radius: 6px;
-  color: #282C33;
+  border-radius: var(--border-radius-sm);
+  color: var(--color-background);
 }
 .buttonPrimary::after {
   content: "";
@@ -33,7 +33,7 @@
 .buttonPrimary:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  border-radius: 6px;
+  border-radius: var(--border-radius-sm);
 }
 
 .buttonGray {
@@ -41,18 +41,18 @@
   width: auto;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  padding: 8px 16px;
+  padding: var(--spacing-sm) var(--spacing-md);
   background: rgba(40, 44, 51, 0);
-  border: 1px solid #ABB2BF;
-  color: #fff;
-  font-size: 1.1rem;
+  border: var(--border-width) solid var(--color-gray);
+  color: var(--color-accent);
+  font-size: var(--font-size-md);
   text-align: center;
   white-space: nowrap;
   position: relative;
 }
 .buttonGray:hover {
-  border-radius: 6px;
-  color: #282C33;
+  border-radius: var(--border-radius-sm);
+  color: var(--color-background);
 }
 .buttonGray::after {
   content: "";
@@ -63,7 +63,7 @@
   bottom: -2px;
   left: 0px;
   top: 0px;
-  background-color: #ABB2BF;
+  background-color: var(--color-gray);
   transition: transform 0.25s ease-out;
   transform-origin: bottom right;
   z-index: -1;
@@ -71,5 +71,5 @@
 .buttonGray:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  border-radius: 6px;
+  border-radius: var(--border-radius-sm);
 }/*# sourceMappingURL=ButtonBorder.module.css.map */

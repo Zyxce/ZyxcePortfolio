@@ -1,29 +1,29 @@
 .cardContainer {
-  border: 1px solid #ABB2BF;
+  border: var(--border-width) solid var(--color-gray);
   height: -moz-fit-content;
   height: fit-content;
   max-width: 180px;
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  background: #282C33;
+  background: var(--color-background);
   text-align: center;
 }
 .cardContainer:hover {
   transform: rotate(15deg);
-  border-color: #27DEBF;
-  box-shadow: 0 0 2px rgba(39, 222, 191, 0.3);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 2px rgba(var(--color-primary), 0.3);
 }
 .cardContainer:hover .cardHeader {
-  border-color: #27DEBF;
+  border-color: var(--color-primary);
 }
 .cardContainer .cardHeader {
-  color: #fff;
-  font-size: 1.4rem;
-  padding: 8px;
-  border-bottom: 1px solid #ABB2BF;
+  color: var(--color-accent);
+  font-size: var(--font-size-xl);
+  padding: var(--spacing-sm);
+  border-bottom: var(--border-width) solid var(--color-gray);
 }
 .cardContainer .cardText {
-  color: #ABB2BF;
-  font-size: 1rem;
-  line-height: 1.6rem;
-  padding: 8px;
+  color: var(--color-gray);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  padding: var(--spacing-sm);
 }/*# sourceMappingURL=SmallCard.module.css.map */

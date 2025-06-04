@@ -1,59 +1,59 @@
 .contactsContainer {
-  padding: 100px 200px 200px 200px;
+  padding: var(--spacing-large-section) var(--spacing-body) var(--spacing-body) var(--spacing-body);
   text-align: start;
   position: relative;
 }
 .contactsContainer .contactsDescription {
-  margin-top: 15px;
-  color: #ABB2BF;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  margin-top: var(--spacing-xl);
+  color: var(--color-gray);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
 }
 .contactsContainer .contactsContentSection {
-  margin-top: 50px;
+  margin-top: var(--spacing-section);
   display: flex;
   justify-content: space-between;
 }
 .contactsContainer .contactsContentSection .contactsText {
   width: 500px;
-  color: #ABB2BF;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
+  color: var(--color-gray);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
 }
 .contactsContainer .contactsContentSection .contactsSocial {
-  padding: 16px;
-  border: 1px solid #ABB2BF;
+  padding: var(--spacing-md);
+  border: var(--border-width) solid var(--color-gray);
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: var(--spacing-md);
   margin: 0 10% 0 30%;
   position: relative;
 }
 .contactsContainer .contactsContentSection .contactsSocial .socialHeader {
-  color: #fff;
-  font-size: 1.2rem;
+  color: var(--color-accent);
+  font-size: var(--font-size-lg);
 }
 .contactsContainer .contactsContentSection .contactsSocial .socialContainer {
   display: flex;
-  transition: 0.3s;
+  transition: var(--transition-base);
 }
 .contactsContainer .contactsContentSection .contactsSocial .socialContainer .socialIcon {
-  color: #ABB2BF;
-  font-size: 1.8rem;
-  transition: 0.3s;
+  color: var(--color-gray);
+  font-size: var(--font-size-heading);
+  transition: var(--transition-base);
 }
 .contactsContainer .contactsContentSection .contactsSocial .socialContainer .socialUrl {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: var(--font-size-lg);
   margin: auto 0;
-  margin-left: 10px;
-  color: #ABB2BF;
-  transition: 0.3s;
+  margin-left: var(--spacing-sm);
+  color: var(--color-gray);
+  transition: var(--transition-base);
 }
 .contactsContainer .contactsContentSection .contactsSocial .socialContainer:hover .socialIcon, .contactsContainer .contactsContentSection .contactsSocial .socialContainer:hover .socialUrl {
-  color: #27DEBF;
+  color: var(--color-primary);
 }
 .contactsContainer .contactsContentSection .contactsSocial .squareLines1 {
   position: absolute;

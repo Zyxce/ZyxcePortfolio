@@ -9,17 +9,17 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 15px;
+  gap: var(--spacing-md);
   position: relative;
   height: 80px;
 }
 .heroTextContainer .heroTextHeaderContainer .heroText {
-  color: #fff;
-  font-size: 1.8rem;
-  line-height: 2rem;
+  color: var(--color-accent);
+  font-size: var(--font-size-heading);
+  line-height: var(--line-height-lg);
 }
 .heroTextContainer .heroTextHeaderContainer .heroText span {
-  color: #27DEBF;
+  color: var(--color-primary);
 }
 .heroTextContainer .heroTextHeaderContainer .heroText img {
   width: 35px;
@@ -30,17 +30,17 @@
   bottom: -10px;
 }
 .heroTextContainer .heroTextHeaderContainer .heroTextAnimateContainer .highlightedText {
-  color: #27DEBF;
-  font-size: 1.8rem;
-  line-height: 2rem;
+  color: var(--color-primary);
+  font-size: var(--font-size-heading);
+  line-height: var(--line-height-lg);
   white-space: nowrap;
 }
 .heroTextContainer .heroTextDescription {
-  margin-top: 25px;
-  color: #ABB2BF;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  margin-top: var(--spacing-xl);
+  color: var(--color-gray);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
 }
 .heroTextContainer .heroTextBtn {
-  margin-top: 40px;
+  margin-top: var(--spacing-section);
 }/*# sourceMappingURL=HeroText.module.css.map */

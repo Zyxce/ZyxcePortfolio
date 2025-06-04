@@ -1,33 +1,29 @@
-$gray: #ABB2BF
-$background: #282C33
-$primary: #27DEBF
-$white: #fff
 
 .mediaContainer
     .mediaHeader
-        font-size: 1.4rem
-        color: $white
+        font-size: var(--font-size-xl)
+        color: var(--color-accent)
     .socialButtons
         display: flex
         flex-direction: row
-        margin-top: 15px
-        gap: 15px
+        margin-top: var(--spacing-md)
+        gap: var(--spacing-md)
         .socialDiv
             .socialLink
                 width: 30px
                 height: 30px
-                border-radius: 50%
-                background-color: $background
+                border-radius: var(--border-radius-full)
+                background-color: var(--color-background)
                 display: flex
                 align-items: center
                 justify-content: center
-                transition: all 0.3s ease
-                border: 1px solid $gray
+                transition: all var(--transition-base) ease
+                border: var(--border-width) solid var(--color-gray)
                 &:hover
-                    background-color: $primary
-                    border: 1px solid $primary
+                    background-color: var(--color-primary)
+                    border: var(--border-width) solid var(--color-primary)
                 .socialIcon
-                    color: $gray
-                    font-size: 1.3rem
+                    color: var(--color-gray)
+                    font-size: var(--font-size-icon-base)
             .socialLink:hover .socialIcon
-                color: $background
+                color: var(--color-background)
