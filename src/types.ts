@@ -32,6 +32,7 @@ export interface IProjectData {
   id: number
   projectImage: string | null
   projectName: string
+  projectStatus?: string
   projectStack: string[]
   projectDescription: string
   buttons: IButtonType[]
@@ -90,6 +91,7 @@ export interface ISectionTitle {
 export interface IBigCard {
   projectImage: string | null
   projectName: string
+  projectStatus?: string
   projectStack: string[]
   projectDescription: string
   buttons: IButtonType[]

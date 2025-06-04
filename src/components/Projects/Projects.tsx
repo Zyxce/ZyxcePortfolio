@@ -60,6 +60,7 @@ const Projects: React.FC = () => {
         projectDescription: t(
           item.projectDescription.replace("t('", '').replace("')", '')
         ),
+        projectStatus: item.projectStatus,
         buttons: item.buttons.map((button) => ({
           ...button,
           color: button.color as 'primary' | 'gray',

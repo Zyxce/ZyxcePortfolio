@@ -3,6 +3,7 @@
     "id": 1,
     "projectImage": "CryptoScan",
     "projectName": "CryptoScan",
+    "projectStatus": "Rework",
     "projectStack": [
       "HTML",
       "CSS",
@@ -33,6 +34,7 @@
     "id": 2,
     "projectImage": "WeatherNow",
     "projectName": "WeatherNow",
+    "projectStatus": "MVP",
     "projectStack": [
       "HTML",
       "CSS",
@@ -64,6 +66,7 @@
     "id": 3,
     "projectImage": "VKCRM",
     "projectName": "VKCRM",
+    "projectStatus": "Ended",
     "projectStack": [
       "HTML",
       "CSS",
@@ -91,6 +94,7 @@
     "id": 4,
     "projectImage": "HRCRM",
     "projectName": "HRCRM",
+    "projectStatus": "Idea",
     "projectStack": [
       "HTML",
       "CSS",
@@ -118,6 +122,7 @@
     "id": 5,
     "projectImage": "PrintTest",
     "projectName": "PrintTest",
+    "projectStatus": "Abandoned",
     "projectStack": ["HTML", "CSS", "SASS", "TypeScript", "React"],
     "projectDescription": "t('projects.printTest')",
     "buttons": [
@@ -137,6 +142,7 @@
     "id": 6,
     "projectImage": "Zyxce",
     "projectName": "Zyxce",
+    "projectStatus": "Sup",
     "projectStack": ["HTML", "CSS", "SASS", "TypeScript", "React"],
     "projectDescription": "t('projects.zyxce')",
     "buttons": [
@@ -151,6 +157,7 @@
     "id": 7,
     "projectImage": "TodoApp",
     "projectName": "TodoApp",
+    "projectStatus": "Ended",
     "projectStack": ["HTML", "CSS", "SASS", "TypeScript", "React"],
     "projectDescription": "t('projects.todoApp')",
     "buttons": [

@@ -21,9 +21,18 @@
         padding: var(--spacing-mds) var(--spacing-lg)
     .cardContentContainer
         padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-mds) var(--spacing-lg)
-        .cardName
-            color: var(--color-accent)
-            font-size: var(--font-size-xxl)
+        .cardHeader
+            display: flex
+            justify-content: space-between
+            .cardName
+                color: var(--color-accent)
+                font-size: var(--font-size-xxl)
+            .cardProjectStatus
+                align-self: center
+                color: var(--color-primary)
+                border: var(--border-width) solid var(--color-primary)
+                padding: var(--spacing-xs)
+
         .cardDescription
             color: var(--color-gray)
             margin-top: var(--spacing-lg)
