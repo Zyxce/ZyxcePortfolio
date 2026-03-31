@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/ZyxcePortfolio/static/css/main.4447324d.css",
-    "main.js": "/ZyxcePortfolio/static/js/main.291ba7b9.js",
+    "main.js": "/ZyxcePortfolio/static/js/main.879aef0c.js",
     "static/media/Aperture.png": "/ZyxcePortfolio/static/media/Aperture.36cfe34cd785de805f44.png",
     "static/media/CryptoScan.png": "/ZyxcePortfolio/static/media/CryptoScan.94a776fa22a07181f15c.png",
     "static/media/YahtClub.png": "/ZyxcePortfolio/static/media/YahtClub.7d41b835660f340374c8.png",
     "static/media/WeatherNow.png": "/ZyxcePortfolio/static/media/WeatherNow.11cc9c24a8d5e61f27a4.png",
     "static/media/Wpolitika.png": "/ZyxcePortfolio/static/media/Wpolitika.42911ef10bd5ccaa6467.png",
     "static/media/FromBoard.png": "/ZyxcePortfolio/static/media/FromBoard.9a2153c0a3cd422ac465.png",
+    "static/media/ChildrenTestAI.png": "/ZyxcePortfolio/static/media/ChildrenTestAI.147f31373d4f3bb7b2f1.png",
     "static/media/Simple.png": "/ZyxcePortfolio/static/media/Simple.0613be06e092be52d280.png",
     "static/media/Hand.gif": "/ZyxcePortfolio/static/media/Hand.9d0c4026c5de8f2955e9.gif",
     "static/media/Michelangelo.png": "/ZyxcePortfolio/static/media/Michelangelo.ad6cce73f6513b6e4157.png",
@@ -33,10 +34,10 @@
     "index.html": "/ZyxcePortfolio/index.html",
     "static/media/squareLines.svg": "/ZyxcePortfolio/static/media/squareLines.5ded3b65d7f216c31b67008e185503f3.svg",
     "main.4447324d.css.map": "/ZyxcePortfolio/static/css/main.4447324d.css.map",
-    "main.291ba7b9.js.map": "/ZyxcePortfolio/static/js/main.291ba7b9.js.map"
+    "main.879aef0c.js.map": "/ZyxcePortfolio/static/js/main.879aef0c.js.map"
   },
   "entrypoints": [
     "static/css/main.4447324d.css",
-    "static/js/main.291ba7b9.js"
+    "static/js/main.879aef0c.js"
   ]
 }
