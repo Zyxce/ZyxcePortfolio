@@ -5,7 +5,7 @@ import { IProjectData } from '../../../types'
 import projectsData from '../../../data/projectsData.json'
 import SectionTitle from '../../Reusable/SectionTitle'
 import BigCard from '../../Reusable/BigCard'
-import CryptoScan from '../../../images/Projects/CryptoScan.png'
+import ChildrenTestAI from '../../../images/Projects/ChildrenTestAI.png'
 import vkcrm from '../../../images/Projects/VKCRM.png'
 import WeatherNow from '../../../images/Projects/WeatherNow.png'
 import style from '../../../styles/components/Home/ProjectsSection/ProjectsSection.module.css'
@@ -15,7 +15,7 @@ const PorjectsSection: React.FC = () => {
   const n: NavigateFunction = useNavigate()
 
   const imagesMap: Record<string, string> = {
-    CryptoScan: CryptoScan,
+    ChildrenTestAI: ChildrenTestAI,
     WeatherNow: WeatherNow,
     VKCRM: vkcrm,
   }

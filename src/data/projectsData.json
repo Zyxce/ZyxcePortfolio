@@ -1,22 +1,23 @@
 [
   {
     "id": 1,
-    "projectImage": "CryptoScan",
-    "projectName": "CryptoScan",
-    "projectStatus": "Rework",
+    "projectImage": "ChildrenTestAI",
+    "projectName": "ChildrenTestAI",
+    "projectStatus": "Ended",
     "projectStack": [
       "HTML",
       "CSS",
       "SASS",
       "TypeScript",
       "React",
-      "JavaScript",
+      "Redux",
+      "React Router",
       "Node.js",
       "Express.js",
-      "News API",
-      "Crypto API"
+      "Heroku",
+      "OpenAI API"
     ],
-    "projectDescription": "t('projects.cryptoscan')",
+    "projectDescription": "t('projects.childrenTestAI')",
     "buttons": [
       {
         "text": "Live <~>",
@@ -120,6 +121,37 @@
   },
   {
     "id": 5,
+    "projectImage": "CryptoScan",
+    "projectName": "CryptoScan",
+    "projectStatus": "Rework",
+    "projectStack": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "TypeScript",
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "News API",
+      "Crypto API"
+    ],
+    "projectDescription": "t('projects.cryptoscan')",
+    "buttons": [
+      {
+        "text": "Live <~>",
+        "color": "primary",
+        "url": "https://zyxce.github.io/CryptoScan/"
+      },
+      {
+        "text": "GitHub >=",
+        "color": "gray",
+        "url": "https://github.com/Zyxce/CryptoScan"
+      }
+    ]
+  },
+  {
+    "id": 6,
     "projectImage": "PrintTest",
     "projectName": "PrintTest",
     "projectStatus": "Abandoned",
@@ -139,7 +171,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "projectImage": "Zyxce",
     "projectName": "Zyxce",
     "projectStatus": "Sup",
@@ -154,7 +186,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "projectImage": "TodoApp",
     "projectName": "TodoApp",
     "projectStatus": "Ended",
@@ -174,7 +206,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "projectImage": "Nexora",
     "projectName": "Nexora",
     "projectStack": ["HTML", "CSS", "JavaScript"],
@@ -193,7 +225,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "projectImage": "Wpolitika",
     "projectName": "Wpolitika",
     "projectStack": ["WordPress", "PHP"],
@@ -207,85 +239,55 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "projectImage": "Blanko",
     "projectName": "Blanko",
     "projectStack": ["HTML", "HAML", "CSS", "SASS", "JavaScript"],
     "projectDescription": "t('projects.blanko')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
-    "id": 11,
+    "id": 12,
     "projectImage": "Simple",
     "projectName": "Simple",
     "projectStack": ["HTML", "HAML", "CSS", "SASS", "JavaScript"],
     "projectDescription": "t('projects.simple')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
-    "id": 12,
+    "id": 13,
     "projectImage": "Aperture",
     "projectName": "Aperture",
     "projectStack": ["HTML", "HAML", "CSS", "SASS", "JavaScript"],
     "projectDescription": "t('projects.aperture')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
-    "id": 13,
+    "id": 14,
     "projectImage": "FromBoard",
     "projectName": "FromBoard",
     "projectStack": ["HTML", "CSS", "SASS", "JavaScript", "React"],
     "projectDescription": "t('projects.fromboard')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
-    "id": 14,
+    "id": 15,
     "projectImage": "YahtClub",
     "projectName": "YahtClub",
     "projectStack": ["HTML", "CSS", "JavaScript"],
     "projectDescription": "t('projects.yaht')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
-    "id": 15,
+    "id": 16,
     "projectImage": "CosmoJump",
     "projectName": "CosmoJump",
     "projectStack": ["C#", "Unity3D", "Adobe Illustrator"],
     "projectDescription": "t('projects.cosmojump')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
-    "id": 16,
+    "id": 17,
     "projectImage": "Masked Headline ",
     "projectName": "Masked Headline ",
     "projectStack": ["HTML", "CSS"],
@@ -304,68 +306,43 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "projectImage": null,
     "projectName": "Collection",
     "projectStack": ["HTML", "CSS", "JavaScript"],
     "projectDescription": "t('projects.collection')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "projectImage": null,
-    "projectName": "Evklid",
-    "projectStack": ["HTML", "CSS"],
-    "projectDescription": "t('projects.evklid')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
     "id": 19,
     "projectImage": null,
-    "projectName": "RoboSchool",
+    "projectName": "Evklid",
     "projectStack": ["HTML", "CSS"],
-    "projectDescription": "t('projects.roboschool')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "projectDescription": "t('projects.evklid')",
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
     "id": 20,
     "projectImage": null,
-    "projectName": "Lionic",
-    "projectStack": ["HTML", "CSS", "JavaScript"],
-    "projectDescription": "t('projects.lionic')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "projectName": "RoboSchool",
+    "projectStack": ["HTML", "CSS"],
+    "projectDescription": "t('projects.roboschool')",
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   },
   {
     "id": 21,
     "projectImage": null,
+    "projectName": "Lionic",
+    "projectStack": ["HTML", "CSS", "JavaScript"],
+    "projectDescription": "t('projects.lionic')",
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
+  },
+  {
+    "id": 22,
+    "projectImage": null,
     "projectName": "Pioner",
     "projectStack": ["HTML", "CSS", "JavaScript"],
     "projectDescription": "t('projects.pioner')",
-    "buttons": [
-      {
-        "text": "Cached >=",
-        "color": "gray"
-      }
-    ]
+    "buttons": [{ "text": "Cached >=", "color": "gray" }]
   }
 ]

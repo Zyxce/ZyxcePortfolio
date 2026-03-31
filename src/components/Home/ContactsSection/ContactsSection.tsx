@@ -23,8 +23,8 @@ const ContactsSection: React.FC = () => {
           </h5>
           <div className={style.socialContainer} data-cursor="hover">
             <FaTelegram className={style.socialIcon} />
-            <a className={style.socialUrl} href="https://t.me/CerfZerf">
-              @CerfZerf
+            <a className={style.socialUrl} href="https://t.me/EndlessBegin">
+              @EndlessBegin
             </a>
           </div>
           <div className={style.socialContainer} data-cursor="hover">

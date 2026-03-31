@@ -23,6 +23,7 @@ import WeatherNow from '../../images/Projects/WeatherNow.png'
 import vkcrm from '../../images/Projects/VKCRM.png'
 import hrcrm from '../../images/Projects/HRCRM.png'
 import todoApp from '../../images/Projects/TodoApp.png'
+import ChildrenTestAI from '../../images/Projects/ChildrenTestAI.png'
 // import Lionic from '../../images/Projects/Lionic.png'
 // import Pioner from '../../images/Projects/Pioner.png'
 // import RoboSchool from '../../images/Projects/RoboSchool.png'
@@ -52,6 +53,7 @@ const Projects: React.FC = () => {
         VKCRM: vkcrm,
         TodoApp: todoApp,
         HRCRM: hrcrm,
+        ChildrenTestAI: ChildrenTestAI,
       }
 
       const cardsArray: IProjectData[] = projectsData.map((item) => ({
@@ -84,7 +86,7 @@ const Projects: React.FC = () => {
           {t('projects.completeaps')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {projects.slice(0, 15).map((card) => (
+          {projects.slice(0, 16).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>
@@ -94,7 +96,7 @@ const Projects: React.FC = () => {
           {t('projects.smallprojects')}
         </SectionTitle>
         <div className={style.projectsApsCards}>
-          {projects.slice(15, 21).map((card) => (
+          {projects.slice(16, 22).map((card) => (
             <BigCard key={card.id} {...card} />
           ))}
         </div>

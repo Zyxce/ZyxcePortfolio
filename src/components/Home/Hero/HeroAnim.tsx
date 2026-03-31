@@ -6,7 +6,7 @@ import HeroTableSmall from '../../../images/Anim/Hero/HeroTableSmall.png'
 import HeroLogo from '../../../images/Anim/Hero/HeroLogo.png'
 import HeroHTML from '../../../images/Anim/Hero/HeroHTML.png'
 import HeroCSS from '../../../images/Anim/Hero/HeroCSS.png'
-import HeroCsharp from '../../../images/Anim/Hero/HeroCsharp.png'
+import HeroTS from '../../../images/Anim/Hero/HeroTS.png'
 import HeroDeveloper from '../../../images/Anim/Hero/HeroDeveloper.png'
 import linesFigure from '../../../images/Anim/Bg/linesFigure.svg'
 import squareDots from '../../../images/Anim/Bg/squareDots.svg'
@@ -47,7 +47,7 @@ const HeroAnim: React.FC<IHeroAnim> = (props) => {
       />
       <img
         className={style.animHeroCsharp}
-        src={HeroCsharp}
+        src={HeroTS}
         alt={'herooooooooooooooo'}
       />
       <img

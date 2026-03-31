@@ -98,7 +98,7 @@ const SidePanel: React.FC = () => {
           transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           data-cursor="hover"
         >
-          <a href="https://t.me/CerfZerf" className={style.socialLink}>
+          <a href="https://t.me/EndlessBegin" className={style.socialLink}>
             <FaTelegram className={style.socialIcon} />
           </a>
         </motion.div>
